@@ -27,7 +27,6 @@
 [Type]=="Ever-Changing" #[StashItem] == "true" //				
 [Type]=="A Dusty Memory" #[StashItem] == "true" //	
 [Type]=="Voidborn Reliquary Key" #[StashItem] == "true" //	
-[Type]=="Scroll of Wisdom" #[StashItem] == "true" //
 [Type]=="Vaal Orb" #[StashItem] == "true" //
 [Type]=="Forbidden Tome" #[StashItem] == "true" //
 [Type]=="The Fortunate" #[StashItem] == "true" //
