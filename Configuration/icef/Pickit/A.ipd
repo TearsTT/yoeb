@@ -92,7 +92,7 @@
  
 
  //編輯時間：2022/7/5 ex比水餃便宜的季末
-[Type] == "Orb of Alteration" # [StashItem] == "true"////改造石拾取且存倉
+//[Type] == "Orb of Alteration" # [StashItem] == "true"////改造石拾取且存倉
 [Type] == "Chaos Orb" # [StashItem] == "true"////混沌石拾取且存倉
 [Type] == "Divine Orb" # [StashItem] == "true"////神聖石拾取且存倉
 [Type] == "Exalted Orb" # [StashItem] == "true"////崇高石拾取且存倉
