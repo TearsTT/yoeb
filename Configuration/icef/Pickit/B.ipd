@@ -27,13 +27,8 @@
 [Type]=="Ever-Changing" #[StashItem] == "true" //				
 [Type]=="A Dusty Memory" #[StashItem] == "true" //	
 [Type]=="Voidborn Reliquary Key" #[StashItem] == "true" //	
-[Type]=="Portal Scroll" #[StashItem] == "true" //	
-[Type]=="Scroll of Wisdom" #[StashItem] == "true" //
 [Type]=="Vaal Orb" #[StashItem] == "true" //
 [Type]=="Forbidden Tome" #[StashItem] == "true" //
-[Type]=="Orb of Fusing" #[StashItem] == "true" //
-[Type]=="Portal Scroll" #[StashItem] == "true" //
-[Type]=="Orb of Transmutation" #[StashItem] == "true" //
 [Type]=="The Fortunate" #[StashItem] == "true" //
 
 [Type] == "Synthesised Map" && [Rarity] == "Unique" # [UniqueName] == "Cortex" && [StashItem] == "true"	//深沉記憶		存倉																									
@@ -108,14 +103,14 @@
 [Type] == "Exalted Shard"# [StashItem] == "true"////崇高石碎片拾取且存倉
 [Type] == "Orb of Regret"# [StashItem] == "true"////後悔石拾取且存倉
 [Type] == "Orb of Unmaking"# [StashItem] == "true"////撤銷石拾取且存倉
-//[Type] == "Orb of Horizons"# [StashItem] == "true"////地平石拾取且存倉
+[Type] == "Orb of Horizons"# [StashItem] == "true"////地平石拾取且存倉
 [Type] == "Enkindling Orb"# [StashItem] == "true"////點燃石拾取且存倉
 [Type] == "Orb of Annulment"# [StashItem] == "true"////無效 拾取且存倉
 [Type] == "Orb of Scouring"# [StashItem] == "true"////重鑄 拾取且存倉
 [Type] == "Gemcutter's Prism"# [StashItem] == "true"////GCP 拾取且存倉
 [Type] == "Regal Orb" # [StashItem] == "true"////富豪
 [Type] == "Vaal Orb" # [StashItem] == "true"////瓦爾
-[Type] == "Orb of Alchemy" # [StashItem] == "true"////點金
+//[Type] == "Orb of Alchemy" # [StashItem] == "true"////點金
 
 [Type] == "Awakened Sextant" # [StashItem] == "true"////六分
 [Type] == "Timeless Eternal Empire Splinter" # [StashItem] == "true"////永恆不朽帝國裂片不撿不存倉
@@ -134,9 +129,9 @@
 [Type] == "Enlighten Support" #[StashItem] == "true"////啟蒙輔助拾取且存倉
 [Type] == "The Apothecary" #[StashItem] == "true"////(魔血 5/5)拾取且存倉
 [Type] =="Incandescent Invitation" #[StashItem] == "true" ////熾熱之邀拾取且存倉
-[Type] =="Polaric Invitation" #[StashItem] == "true" ////極地之邀不撿不存倉
+//[Type] =="Polaric Invitation" #[StashItem] == "true" ////極地之邀不撿不存倉
 [Type] == "Screaming Invitation" #[StashItem] == "true" ////尖哮之邀拾取且存倉
-[Type] =="Writhing Invitation" #[StashItem] == "true" ////纏繞之邀不撿不存倉
+//[Type] =="Writhing Invitation" #[StashItem] == "true" ////纏繞之邀不撿不存倉
 [Type] == "Humility" # [StashItem] == "true" // 1.0 C//謙遜(無盡之衣)拾取且存倉
 [Type] == "House of Mirrors" # [StashItem] == "true" // 2220 C//明鏡(卡蘭德的魔鏡)拾取且存倉30E
 [Type] == "The Doctor" # [StashItem] == "true" // 1536 C//瘋醫(獵首)拾取且存倉8E
