@@ -51,7 +51,7 @@
 //下面是3.19以前
 
 [Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉
-[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
+//[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
 [Type] =="Maven's Invitation: The Formed" #	[StashItem]	 == "true" 		//釋界之邀：塑型	拾取且存倉
 [Type] =="Maven's Invitation: The Twisted" #	[StashItem]	 == "true" 		//釋界之邀：扭曲	拾取且存倉
 
