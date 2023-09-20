@@ -27,7 +27,6 @@
 [Type]=="Ever-Changing" #[StashItem] == "true" //				
 [Type]=="A Dusty Memory" #[StashItem] == "true" //	
 [Type]=="Voidborn Reliquary Key" #[StashItem] == "true" //	
-[Type]=="Vaal Orb" #[StashItem] == "true" //
 [Type]=="Forbidden Tome" #[StashItem] == "true" //
 [Type]=="The Fortunate" #[StashItem] == "true" //
 
@@ -51,7 +50,7 @@
 //下面是3.19以前
 
 [Type] =="Maven's Invitation: The Elderslayers" #	[StashItem]	 == "true" 		//殺手	拾取且存倉
-//[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
+[Type] =="Maven's Invitation: The Forgotten" #	[StashItem]	 == "true" 		//釋界之邀：遺忘	拾取且存倉
 [Type] =="Maven's Invitation: The Formed" #	[StashItem]	 == "true" 		//釋界之邀：塑型	拾取且存倉
 [Type] =="Maven's Invitation: The Twisted" #	[StashItem]	 == "true" 		//釋界之邀：扭曲	拾取且存倉
 
@@ -103,7 +102,7 @@
 [Type] == "Exalted Shard"# [StashItem] == "true"////崇高石碎片拾取且存倉
 [Type] == "Orb of Regret"# [StashItem] == "true"////後悔石拾取且存倉
 [Type] == "Orb of Unmaking"# [StashItem] == "true"////撤銷石拾取且存倉
-[Type] == "Orb of Horizons"# [StashItem] == "true"////地平石拾取且存倉
+//[Type] == "Orb of Horizons"# [StashItem] == "true"////地平石拾取且存倉
 [Type] == "Enkindling Orb"# [StashItem] == "true"////點燃石拾取且存倉
 [Type] == "Orb of Annulment"# [StashItem] == "true"////無效 拾取且存倉
 [Type] == "Orb of Scouring"# [StashItem] == "true"////重鑄 拾取且存倉

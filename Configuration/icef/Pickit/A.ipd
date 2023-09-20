@@ -27,7 +27,7 @@
 [Type]=="Ever-Changing" #[StashItem] == "true" //				
 [Type]=="A Dusty Memory" #[StashItem] == "true" //	
 [Type]=="Voidborn Reliquary Key" #[StashItem] == "true" //	
-[Type]=="Vaal Orb" #[StashItem] == "true" //
+[Type]=="Scroll of Wisdom" #[StashItem] == "true" //
 [Type]=="Forbidden Tome" #[StashItem] == "true" //
 [Type]=="The Fortunate" #[StashItem] == "true" //
 
@@ -103,7 +103,7 @@
 [Type] == "Exalted Shard"# [StashItem] == "true"////崇高石碎片拾取且存倉
 [Type] == "Orb of Regret"# [StashItem] == "true"////後悔石拾取且存倉
 [Type] == "Orb of Unmaking"# [StashItem] == "true"////撤銷石拾取且存倉
-[Type] == "Orb of Horizons"# [StashItem] == "true"////地平石拾取且存倉
+//[Type] == "Orb of Horizons"# [StashItem] == "true"////地平石拾取且存倉
 [Type] == "Enkindling Orb"# [StashItem] == "true"////點燃石拾取且存倉
 [Type] == "Orb of Annulment"# [StashItem] == "true"////無效 拾取且存倉
 [Type] == "Orb of Scouring"# [StashItem] == "true"////重鑄 拾取且存倉
@@ -111,7 +111,6 @@
 [Type] == "Regal Orb" # [StashItem] == "true"////富豪
 [Type] == "Vaal Orb" # [StashItem] == "true"////瓦爾
 //[Type] == "Orb of Alchemy" # [StashItem] == "true"////點金
-[Type] == "Blessed Orb" # [StashItem] == "true"////祝福石
 
 [Type] == "Awakened Sextant" # [StashItem] == "true"////六分
 [Type] == "Timeless Eternal Empire Splinter" # [StashItem] == "true"////永恆不朽帝國裂片不撿不存倉
