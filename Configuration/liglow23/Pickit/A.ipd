@@ -165,11 +165,11 @@
 [Type] == "Council of Cats" # [StashItem] == "true" // 10.0 C//貓咪議會(費爾羅之物)拾取且存倉貓貓
 [Type] == "The Hoarder" # [StashItem] == "true" // 8.0 C//寶箱(崇高石)拾取且存倉ex
 
-[Category] == "Map" && [MapTier] >= "14"  && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
+[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 
-[Category] == "Map" && [MapTier] >= "14"  && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
+[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
 
-//[Category] == "Map" && [MapTier] >= "14"  && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，藍地圖存倉
+//[Category] == "Map" && [MapTier] >= "1"  && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖藍地圖撿取，藍地圖存倉
 
 //[Category] == "Map" && [MapTier] >= "1" && [Rarity] == "Unique" # [StashItem] == "true"	//傳奇地圖		存倉	
 
