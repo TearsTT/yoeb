@@ -222,7 +222,7 @@ Show # 通貨 - 頂級 - 印記
 
 # 【通貨-高級】1002
 
-Show # 通貨 - 高級 - 聖玉
+Hide # 通貨 - 高級 - 聖玉
     Class "Currency"
     BaseType "Sacred Orb"
     SetTextColor 0 0 0 255
@@ -255,7 +255,7 @@ Show # 通貨 - 高級 - 隱匿混沌石
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 高級 - 無效石
+Hide # 通貨 - 高級 - 無效石
     Class "Currency"
     BaseType "Orb of Annulment"
     SetTextColor 0 0 0 255
@@ -299,7 +299,7 @@ Hide # 通貨 - 高級 - 神諭石
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 高級 - 崇高石碎片
+Hide # 通貨 - 高級 - 崇高石碎片
     Class "Currency"
     BaseType "Exalted Shard"
     SetTextColor 0 0 0 255
@@ -310,7 +310,7 @@ Show # 通貨 - 高級 - 崇高石碎片
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 高級 - 初階篩分之鏡
+Hide # 通貨 - 高級 - 初階篩分之鏡
     Class "Currency"
     BaseType "Prime Regrading Lens"
     SetTextColor 0 0 0 255
@@ -321,7 +321,7 @@ Show # 通貨 - 高級 - 初階篩分之鏡
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 高級 - 次階篩分之鏡
+Hide # 通貨 - 高級 - 次階篩分之鏡
     Class "Currency"
     BaseType "Secondary Regrading Lens"
     SetTextColor 0 0 0 255
@@ -367,7 +367,7 @@ Show # 通貨 - 普通 - 混沌石
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Show # 通貨 - 普通 - 富豪石
+Hide # 通貨 - 普通 - 富豪石
     Class "Currency"
     BaseType "Regal Orb"
     SetTextColor 0 0 0
@@ -499,7 +499,7 @@ Hide # 通貨 - 普通 - 束縛石
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Show # 通貨 - 普通 - 還原玉
+Hide # 通貨 - 普通 - 還原玉
     Class "Currency"
     BaseType "Unshaping Orb"
     SetTextColor 0 0 0
@@ -510,7 +510,7 @@ Show # 通貨 - 普通 - 還原玉
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Show # 通貨 - 普通 - 點金石
+Hide # 通貨 - 普通 - 點金石
     Class "Currency"
     BaseType "Orb of Alchemy"
     SetTextColor 0 0 0
@@ -543,7 +543,7 @@ Hide # 通貨 - 普通 - 神諭石碎片
     MinimapIcon 2 Green Diamond
     PlayEffect Red
 
-Show # 通貨 - 普通 - 古變石碎片
+Hide # 通貨 - 普通 - 古變石碎片
     Class "Currency"
     BaseType "Ancient Shard"
     SetTextColor 0 0 0
@@ -574,7 +574,7 @@ Show # 通貨 - 初始 - 傳送卷軸
     SetFontSize 40
     MinimapIcon 2 Blue Diamond
 
-Show # 通貨 - 初始 - 混沌石碎片
+Hide # 通貨 - 初始 - 混沌石碎片
     Class "Currency"
     BaseType "Chaos Shard"
     SetTextColor 0 0 0
@@ -583,7 +583,7 @@ Show # 通貨 - 初始 - 混沌石碎片
     SetFontSize 40
     PlayAlertSound 9 300
 
-Show # 通貨 - 初始 - 富豪石碎片
+Hide # 通貨 - 初始 - 富豪石碎片
     Class "Currency"
     BaseType "Regal Shard"
     SetTextColor 0 0 0
@@ -610,7 +610,7 @@ Show # 通貨 - 初始 - 機會石
     SetFontSize 40
     PlayAlertSound 9 300
 
-Show # 通貨 - 初始 - 工匠石
+Hide # 通貨 - 初始 - 工匠石
     Class "Currency"
     BaseType "Jeweller's Orb"
     SetTextColor 0 0 0
@@ -619,7 +619,7 @@ Show # 通貨 - 初始 - 工匠石
     SetFontSize 45
     PlayAlertSound 9 300
 
-Show # 通貨 - 初始 - 幻色石
+Hide # 通貨 - 初始 - 幻色石
     Class "Currency"
     BaseType "Chromatic Orb"
     SetTextColor 0 0 0
@@ -628,7 +628,7 @@ Show # 通貨 - 初始 - 幻色石
     SetFontSize 45
     PlayAlertSound 9 300
 
-Show # 通貨 - 初始 - 玻璃彈珠
+Hide # 通貨 - 初始 - 玻璃彈珠
     Class "Currency"
     BaseType "Glassblower's Bauble"
     SetTextColor 0 0 0
@@ -656,31 +656,31 @@ Show # 通貨 - 初始 - 滴注石
 
 #【通貨-垃圾】1005
 
-Show # 通貨 - 垃圾 - 磨刀石
+Hide # 通貨 - 垃圾 - 磨刀石
     Class "Currency"
     BaseType "Blacksmith's Whetstone"
     SetTextColor 210 150 255
     SetFontSize 45
 
-Show # 通貨 - 垃圾 - 護甲片
+Hide # 通貨 - 垃圾 - 護甲片
     Class "Currency"
     BaseType "Armourer's Scrap"
     SetTextColor 210 150 255
     SetFontSize 45
 
-Show # 通貨 - 垃圾 - 蛻變石
+Hide # 通貨 - 垃圾 - 蛻變石
     Class "Currency"
     BaseType "Orb of Transmutation"
     SetTextColor 210 150 255
     SetFontSize 45
 
-Show # 通貨 - 垃圾 - 增幅石
+Hide # 通貨 - 垃圾 - 增幅石
     Class "Currency"
     BaseType "Orb of Augmentation"
     SetTextColor 210 150 255
     SetFontSize 45
 
-Show # 通貨 - 垃圾 - 普蘭德斯金幣
+Hide # 通貨 - 垃圾 - 普蘭德斯金幣
     Class "Currency"
     BaseType "Perandus Coin"
     SetTextColor 255 255 0 152
@@ -688,7 +688,7 @@ Show # 通貨 - 垃圾 - 普蘭德斯金幣
     SetFontSize 40
     MinimapIcon 2 Yellow Circle
 
-Show # 通貨 - 垃圾 - 地平石碎片
+Hide # 通貨 - 垃圾 - 地平石碎片
     Class "Currency"
     BaseType "Horizon Shard"
     SetTextColor 0 0 0
@@ -696,7 +696,7 @@ Show # 通貨 - 垃圾 - 地平石碎片
     SetBorderColor 0 0 0
     SetFontSize 45
 
-Show # 通貨 - 垃圾 - 工程石碎片
+Hide # 通貨 - 垃圾 - 工程石碎片
     Class "Currency"
     BaseType "Engineer's Shard"
     SetTextColor 0 0 0
@@ -766,7 +766,7 @@ Show # 通貨 - 特殊 - 測量員的羅盤
     MinimapIcon 2 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 特殊 - 充能的羅盤
+Hide # 通貨 - 特殊 - 充能的羅盤
     Class "Currency"
     BaseType "Charged Compass"
     SetTextColor 100 50 0
@@ -776,7 +776,7 @@ Show # 通貨 - 特殊 - 充能的羅盤
     MinimapIcon 2 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 特殊 - 偵查報告
+Hide # 通貨 - 特殊 - 偵查報告
     Class "Currency"
     BaseType "Scouting Report"
     SetTextColor 100 50 0
@@ -786,7 +786,7 @@ Show # 通貨 - 特殊 - 偵查報告
     MinimapIcon 2 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 特殊 - 挖油機
+Hide # 通貨 - 特殊 - 挖油機
     Class "Currency"
     BaseType "Oil Extractor"
     SetTextColor 255 255 200
@@ -882,7 +882,7 @@ Show # 地圖 - 凋落輿圖 - T14+
     PlayEffect Red
      PlayAlertSound 3 250
 
-Show # 地圖 - 凋落輿圖 - T11~13
+Hide # 地圖 - 凋落輿圖 - T11~13
     MapTier >= 11
     BlightedMap True
     Class "Maps"
@@ -894,7 +894,7 @@ Show # 地圖 - 凋落輿圖 - T11~13
     PlayEffect Red
      PlayAlertSound 3 250
 
-Show # 地圖 - 凋落輿圖 - T6~10
+Hide # 地圖 - 凋落輿圖 - T6~10
     MapTier >= 6
     BlightedMap True
     Class "Maps"
@@ -906,7 +906,7 @@ Show # 地圖 - 凋落輿圖 - T6~10
     PlayEffect Yellow
      PlayAlertSound 3 250
 
-Show # 地圖 - 凋落輿圖 - T1
+Hide # 地圖 - 凋落輿圖 - T1
     MapTier >= 1
     BlightedMap True
     Class "Maps"
