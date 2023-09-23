@@ -1,4 +1,4 @@
-﻿#地圖破裂
+#地圖破裂
 Hide
     FracturedItem True
 #    Class "Maps"
@@ -55,7 +55,7 @@ Hide
     SetBorderColor 255 0 0
     SetFontSize 44
 
-Show # 特殊語法 - 六連裝備
+Hide # 特殊語法 - 六連裝備
     LinkedSockets = 6
     SetTextColor 175 96 37
     SetBackgroundColor 255 255 255
@@ -67,7 +67,7 @@ Show # 特殊語法 - 六連裝備
 
 # 【特殊語法-六洞裝備】0002
 
-Show # 特殊語法 - 六洞裝備
+Hide # 特殊語法 - 六洞裝備
     Sockets = 6
     SetTextColor 0 0 0
     SetBackgroundColor 224 224 224
@@ -288,7 +288,7 @@ Show # 通貨 - 高級 - 古變石
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 高級 - 神諭石
+Hide # 通貨 - 高級 - 神諭石
     Class "Currency"
     BaseType "Harbinger's Orb"
     SetTextColor 0 0 0 255
@@ -444,7 +444,7 @@ Show # 通貨 - 普通 - 瓦爾石
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Show # 通貨 - 普通 - 製圖丁
+Hide # 通貨 - 普通 - 製圖丁
     Class "Currency"
     BaseType "Cartographer's Chisel"
     SetTextColor 0 0 0
@@ -466,7 +466,7 @@ Show # 通貨 - 普通 - 地平石
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Show # 通貨 - 普通 - 豐裕牌組
+Hide # 通貨 - 普通 - 豐裕牌組
     Class "Currency"
     BaseType "Stacked Deck"
     SetTextColor 0 0 0
@@ -477,7 +477,7 @@ Show # 通貨 - 普通 - 豐裕牌組
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Show # 通貨 - 普通 - 工程石
+Hide # 通貨 - 普通 - 工程石
     Class "Currency"
     BaseType "Engineer's Orb"
     SetTextColor 0 0 0
@@ -488,7 +488,7 @@ Show # 通貨 - 普通 - 工程石
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Show # 通貨 - 普通 - 束縛石
+Hide # 通貨 - 普通 - 束縛石
     Class "Currency"
     BaseType "Orb of Binding"
     SetTextColor 0 0 0
