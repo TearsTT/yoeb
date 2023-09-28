@@ -883,7 +883,10 @@
 [Type] == "Maven's Invitation: The Elderslayers" # [StashItem] == "true" //	//釋界之邀：尊師殺手		存倉																									
 [Type] == "Maven's Invitation: The Forgotten" # [ForceSellItem] == "true" //	//釋界之邀：遺忘		賣出																									
 [Type] == "Maven's Invitation: The Formed" # [StashItem] == "true" //	//釋界之邀：塑型		存倉																									
-[Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉																									
+[Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉		
+[Type] == "Maven's Invitation: The Hidden" # [ForceSellItem] == "true" //	//釋界之邀：隱匿		存倉	
+[Type] == "Maven's Invitation: The Feared" # [ForceSellItem] == "true" //	//釋界之邀：恐懼		存倉	
+[Type] == "Maven's Invitation: The Atlas" # [ForceSellItem] == "true" //	//釋界之邀：輿圖		存倉																								
 //																												
 //	// 15F 六連裝 (目前有無法正常賣出的語法錯誤，但是我找不到問題點)			//																								
 //[Sockets] == "6" && [Linked] >= "6" # [StashItem] ="true" //	//六連裝		不撿	//																								
@@ -2025,7 +2028,7 @@
 //[Type] == "Vile Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Maloney's Nightfall" && [ForceSellItem] == "true"	//馬洛尼的暮光		賣出																									
 //[Type] == "Heavy Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Scorpion's Call" && [ForceSellItem] == "true"	//毒蠍之喚		賣出																									
 //[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Voidfletcher" && [ForceSellItem] == "true"	//虛眼箭矢		賣出																									
-//[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [ForceSellItem] == "true"	//優雅迷鏡		賣出																									
+[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"	//優雅迷鏡		賣出																									
 	//赤紅珠寶		賣出																									
 //[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Inertia" && [ForceSellItem] == "true"	//慣性		賣出																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Inspired Learning" && [StashItem] == "true"	//求知的熱情		存倉																									
