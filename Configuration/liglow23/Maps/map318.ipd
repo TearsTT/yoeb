@@ -4,7 +4,7 @@
 //	//地圖點蛻變石		關閉此功能																						
 //	//地圖點增幅石		關閉此功能																						
 //	//地圖點點金石		關閉此功能	
-	[MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Rare" # [IgnoreMap]== "true" // 金圖全部不打																					
+//	[MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Rare" # [IgnoreMap]== "true" // 金圖全部不打																					
 																									
 // 以下選擇你這張圖要不要打				//備註 不打的仍會存倉																					
 [Type] == "Lookout Map" # [RunMap] == "true" //	//如履危牆		打																						
