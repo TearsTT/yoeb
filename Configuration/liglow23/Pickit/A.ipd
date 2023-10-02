@@ -852,8 +852,8 @@
 //已設定不存倉	//請勿更動//																											
 //	// 13F 輿圖	
 //	
-[Category] == "Map" && [Rarity] == "Rare" && [map_contains_citadel] >= "1" # [StashItem] == "true" // 13855 Citadel Maps
-[Category] == "Map" && [Rarity] == "Rare" && [map_elder_boss_variation] >= "1" # [StashItem] == "true" // 6551 Elder Maps
+[Category] == "Map" && [Rarity] == "Rare" && [map_contains_citadel] >= "14" # [StashItem] == "true" // 13855 Citadel Maps
+[Category] == "Map" && [Rarity] == "Rare" && [map_elder_boss_variation] >= "14" # [StashItem] == "true" // 6551 Elder Maps
 //
 [Type]== "Forge of the Phoenix Map"#[StashItem]== "true"//火鳳凰熔核 #																								
 [Type]== "Lair of the Hydra Map"#[StashItem]== "true"//九頭蛇冰窟 #																								
