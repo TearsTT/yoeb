@@ -1859,7 +1859,7 @@
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Rashkaldor's Patience" && [ForceSellItem] == "true"	//拉什卡德的耐心		賣出																									
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "The Halcyon" && [ForceSellItem] == "true"	//太平		賣出																									
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "The Pandemonius" && [ForceSellItem] == "true"	//群魔殿		賣出																									
-[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Truth" && [StashItem] == "true"	//西里的真理		存倉																									
+//[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Truth" && [StashItem] == "true"	//西里的真理		存倉																									
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Willowgift" && [ForceSellItem] == "true"	//柳木之禮		賣出																									
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Karui Ward" && [ForceSellItem] == "true"	//贗品．卡魯的戰徽		賣出																									
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Hyrri's Truth" && [ForceSellItem] == "true"	//贗品．西里的真理		賣出																									
