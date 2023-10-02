@@ -850,24 +850,31 @@
 //已設定不存倉	//請勿更動//																											
 //已設定不存倉	//請勿更動//																											
 //已設定不存倉	//請勿更動//																											
-//	// 13F 輿圖																											
+//	// 13F 輿圖	
+//	
+[Category] == "Map" && [Rarity] == "Rare" && [map_contains_citadel] >= "1" # [StashItem] == "true" // 13855 Citadel Maps
+[Category] == "Map" && [Rarity] == "Rare" && [map_elder_boss_variation] >= "1" # [StashItem] == "true" // 6551 Elder Maps
+//
+[Type]== "Forge of the Phoenix Map"#[StashItem]== "true"//火鳳凰熔核 #																								
+[Type]== "Lair of the Hydra Map"#[StashItem]== "true"//九頭蛇冰窟 #																								
+[Type]== "Maze of the Minotaur Map"#[StashItem]== "true"//牛頭人謎域 #																								
+[Type]== "Pit of the Chimera Map"#[StashItem]== "true"//奇美拉魔坑 #	
+//
 [Type] == "Crimson Temple Map" && [MapTier] >= "14"  && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Type] == "Crimson Temple Map" && [MapTier] >= "14"  && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
 //[Type] == "Crimson Temple Map" && [MapTier] >= "14"  && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖黃地圖不撿，黃地圖售出
 [Type] == "City Square Map" && [MapTier] >= "14"  && [Rarity] == "Normal"  #[StashItem] == "true" // //普通地圖普通地圖撿取，普通地圖存倉
 [Type] == "City Square Map" && [MapTier] >= "14"  && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
-//[Type] == "City Square Map" && [MapTier] >= "14"  && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖黃地圖不撿，黃地圖售出																								
+//[Type] == "City Square Map" && [MapTier] >= "14"  && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖黃地圖不撿，黃地圖售出	
+//
+
+
 //	//稀有地圖		不撿																									
 //	//傳奇地圖		不撿																									
 //	//以下可以設定多少Tier（含）以下的地圖自動賣掉	輸入Tier	//若不賣，可以設定存倉	
 //
-[Category] == "Map" && [Rarity] == "Rare" && [map_contains_citadel] >= "1" # [StashItem] == "true" // 13855 Citadel Maps
-[Category] == "Map" && [Rarity] == "Rare" && [map_elder_boss_variation] >= "1" # [StashItem] == "true" // 6551 Elder Maps
-//																	
-[Type]== "Forge of the Phoenix Map"#[StashItem]== "true"//火鳳凰熔核 #																								
-[Type]== "Lair of the Hydra Map"#[StashItem]== "true"//九頭蛇冰窟 #																								
-[Type]== "Maze of the Minotaur Map"#[StashItem]== "true"//牛頭人謎域 #																								
-[Type]== "Pit of the Chimera Map"#[StashItem]== "true"//奇美拉魔坑 #		
+
+	
 //																												
 [Category] == "Map" && [MapTier] <= "14" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖	14	存倉																									
 [Category] == "Map" && [MapTier] <= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖	14	賣出																									
