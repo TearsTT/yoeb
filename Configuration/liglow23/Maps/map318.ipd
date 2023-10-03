@@ -253,3 +253,14 @@
 [Type]=="Forge of the Phoenix Map" #[SkipBossArena]=="true"//火鳳凰熔核																									
 [Type]=="Vaal Temple Map" #[SkipBossArena]=="true"//瓦爾密殿																									
 [Type]=="Harbinger Map" #[SkipBossArena]=="true"//神諭之殿．煉獄																									
+
+[6827] == "1" # [IgnoreMap] == "true" // Elder infuenced maps
+[6827] == "2" # [IgnoreMap] == "true" // Elder infuenced maps
+[6827] == "3" # [IgnoreMap] == "true" // Elder infuenced maps
+[6827] == "4" # [IgnoreMap] == "true" // Elder infuenced maps
+
+[13845] == "1"  # [IgnoreMap] == "true" // Baron maps
+[13845] == "2"  # [IgnoreMap] == "true" // Veritania maps
+[13845] == "3"  # [lgnoreMap] == "true" // Drox maps
+[13845] == "4"  # [lgnoreMap] =="true" // AI-Hezmin maps
+[Type] == "Synthesised Map" # [lgnoreMap] == "true" // Synthesised maps
