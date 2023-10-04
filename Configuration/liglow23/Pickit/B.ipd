@@ -870,8 +870,8 @@
 //	//以下可以設定多少Tier（含）以下的地圖自動賣掉	輸入Tier	//若不賣，可以設定存倉	
 
 //																												
-//[Category] == "Map" && [MapTier] <= "14" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖	14	存倉																									
-//[Category] == "Map" && [MapTier] <= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖	14	賣出																									
+[Category] == "Map" && [MapTier] <= "14" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖	14	存倉																									
+[Category] == "Map" && [MapTier] <= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖	14	賣出																									
 //																												
 //	// 14F 碎片																											
 [Type] == "Sacrifice at Dawn" # [ForceSellItem] == "true" //	//黎明的奉獻		賣出																									
