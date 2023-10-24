@@ -383,9 +383,9 @@
 [Type] == "Deafening Essence of Envy" # [ForceSellItem] == "true" //	//忌妒之破空精髓		賣出																									
 [Type] == "Remnant of Corruption" # [ForceSellItem] == "true" //	//遺忘的污染器皿		賣出																									
 //	// 10F 技能寶石																											
-[Type] == "Empower Support" # [StashItem] == "true" //	//賦予輔助		存倉																									
-[Type] == "Enhance Support" # [StashItem] == "true" //	//增幅輔助		存倉																									
-[Type] == "Enlighten Support" # [StashItem] == "true" //	//啟蒙輔助		存倉																									
+//[Type] == "Empower Support" # [StashItem] == "true" //	//賦予輔助		存倉																									
+//[Type] == "Enhance Support" # [StashItem] == "true" //	//增幅輔助		存倉																									
+//[Type] == "Enlighten Support" # [StashItem] == "true" //	//啟蒙輔助		存倉																									
 //																												
 //	// 11F命運卡	價值（混沌石）112/5/17 國際服																										
 [Type] == "Fire Of Unknown Origin" # [StashItem] == "true" //	//神秘之火的起源		存倉																									
@@ -889,13 +889,13 @@
 [Type] == "Screaming Invitation" # [StashItem] == "true" //	//尖嘯之邀		存倉																									
 [Type] == "Writhing Invitation" # [ForceSellItem] == "true" //	//纏繞之邀		賣出																									
 //																												
-[Type] == "Maven's Invitation: The Elderslayers" # [StashItem] == "true" //	//釋界之邀：尊師殺手		存倉																									
-[Type] == "Maven's Invitation: The Forgotten" # [ForceSellItem] == "true" //	//釋界之邀：遺忘		賣出																									
-[Type] == "Maven's Invitation: The Formed" # [StashItem] == "true" //	//釋界之邀：塑型		存倉																									
-[Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉	
-[Type] == "Maven's Invitation: The Hidden" # [ForceSellItem] == "true" //	//釋界之邀：隱匿		存倉	
-[Type] == "Maven's Invitation: The Feared" # [ForceSellItem] == "true" //	//釋界之邀：恐懼		存倉	
-[Type] == "Maven's Invitation: The Atlas" # [ForceSellItem] == "true" //	//釋界之邀：輿圖		存倉																									
+//[Type] == "Maven's Invitation: The Elderslayers" # [StashItem] == "true" //	//釋界之邀：尊師殺手		存倉																									
+//[Type] == "Maven's Invitation: The Forgotten" # [ForceSellItem] == "true" //	//釋界之邀：遺忘		賣出																									
+//[Type] == "Maven's Invitation: The Formed" # [StashItem] == "true" //	//釋界之邀：塑型		存倉																									
+//[Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉	
+//[Type] == "Maven's Invitation: The Hidden" # [ForceSellItem] == "true" //	//釋界之邀：隱匿		存倉	
+//[Type] == "Maven's Invitation: The Feared" # [ForceSellItem] == "true" //	//釋界之邀：恐懼		存倉	
+//[Type] == "Maven's Invitation: The Atlas" # [ForceSellItem] == "true" //	//釋界之邀：輿圖		存倉																									
 //																												
 //	// 15F 六連裝 (目前有無法正常賣出的語法錯誤，但是我找不到問題點)			//																								
 //[Sockets] == "6" && [Linked] >= "6" # [StashItem] ="true" //	//六連裝		不撿	//																								
