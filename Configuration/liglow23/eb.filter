@@ -1,15 +1,4 @@
-#地圖破裂
-Hide
-    FracturedItem True
-#    Class "Maps"
-#    MapTier <= 16
-#    Rarity <= Rare
-#    SetTextColor 255 255 255
-#    SetBackgroundColor 33 19 38
-#    SetBorderColor 255 0 0
-#    SetFontSize 44
-
-# Script edited with Filtration - https://github.com/ben-wallis/Filtration
+﻿# Script edited with Filtration - https://github.com/ben-wallis/Filtration
 # EnableBlockGroups
 #
 #============
@@ -55,7 +44,7 @@ Hide
     SetBorderColor 255 0 0
     SetFontSize 44
 
-Hide # 特殊語法 - 六連裝備
+Show # 特殊語法 - 六連裝備
     LinkedSockets = 6
     SetTextColor 175 96 37
     SetBackgroundColor 255 255 255
@@ -67,7 +56,7 @@ Hide # 特殊語法 - 六連裝備
 
 # 【特殊語法-六洞裝備】0002
 
-Hide # 特殊語法 - 六洞裝備
+Show # 特殊語法 - 六洞裝備
     Sockets = 6
     SetTextColor 0 0 0
     SetBackgroundColor 224 224 224
@@ -96,12 +85,12 @@ Show # 通貨 - 頂級 - 卡蘭德魔鏡
     SetTextColor 210 0 0
     SetBackgroundColor 255 255 255
     SetBorderColor 255 255 255
-    SetFontSize 100
+    SetFontSize 45
     PlayAlertSound ShMirror 300
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Hide # 通貨 - 頂級 - 永恆珠寶
+Show # 通貨 - 頂級 - 永恆珠寶
     Class "Currency"
     BaseType "Eternal Orb"
     SetTextColor 0 0 0
@@ -118,98 +107,98 @@ Show # 通貨 - 頂級 - 魔鏡碎片
     SetTextColor 0 0 0
     SetBackgroundColor 255 192 203
     SetBorderColor 255 255 255
-    SetFontSize 100
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
     PlayAlertSound ShExalted 250
 
-Hide # 通貨 - 頂級 - 崇高石
+Show # 通貨 - 頂級 - 崇高石
     Class "Currency"
     BaseType "Exalted Orb"
     SetTextColor 0 0 0
     SetBackgroundColor 255 192 203
     SetBorderColor 255 255 255
-    SetFontSize 100
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
     PlayAlertSound ShExalted 250
 
-Hide # 通貨 - 頂級 - 聖戰士崇高石
+Show # 通貨 - 頂級 - 聖戰士崇高石
     Class "Currency"
     BaseType "Crusader's Exalted Orb"
     SetTextColor 0 0 0
     SetBackgroundColor 255 192 203
     SetBorderColor 255 255 255
-    SetFontSize 100
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
     PlayAlertSound ShExalted 250
 
-Hide # 通貨 - 頂級 - 救贖者崇高石
+Show # 通貨 - 頂級 - 救贖者崇高石
     Class "Currency"
     BaseType "Redeemer's Exalted Orb"
     SetTextColor 0 0 0
     SetBackgroundColor 255 192 203
     SetBorderColor 255 255 255
-    SetFontSize 100
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
     PlayAlertSound ShExalted 250
 
-Hide # 通貨 - 頂級 - 狩獵者崇高石
+Show # 通貨 - 頂級 - 狩獵者崇高石
     Class "Currency"
     BaseType "Hunter's Exalted Orb"
     SetTextColor 0 0 0
     SetBackgroundColor 255 192 203
     SetBorderColor 255 255 255
-    SetFontSize 100
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
     PlayAlertSound ShExalted 250
 
-Hide # 通貨 - 頂級 - 總督軍崇高石
+Show # 通貨 - 頂級 - 總督軍崇高石
     Class "Currency"
     BaseType "Warlord's Exalted Orb"
     SetTextColor 0 0 0
     SetBackgroundColor 255 192 203
     SetBorderColor 255 255 255
-    SetFontSize 100
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
     PlayAlertSound ShExalted 250
 
-Hide # 通貨 - 頂級 - 喚醒者之玉
+Show # 通貨 - 頂級 - 喚醒者之玉
     Class "Currency"
     BaseType "Awakener's Orb"
     SetTextColor 0 0 0
     SetBackgroundColor 255 192 203
     SetBorderColor 255 255 255
-    SetFontSize 100
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
     PlayAlertSound ShExalted 250
 
-Hide # 通貨 - 頂級 - 統領之玉(原釋界之玉)
+Show # 通貨 - 頂級 - 統領之玉(原釋界之玉)
     Class "Currency"
     BaseType "Orb of Dominance"
     SetTextColor 0 0 0
     SetBackgroundColor 255 192 203
     SetBorderColor 255 255 255
-    SetFontSize 100
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
     PlayAlertSound ShExalted 250
 
-Hide # 通貨 - 頂級 - 白化的羽毛
+Show # 通貨 - 頂級 - 白化的羽毛
     Class "Currency"
     BaseType "Albino Rhoa Feather" 
     SetBorderColor 1 255 208
-    SetFontSize 80
+    SetFontSize 42
     PlayAlertSound ShRegal 300
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Hide # 通貨 - 頂級 - 印記
+Show # 通貨 - 頂級 - 印記
     Class "Currency"
     BaseType "Imprint"
     SetTextColor 180 96 0
@@ -222,7 +211,7 @@ Hide # 通貨 - 頂級 - 印記
 
 # 【通貨-高級】1002
 
-Hide # 通貨 - 高級 - 聖玉
+Show # 通貨 - 高級 - 聖玉
     Class "Currency"
     BaseType "Sacred Orb"
     SetTextColor 0 0 0 255
@@ -239,7 +228,7 @@ Show # 通貨 - 高級 - 神聖石
     SetTextColor 0 0 0 255
     SetBackgroundColor 210 0 220
     SetBorderColor 255 94 255
-    SetFontSize 100
+    SetFontSize 45
     PlayAlertSound ShDivine 250
     MinimapIcon 0 Red Diamond
     PlayEffect Red
@@ -250,12 +239,12 @@ Show # 通貨 - 高級 - 隱匿混沌石
     SetTextColor 0 0 0 255
     SetBackgroundColor 210 0 220
     SetBorderColor 255 94 255
-    SetFontSize 100
+    SetFontSize 45
     PlayAlertSound ShDivine 250
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Hide # 通貨 - 高級 - 無效石
+Show # 通貨 - 高級 - 無效石
     Class "Currency"
     BaseType "Orb of Annulment"
     SetTextColor 0 0 0 255
@@ -272,7 +261,7 @@ Show # 通貨 - 高級 - 撤銷石
     SetTextColor 0 0 0 255
     SetBackgroundColor 210 0 220
     SetBorderColor 255 94 255
-    SetFontSize 100
+    SetFontSize 45
     PlayAlertSound ShDivine 250
     MinimapIcon 0 Red Diamond
     PlayEffect Red
@@ -283,12 +272,12 @@ Show # 通貨 - 高級 - 古變石
     SetTextColor 0 0 0 255
     SetBackgroundColor 210 0 220
     SetBorderColor 255 94 255
-    SetFontSize 100
+    SetFontSize 45
     PlayAlertSound ShDivine 250
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Hide # 通貨 - 高級 - 神諭石
+Show # 通貨 - 高級 - 神諭石
     Class "Currency"
     BaseType "Harbinger's Orb"
     SetTextColor 0 0 0 255
@@ -299,7 +288,7 @@ Hide # 通貨 - 高級 - 神諭石
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Hide # 通貨 - 高級 - 崇高石碎片
+Show # 通貨 - 高級 - 崇高石碎片
     Class "Currency"
     BaseType "Exalted Shard"
     SetTextColor 0 0 0 255
@@ -310,7 +299,7 @@ Hide # 通貨 - 高級 - 崇高石碎片
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Hide # 通貨 - 高級 - 初階篩分之鏡
+Show # 通貨 - 高級 - 初階篩分之鏡
     Class "Currency"
     BaseType "Prime Regrading Lens"
     SetTextColor 0 0 0 255
@@ -321,7 +310,7 @@ Hide # 通貨 - 高級 - 初階篩分之鏡
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Hide # 通貨 - 高級 - 次階篩分之鏡
+Show # 通貨 - 高級 - 次階篩分之鏡
     Class "Currency"
     BaseType "Secondary Regrading Lens"
     SetTextColor 0 0 0 255
@@ -332,24 +321,24 @@ Hide # 通貨 - 高級 - 次階篩分之鏡
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Hide # 通貨 - 高級 - 淬鍊石
+Show # 通貨 - 高級 - 淬鍊石
     Class "Currency"
     BaseType "Tempering Orb"
     SetTextColor 0 0 0 255
     SetBackgroundColor 210 0 220
     SetBorderColor 255 94 255
-    SetFontSize 100
+    SetFontSize 45
     PlayAlertSound ShDivine 250
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
-Hide # 通貨 - 高級 - 裁縫石
+Show # 通貨 - 高級 - 裁縫石
     Class "Currency"
     BaseType "Tailoring Orb"
     SetTextColor 0 0 0 255
     SetBackgroundColor 210 0 220
     SetBorderColor 255 94 255
-    SetFontSize 100
+    SetFontSize 45
     PlayAlertSound ShDivine 250
     MinimapIcon 0 Red Diamond
     PlayEffect Red
@@ -362,12 +351,12 @@ Show # 通貨 - 普通 - 混沌石
     SetTextColor 0 0 0
     SetBackgroundColor 100 255 0
     SetBorderColor 190 245 200
-    SetFontSize 100
+    SetFontSize 42
     PlayAlertSound ShChaos 200
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Hide # 通貨 - 普通 - 富豪石
+Show # 通貨 - 普通 - 富豪石
     Class "Currency"
     BaseType "Regal Orb"
     SetTextColor 0 0 0
@@ -378,13 +367,13 @@ Hide # 通貨 - 普通 - 富豪石
     PlayEffect Green
     PlayAlertSound ShChaos 200
 
-Hide # 通貨 - 普通 - 寶石匠的稜鏡
+Show # 通貨 - 普通 - 寶石匠的稜鏡
     Class "Currency"
     BaseType "Gemcutter's Prism"
     SetTextColor 0 0 0
     SetBackgroundColor 50 230 100
     SetBorderColor 190 245 200
-    SetFontSize 100
+    SetFontSize 42
     MinimapIcon 2 Green Diamond
     PlayEffect Green
     PlayAlertSound ShChaos 200
@@ -395,29 +384,29 @@ Show # 通貨 - 普通 - 後悔石
     SetTextColor 0 0 0
     SetBackgroundColor 50 230 100
     SetBorderColor 190 245 200
-    SetFontSize 100
+    SetFontSize 42
     MinimapIcon 2 Green Diamond
     PlayEffect Green
     PlayAlertSound ShChaos 200
 
-Hide # 通貨 - 普通 - 鏈結石
+Show # 通貨 - 普通 - 鏈結石
     Class "Currency"
     BaseType "Orb of Fusing"
     SetTextColor 0 0 0
     SetBackgroundColor 50 230 100
     SetBorderColor 190 245 200
-    SetFontSize 100
+    SetFontSize 42
     MinimapIcon 2 Green Diamond
     PlayEffect Green
     PlayAlertSound ShChaos 200
 
-Hide # 通貨 - 普通 - 祝福石
+Show # 通貨 - 普通 - 祝福石
     Class "Currency"
     BaseType "Blessed Orb"
     SetTextColor 0 0 0
     SetBackgroundColor 50 230 100
     SetBorderColor 190 245 200
-    SetFontSize 100
+    SetFontSize 42
     MinimapIcon 2 Green Diamond
     PlayEffect Green
     PlayAlertSound ShChaos 200
@@ -428,7 +417,7 @@ Show # 通貨 - 普通 - 重鑄石
     SetTextColor 0 0 0
     SetBackgroundColor 50 230 100
     SetBorderColor 190 245 200
-    SetFontSize 100
+    SetFontSize 42
     MinimapIcon 2 Green Diamond
     PlayEffect Green
     PlayAlertSound ShChaos 200
@@ -439,12 +428,12 @@ Show # 通貨 - 普通 - 瓦爾石
     SetTextColor 0 0 0
     SetBackgroundColor 50 230 100
     SetBorderColor 190 245 200
-    SetFontSize 100
+    SetFontSize 42
     PlayAlertSound ShChaos 200 
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Hide # 通貨 - 普通 - 製圖丁
+Show # 通貨 - 普通 - 製圖丁
     Class "Currency"
     BaseType "Cartographer's Chisel"
     SetTextColor 0 0 0
@@ -455,18 +444,18 @@ Hide # 通貨 - 普通 - 製圖丁
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Hide # 通貨 - 普通 - 地平石
+Show # 通貨 - 普通 - 地平石
     Class "Currency"
     BaseType "Orb of Horizons"
     SetTextColor 0 0 0
     SetBackgroundColor 50 230 100
     SetBorderColor 190 245 200
-    SetFontSize 100
+    SetFontSize 42
     PlayAlertSound ShChaos 200
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Hide # 通貨 - 普通 - 豐裕牌組
+Show # 通貨 - 普通 - 豐裕牌組
     Class "Currency"
     BaseType "Stacked Deck"
     SetTextColor 0 0 0
@@ -477,7 +466,7 @@ Hide # 通貨 - 普通 - 豐裕牌組
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Hide # 通貨 - 普通 - 工程石
+Show # 通貨 - 普通 - 工程石
     Class "Currency"
     BaseType "Engineer's Orb"
     SetTextColor 0 0 0
@@ -488,7 +477,7 @@ Hide # 通貨 - 普通 - 工程石
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Hide # 通貨 - 普通 - 束縛石
+Show # 通貨 - 普通 - 束縛石
     Class "Currency"
     BaseType "Orb of Binding"
     SetTextColor 0 0 0
@@ -499,7 +488,7 @@ Hide # 通貨 - 普通 - 束縛石
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Hide # 通貨 - 普通 - 還原玉
+Show # 通貨 - 普通 - 還原玉
     Class "Currency"
     BaseType "Unshaping Orb"
     SetTextColor 0 0 0
@@ -510,7 +499,7 @@ Hide # 通貨 - 普通 - 還原玉
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Hide # 通貨 - 普通 - 點金石
+Show # 通貨 - 普通 - 點金石
     Class "Currency"
     BaseType "Orb of Alchemy"
     SetTextColor 0 0 0
@@ -521,7 +510,7 @@ Hide # 通貨 - 普通 - 點金石
     PlayEffect Yellow
     PlayAlertSound ShGeneral 300
 
-Hide # 通貨 - 普通 - 無效石碎片
+Show # 通貨 - 普通 - 無效石碎片
     Class "Currency"
     BaseType "Annulment Shard"
     SetTextColor 0 0 0
@@ -532,7 +521,7 @@ Hide # 通貨 - 普通 - 無效石碎片
     MinimapIcon 2 Green Diamond
     PlayEffect Red
 
-Hide # 通貨 - 普通 - 神諭石碎片
+Show # 通貨 - 普通 - 神諭石碎片
     Class "Currency"
     BaseType "Harbinger's Shard"
     SetTextColor 0 0 0
@@ -543,7 +532,7 @@ Hide # 通貨 - 普通 - 神諭石碎片
     MinimapIcon 2 Green Diamond
     PlayEffect Red
 
-Hide # 通貨 - 普通 - 古變石碎片
+Show # 通貨 - 普通 - 古變石碎片
     Class "Currency"
     BaseType "Ancient Shard"
     SetTextColor 0 0 0
@@ -574,7 +563,7 @@ Show # 通貨 - 初始 - 傳送卷軸
     SetFontSize 40
     MinimapIcon 2 Blue Diamond
 
-Hide # 通貨 - 初始 - 混沌石碎片
+Show # 通貨 - 初始 - 混沌石碎片
     Class "Currency"
     BaseType "Chaos Shard"
     SetTextColor 0 0 0
@@ -583,7 +572,7 @@ Hide # 通貨 - 初始 - 混沌石碎片
     SetFontSize 40
     PlayAlertSound 9 300
 
-Hide # 通貨 - 初始 - 富豪石碎片
+Show # 通貨 - 初始 - 富豪石碎片
     Class "Currency"
     BaseType "Regal Shard"
     SetTextColor 0 0 0
@@ -592,25 +581,25 @@ Hide # 通貨 - 初始 - 富豪石碎片
     SetFontSize 40
     PlayAlertSound 9 300
 
-Hide # 通貨 - 初始 - 改造石
+Show # 通貨 - 初始 - 改造石
     Class "Currency"
     BaseType "Orb of Alteration"
     SetTextColor 0 0 0
     SetBackgroundColor 128 100 255
     SetBorderColor 128 128 186
-    SetFontSize 60
+    SetFontSize 45
     PlayAlertSound 9 300
 
-Hide # 通貨 - 初始 - 機會石
+Show # 通貨 - 初始 - 機會石
     Class "Currency"
     BaseType "Orb of Chance"
     SetTextColor 0 0 0
     SetBackgroundColor 128 100 255
     SetBorderColor 128 128 186
-    SetFontSize 60
+    SetFontSize 40
     PlayAlertSound 9 300
 
-Hide # 通貨 - 初始 - 工匠石
+Show # 通貨 - 初始 - 工匠石
     Class "Currency"
     BaseType "Jeweller's Orb"
     SetTextColor 0 0 0
@@ -619,7 +608,7 @@ Hide # 通貨 - 初始 - 工匠石
     SetFontSize 45
     PlayAlertSound 9 300
 
-Hide # 通貨 - 初始 - 幻色石
+Show # 通貨 - 初始 - 幻色石
     Class "Currency"
     BaseType "Chromatic Orb"
     SetTextColor 0 0 0
@@ -628,7 +617,7 @@ Hide # 通貨 - 初始 - 幻色石
     SetFontSize 45
     PlayAlertSound 9 300
 
-Hide # 通貨 - 初始 - 玻璃彈珠
+Show # 通貨 - 初始 - 玻璃彈珠
     Class "Currency"
     BaseType "Glassblower's Bauble"
     SetTextColor 0 0 0
@@ -636,51 +625,51 @@ Hide # 通貨 - 初始 - 玻璃彈珠
     SetBorderColor 250 250 250
     SetFontSize 40
 
-Hide # 通貨 - 初始 - 點燃石
+Show # 通貨 - 初始 - 點燃石
     Class "Currency"
     BaseType "Enkindling Orb"
     SetTextColor 0 0 0
     SetBackgroundColor 255 175 135
     SetBorderColor 0 0 0
-    SetFontSize 60
+    SetFontSize 40
     PlayEffect Brown
 
-Hide # 通貨 - 初始 - 滴注石
+Show # 通貨 - 初始 - 滴注石
     Class "Currency"
     BaseType "Instilling Orb"
     SetTextColor 0 0 0
     SetBackgroundColor 255 175 135
     SetBorderColor 0 0 0
-    SetFontSize 60
+    SetFontSize 40
     PlayEffect Brown
 
 #【通貨-垃圾】1005
 
-Hide # 通貨 - 垃圾 - 磨刀石
+Show # 通貨 - 垃圾 - 磨刀石
     Class "Currency"
     BaseType "Blacksmith's Whetstone"
     SetTextColor 210 150 255
     SetFontSize 45
 
-Hide # 通貨 - 垃圾 - 護甲片
+Show # 通貨 - 垃圾 - 護甲片
     Class "Currency"
     BaseType "Armourer's Scrap"
     SetTextColor 210 150 255
     SetFontSize 45
 
-Hide # 通貨 - 垃圾 - 蛻變石
+Show # 通貨 - 垃圾 - 蛻變石
     Class "Currency"
     BaseType "Orb of Transmutation"
     SetTextColor 210 150 255
     SetFontSize 45
 
-Hide # 通貨 - 垃圾 - 增幅石
+Show # 通貨 - 垃圾 - 增幅石
     Class "Currency"
     BaseType "Orb of Augmentation"
     SetTextColor 210 150 255
     SetFontSize 45
 
-Hide # 通貨 - 垃圾 - 普蘭德斯金幣
+Show # 通貨 - 垃圾 - 普蘭德斯金幣
     Class "Currency"
     BaseType "Perandus Coin"
     SetTextColor 255 255 0 152
@@ -688,7 +677,7 @@ Hide # 通貨 - 垃圾 - 普蘭德斯金幣
     SetFontSize 40
     MinimapIcon 2 Yellow Circle
 
-Hide # 通貨 - 垃圾 - 地平石碎片
+Show # 通貨 - 垃圾 - 地平石碎片
     Class "Currency"
     BaseType "Horizon Shard"
     SetTextColor 0 0 0
@@ -696,7 +685,7 @@ Hide # 通貨 - 垃圾 - 地平石碎片
     SetBorderColor 0 0 0
     SetFontSize 45
 
-Hide # 通貨 - 垃圾 - 工程石碎片
+Show # 通貨 - 垃圾 - 工程石碎片
     Class "Currency"
     BaseType "Engineer's Shard"
     SetTextColor 0 0 0
@@ -720,12 +709,12 @@ Hide # 通貨 - 垃圾 - 改造石碎片
     BaseType "Alteration Shard"
     SetTextColor 215 190 160
 
-Hide # 通貨 - 垃圾 - 點金石碎片
+Show # 通貨 - 垃圾 - 點金石碎片
     Class "Currency"
     BaseType "Alchemy Shard"
     SetTextColor 215 190 160
 
-Hide # 通貨 - 垃圾 - 束縛石碎片
+Show # 通貨 - 垃圾 - 束縛石碎片
     Class "Currency"
     BaseType "Binding Shard"
     SetTextColor 0 0 0
@@ -735,7 +724,7 @@ Hide # 通貨 - 垃圾 - 束縛石碎片
 
 #【通貨-特殊】1006
 
-Hide # 通貨 - 特殊 - 六分儀．大師
+Show # 通貨 - 特殊 - 六分儀．大師
     Class "Currency"
     BaseType "Awakened Sextant"
     SetTextColor 0 0 0
@@ -746,7 +735,7 @@ Hide # 通貨 - 特殊 - 六分儀．大師
     MinimapIcon 2 Red Triangle
     PlayEffect Red
 
-Hide # 通貨 - 特殊 - 六分儀．高尚
+Show # 通貨 - 特殊 - 六分儀．高尚
     Class "Currency"
     BaseType "Elevated Sextant"
     SetTextColor 0 0 0
@@ -756,7 +745,7 @@ Hide # 通貨 - 特殊 - 六分儀．高尚
     MinimapIcon 1 Blue Triangle
     PlayAlertSound 16 250
 
-Hide # 通貨 - 特殊 - 測量員的羅盤
+Show # 通貨 - 特殊 - 測量員的羅盤
     Class "Currency"
     BaseType "Surveyor's Compass"
     SetTextColor 100 50 0
@@ -766,7 +755,7 @@ Hide # 通貨 - 特殊 - 測量員的羅盤
     MinimapIcon 2 Red Diamond
     PlayEffect Red
 
-Hide # 通貨 - 特殊 - 充能的羅盤
+Show # 通貨 - 特殊 - 充能的羅盤
     Class "Currency"
     BaseType "Charged Compass"
     SetTextColor 100 50 0
@@ -776,7 +765,7 @@ Hide # 通貨 - 特殊 - 充能的羅盤
     MinimapIcon 2 Red Diamond
     PlayEffect Red
 
-Hide # 通貨 - 特殊 - 偵查報告
+Show # 通貨 - 特殊 - 偵查報告
     Class "Currency"
     BaseType "Scouting Report"
     SetTextColor 100 50 0
@@ -786,7 +775,7 @@ Hide # 通貨 - 特殊 - 偵查報告
     MinimapIcon 2 Red Diamond
     PlayEffect Red
 
-Hide # 通貨 - 特殊 - 挖油機
+Show # 通貨 - 特殊 - 挖油機
     Class "Currency"
     BaseType "Oil Extractor"
     SetTextColor 255 255 200
@@ -802,7 +791,7 @@ Show # 通貨 - 異能 - 異能灰燼
     SetTextColor 219 48 14
     SetBackgroundColor 0 0 0
     SetBorderColor 204 102 0
-    SetFontSize 80
+    SetFontSize 40
     MinimapIcon 2 Red Diamond
     PlayEffect Red
 
@@ -812,7 +801,7 @@ Show # 通貨 - 異能 - 異能靈液
     SetTextColor 0 255 255
     SetBackgroundColor 0 0 0
     SetBorderColor 0 255 255
-    SetFontSize 80
+    SetFontSize 40
     PlayAlertSound 6 300
     MinimapIcon 2 Cyan Diamond
     PlayEffect Cyan
@@ -823,7 +812,7 @@ Show # 通貨 - 異能 - 衝突寶珠
     SetTextColor 219 48 14
     SetBackgroundColor 255 192 203
     SetBorderColor 0 255 255
-    SetFontSize 100
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
     PlayAlertSound ShMirror 300
@@ -834,7 +823,7 @@ Show # 通貨 - 異能 - 異能崇高石
     SetTextColor 219 48 14
     SetBackgroundColor 255 192 203
     SetBorderColor 0 255 255
-    SetFontSize 80
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
     PlayAlertSound ShMirror 300
@@ -845,7 +834,7 @@ Show # 通貨 - 異能 - 異能無效石
     SetTextColor 219 48 14
     SetBackgroundColor 255 192 203
     SetBorderColor 0 255 255
-    SetFontSize 80
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
@@ -855,7 +844,7 @@ Show # 通貨 - 異能 - 異能混沌石
     SetTextColor 219 48 14
     SetBackgroundColor 255 192 203
     SetBorderColor 0 255 255
-    SetFontSize 80
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
@@ -870,7 +859,7 @@ Show # 通貨 - 異能 - 異能混沌石
 
 # 【地圖-凋落地圖】2005
 
-Hide # 地圖 - 凋落輿圖 - T14+
+Show # 地圖 - 凋落輿圖 - T14+
     MapTier >= 14
     BlightedMap True
     Class "Maps"
@@ -882,7 +871,7 @@ Hide # 地圖 - 凋落輿圖 - T14+
     PlayEffect Red
      PlayAlertSound 3 250
 
-Hide # 地圖 - 凋落輿圖 - T11~13
+Show # 地圖 - 凋落輿圖 - T11~13
     MapTier >= 11
     BlightedMap True
     Class "Maps"
@@ -894,7 +883,7 @@ Hide # 地圖 - 凋落輿圖 - T11~13
     PlayEffect Red
      PlayAlertSound 3 250
 
-Hide # 地圖 - 凋落輿圖 - T6~10
+Show # 地圖 - 凋落輿圖 - T6~10
     MapTier >= 6
     BlightedMap True
     Class "Maps"
@@ -906,7 +895,7 @@ Hide # 地圖 - 凋落輿圖 - T6~10
     PlayEffect Yellow
      PlayAlertSound 3 250
 
-Hide # 地圖 - 凋落輿圖 - T1
+Show # 地圖 - 凋落輿圖 - T1
     MapTier >= 1
     BlightedMap True
     Class "Maps"
@@ -925,7 +914,7 @@ Show # 地圖 - 勢力地圖 - 塑界地圖
     MapTier >= 1
     SetBackgroundColor 200 0 0
     SetBorderColor 0 255 255
-    SetFontSize 80
+    SetFontSize 45
     MinimapIcon 0 Red Circle
     PlayEffect Red
      PlayAlertSound 3 250
@@ -935,7 +924,7 @@ Show # 地圖 - 勢力地圖 - 尊師地圖
     MapTier >= 1
     SetBackgroundColor 85 26 139
     SetBorderColor 0 255 255
-    SetFontSize 80
+    SetFontSize 45
     MinimapIcon 0 Red Circle
      PlayAlertSound 3 250
 
@@ -946,7 +935,7 @@ Show # 地圖 - 勢力地圖 - 牛頭人迷域
     SetTextColor 100 50 0
     SetBackgroundColor 255 203 144 237
     SetBorderColor 255 0 0
-    SetFontSize 80
+    SetFontSize 43
     MinimapIcon 0 Red Circle
     PlayEffect Red
      PlayAlertSound 3 250
@@ -958,7 +947,7 @@ Show # 地圖 - 勢力地圖 - 奇美拉魔坑
     SetTextColor 182 5 182
     SetBackgroundColor 251 197 253 255
     SetBorderColor 255 0 0
-    SetFontSize 80
+    SetFontSize 43
     MinimapIcon 0 Red Circle
     PlayEffect Red
      PlayAlertSound 3 250
@@ -970,7 +959,7 @@ Show # 地圖 - 勢力地圖 - 九頭蛇冰窟
     SetTextColor 0 204 0
     SetBackgroundColor 199 255 214
     SetBorderColor 200 0 0
-    SetFontSize 80
+    SetFontSize 43
     MinimapIcon 0 Red Circle
     PlayEffect Red
      PlayAlertSound 3 250
@@ -982,14 +971,14 @@ Show # 地圖 - 勢力地圖 - 火鳳凰熔核
     SetTextColor 255 123 0
     SetBackgroundColor 255 200 150
     SetBorderColor 255 0 0
-    SetFontSize 80
+    SetFontSize 43
     MinimapIcon 0 Red Circle
     PlayEffect Red
      PlayAlertSound 3 250
 
 # 【地圖-譫妄地圖】2003
 
-Hide # 地圖 - 譫妄地圖 - T14+
+Show # 地圖 - 譫妄地圖 - T14+
     AnyEnchantment True
     MapTier >= 14
     Class "Maps"
@@ -1001,7 +990,7 @@ Hide # 地圖 - 譫妄地圖 - T14+
     PlayEffect Red
     PlayAlertSound 3 250
 
-Hide # 地圖 - 譫妄地圖 - T11~13
+Show # 地圖 - 譫妄地圖 - T11~13
     AnyEnchantment True
     MapTier >= 11
     Class "Maps"
@@ -1013,7 +1002,7 @@ Hide # 地圖 - 譫妄地圖 - T11~13
     PlayEffect Red
     PlayAlertSound 3 250
 
-Hide # 地圖 - 譫妄地圖 - T6~10
+Show # 地圖 - 譫妄地圖 - T6~10
     AnyEnchantment True
     MapTier >= 6
     Class "Maps"
@@ -1025,7 +1014,7 @@ Hide # 地圖 - 譫妄地圖 - T6~10
     PlayEffect Yellow
     PlayAlertSound 3 250
 
-Hide # 地圖 - 譫妄地圖 - T1~5
+Show # 地圖 - 譫妄地圖 - T1~5
     AnyEnchantment True
     MapTier >= 1
     SetBackgroundColor 83 83 83
@@ -1056,7 +1045,7 @@ Show # 地圖 - 普通輿圖 - T14+普通
     SetTextColor 255 255 255
     SetBackgroundColor 255 0 85
     SetBorderColor 255 255 119
-    SetFontSize 60
+    SetFontSize 43
     PlayAlertSound 3 250 
     MinimapIcon 1 Red Circle
     PlayEffect Red
@@ -1066,12 +1055,12 @@ Show # 地圖 - 普通輿圖 - T14+魔法/稀有
     Class "Maps"
     SetBackgroundColor 255 0 85
     SetBorderColor 255 255 119
-    SetFontSize 60
+    SetFontSize 43
     PlayAlertSound 3 250 
     MinimapIcon 1 Red Circle
     PlayEffect Red
 
-Hide # 地圖 - 普通輿圖 - T11~13普通
+Show # 地圖 - 普通輿圖 - T11~13普通
     MapTier >= 11
     Rarity = Normal
     Class "Maps"
@@ -1083,7 +1072,7 @@ Hide # 地圖 - 普通輿圖 - T11~13普通
     PlayEffect Red
     PlayAlertSound 3 250
 
-Hide # 地圖 - 普通輿圖 - T11~13魔法/稀有
+Show # 地圖 - 普通輿圖 - T11~13魔法/稀有
     MapTier >= 11
     Class "Maps"
     SetTextColor 255 255 255
@@ -1094,7 +1083,7 @@ Hide # 地圖 - 普通輿圖 - T11~13魔法/稀有
     PlayEffect Red
     PlayAlertSound 3 250
 
-Hide # 地圖 - 普通輿圖 - T6~10普通
+Show # 地圖 - 普通輿圖 - T6~10普通
     MapTier >= 6
     Rarity = Normal
     Class "Maps"
@@ -1106,7 +1095,7 @@ Hide # 地圖 - 普通輿圖 - T6~10普通
     MinimapIcon 2 Yellow Circle
     PlayEffect Yellow
 
-Hide # 地圖 - 普通輿圖 - T6~10魔法/稀有
+Show # 地圖 - 普通輿圖 - T6~10魔法/稀有
     MapTier >= 6
     Class "Maps"
     SetTextColor 255 255 0 
@@ -1117,7 +1106,7 @@ Hide # 地圖 - 普通輿圖 - T6~10魔法/稀有
     MinimapIcon 2 Yellow Circle
     PlayEffect Yellow
 
-Hide # 地圖 - 普通輿圖 - T1~5普通
+Show # 地圖 - 普通輿圖 - T1~5普通
     MapTier >= 1
     Rarity = Normal
     Class "Maps"
@@ -1129,7 +1118,7 @@ Hide # 地圖 - 普通輿圖 - T1~5普通
     MinimapIcon 2 White Circle
     PlayEffect White
 
-Hide # 地圖 - 普通輿圖 - T1~5魔法/稀有
+Show # 地圖 - 普通輿圖 - T1~5魔法/稀有
     MapTier >= 1
     Class "Maps"
     SetBackgroundColor 83 83 83
@@ -1187,7 +1176,7 @@ Show # 聯盟 - 3.16災魘 - 玷汙的通貨 - 玷汙的崇高石
     SetTextColor 255 40 0
     SetBackgroundColor 255 192 203
     SetBorderColor 255 255 255
-    SetFontSize 80
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
@@ -1197,7 +1186,7 @@ Show # 聯盟 - 3.16災魘 - 玷汙的通貨 - 玷汙的祝福石
     SetTextColor 255 40 0
     SetBackgroundColor 255 192 203
     SetBorderColor 255 255 255
-    SetFontSize 80
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
@@ -1207,7 +1196,7 @@ Show # 聯盟 - 3.16災魘 - 玷汙的通貨 - 玷汙的神聖淚珠
     SetTextColor 255 40 0
     SetBackgroundColor 255 192 203
     SetBorderColor 255 255 255
-    SetFontSize 80
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
@@ -1217,7 +1206,7 @@ Show # 聯盟 - 3.16災魘 - 玷汙的通貨 - 玷汙的神話石
     SetTextColor 255 40 0
     SetBackgroundColor 255 192 203
     SetBorderColor 255 255 255
-    SetFontSize 80
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
 
@@ -1227,7 +1216,7 @@ Show # 聯盟 - 3.16災魘 - 玷汙的通貨 - 玷汙的鏈結石
     SetTextColor 255 40 0
     SetBackgroundColor 50 230 100
     SetBorderColor 190 245 200
-    SetFontSize 80
+    SetFontSize 42
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
@@ -1237,7 +1226,7 @@ Show # 聯盟 - 3.16災魘 - 玷汙的通貨 - 玷汙的混沌石
     SetTextColor 255 40 0
     SetBackgroundColor 50 230 100
     SetBorderColor 190 245 200
-    SetFontSize 80
+    SetFontSize 42
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
@@ -1247,7 +1236,7 @@ Show # 聯盟 - 3.16災魘 - 玷汙的通貨 - 玷汙的幻色石
     SetTextColor 255 40 0
     SetBackgroundColor 128 100 255
     SetBorderColor 128 128 186
-    SetFontSize 80
+    SetFontSize 45
     PlayAlertSound 9 300
 
 Show # 聯盟 - 3.16災魘 - 玷汙的通貨 - 玷汙的工匠石	
@@ -1256,7 +1245,7 @@ Show # 聯盟 - 3.16災魘 - 玷汙的通貨 - 玷汙的工匠石
     SetTextColor 255 40 0
     SetBackgroundColor 128 100 255
     SetBorderColor 128 128 186
-    SetFontSize 80
+    SetFontSize 45
     PlayAlertSound 9 300
 
 Show # 聯盟 - 3.16災魘 - 玷汙的通貨 - 玷汙的磨刀石
@@ -1265,7 +1254,7 @@ Show # 聯盟 - 3.16災魘 - 玷汙的通貨 - 玷汙的磨刀石
     SetTextColor 255 40 0
     SetBackgroundColor 230 180 120
     SetBorderColor 128 128 186
-    SetFontSize 80
+    SetFontSize 45
     PlayAlertSound 9 300
 
 Show # 聯盟 - 3.16災魘 - 玷汙的通貨 - 玷汙的護甲片
@@ -1274,12 +1263,12 @@ Show # 聯盟 - 3.16災魘 - 玷汙的通貨 - 玷汙的護甲片
     SetTextColor 255 40 0
     SetBackgroundColor 230 180 120
     SetBorderColor 128 128 186
-    SetFontSize 80
+    SetFontSize 45
     PlayAlertSound 9 300
 
 # 【聯盟-3.15探險】3023
 
-Hide # 聯盟 - 3.15探險 - 刷新物(異域鑄幣/廢金屬/黃芪/埋葬獎章)
+Show # 聯盟 - 3.15探險 - 刷新物(異域鑄幣/廢金屬/黃芪/埋葬獎章)
     Class "Currency"
     BaseType "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion"
     SetTextColor 255 255 255
@@ -1290,7 +1279,7 @@ Hide # 聯盟 - 3.15探險 - 刷新物(異域鑄幣/廢金屬/黃芪/埋葬獎�
     MinimapIcon 0 Blue Star
     PlayEffect Blue
 
-Hide # 聯盟 - 3.15探險 - 文物
+Show # 聯盟 - 3.15探險 - 文物
     Class "Currency"
     BaseType "Artifact"
     SetTextColor 0 0 0 255
@@ -1301,7 +1290,7 @@ Hide # 聯盟 - 3.15探險 - 文物
     MinimapIcon 0 Blue Star
     PlayEffect Blue
 
-Hide # 聯盟 - 3.15探險 - 探險日記
+Show # 聯盟 - 3.15探險 - 探險日記
     Class "Expedition Logbook"
     BaseType "Expedition Logbook"
     SetTextColor 0 0 255
@@ -1312,7 +1301,7 @@ Hide # 聯盟 - 3.15探險 - 探險日記
     MinimapIcon 0 Blue Circle
     PlayEffect Blue
 
-Hide # 聯盟 - 3.15探險 - 魔符護手
+Show # 聯盟 - 3.15探險 - 魔符護手
     Class "Gloves"
     BaseType "Runic Gloves" "Runic Gages" "Runic Gauntlets"
     SetBorderColor 138 71 255
@@ -1322,7 +1311,7 @@ Hide # 聯盟 - 3.15探險 - 魔符護手
     MinimapIcon 0 Purple UpsideDownHouse
     PlayEffect Purple
 
-Hide # 聯盟 - 3.15探險 - 魔符皇冠
+Show # 聯盟 - 3.15探險 - 魔符皇冠
     Class "Helmets"
     BaseType "Runic Helm" "Runic Crest" "Runic Crown"
     SetBorderColor 138 71 255
@@ -1332,7 +1321,7 @@ Hide # 聯盟 - 3.15探險 - 魔符皇冠
     MinimapIcon 0 Purple UpsideDownHouse
     PlayEffect Purple
 
-Hide # 聯盟 - 3.15探險 - 魔符脛甲
+Show # 聯盟 - 3.15探險 - 魔符脛甲
     Class "Boots"
     BaseType "Runic Greaves" "Runic Sollerets" "Runic Sabatons"
     SetBorderColor 138 71 255
@@ -1344,7 +1333,7 @@ Hide # 聯盟 - 3.15探險 - 魔符脛甲
 
 # 【聯盟-3.14通牒】3022
 
-Hide # 聯盟 - 3.14通牒 - 通牒雕刻
+Show # 聯盟 - 3.14通牒 - 通牒雕刻
     Class "Misc Map Items"
     BaseType "Inscribed Ultimatum"
     SetTextColor 255 180 135
@@ -1357,7 +1346,7 @@ Hide # 聯盟 - 3.14通牒 - 通牒雕刻
 
 # 【聯盟-3.13祭祀】3021
 
-Hide # 聯盟 - 3.13祭祀 - 祭祀碑器/祭祀裂片
+Show # 聯盟 - 3.13祭祀 - 祭祀碑器/祭祀裂片
     Class "Currency"
     BaseType "Ritual Splinter" "Ritual Vessel"
     SetTextColor 255 255 255
@@ -1367,7 +1356,7 @@ Hide # 聯盟 - 3.13祭祀 - 祭祀碑器/祭祀裂片
     PlayAlertSound 9 300
     MinimapIcon 0 Brown Star
 
-Hide # 聯盟 - 3.13祭祀 - 浸血碑器
+Show # 聯盟 - 3.13祭祀 - 浸血碑器
     Class "Map Fragments"
     BaseType "Blood-filled Vessel"
     SetTextColor 210 0 0
@@ -1377,63 +1366,63 @@ Hide # 聯盟 - 3.13祭祀 - 浸血碑器
     PlayAlertSound 6 300
     MinimapIcon 0 Red Star
 
-Hide # 聯盟 - 3.13祭祀 - 頭盔 - 冰點傷頭
+Show # 聯盟 - 3.13祭祀 - 頭盔 - 冰點傷頭
     Class "Helmets"
     BaseType "Blizzard Crown" "Winter Crown" "Gale Crown"
     SetBorderColor 138 71 255
     SetFontSize 42
     PlayAlertSound 9 200
 
-Hide # 聯盟 - 3.13祭祀 - 頭盔 - 曝曬頭
+Show # 聯盟 - 3.13祭祀 - 頭盔 - 曝曬頭
     Class "Helmets"
     BaseType "Archdemon Crown" "Demon Crown" "Imp Crown"
     SetBorderColor 138 71 255
     SetFontSize 42
     PlayAlertSound 9 200
 
-Hide # 聯盟 - 3.13祭祀 - 頭盔 - 護體頭
+Show # 聯盟 - 3.13祭祀 - 頭盔 - 護體頭
     Class "Helmets"
     BaseType "Atonement Mask" "Penitent Mask" "Sorrow Mask"
     SetBorderColor 138 71 255
     SetFontSize 42
     PlayAlertSound 9 200
 
-Hide # 聯盟 - 3.13祭祀 - 手套 - 竭盡攻擊手
+Show # 聯盟 - 3.13祭祀 - 手套 - 竭盡攻擊手
     Class "Helmets"
     BaseType "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets"
     SetBorderColor 138 71 255
     SetFontSize 42
     PlayAlertSound 9 200
 
-Hide # 聯盟 - 3.13祭祀 - 手套 - 副手增傷手
+Show # 聯盟 - 3.13祭祀 - 手套 - 副手增傷手
     Class "Helmets"
     BaseType "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves"
     SetBorderColor 138 71 255
     SetFontSize 42
     PlayAlertSound 9 200
 
-Hide # 聯盟 - 3.13祭祀 - 手套 - 魔耗手套
+Show # 聯盟 - 3.13祭祀 - 手套 - 魔耗手套
     Class "Helmets"
     BaseType "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves"
     SetBorderColor 138 71 255
     SetFontSize 42
     PlayAlertSound 9 200
 
-Hide # 聯盟 - 3.13祭祀 - 鞋子 - 位移冷卻鞋
+Show # 聯盟 - 3.13祭祀 - 鞋子 - 位移冷卻鞋
     Class "Boots"
     BaseType "Duskwalk Slippers" "Nightwind Slippers" "Dreamquest Slippers"
     SetBorderColor 138 71 255
     SetFontSize 42
     PlayAlertSound 9 200
 
-Hide # 聯盟 - 3.13祭祀 - 鞋子 - 命中閃點傷鞋
+Show # 聯盟 - 3.13祭祀 - 鞋子 - 命中閃點傷鞋
     Class "Boots"
     BaseType "Stormrider Boots" "Windbreak Boots" "Cloudwhisper Boots"
     SetBorderColor 138 71 255
     SetFontSize 42
     PlayAlertSound 9 200
 
-Hide # 聯盟 - 3.13祭祀 - 鞋子 - 攻擊格擋鞋
+Show # 聯盟 - 3.13祭祀 - 鞋子 - 攻擊格擋鞋
     Class "Boots"
     BaseType "Brimstone Treads" "Darksteel Treads" "Basemetal Treads"
     SetBorderColor 138 71 255
@@ -1442,7 +1431,7 @@ Hide # 聯盟 - 3.13祭祀 - 鞋子 - 攻擊格擋鞋
 
 # 【聯盟-3.12劫盜】3020
 
-Hide # 聯盟 - 3.12劫盜 - 盜賊之印
+Show # 聯盟 - 3.12劫盜 - 盜賊之印
     Class "Currency"
     BaseType "Rogue's Marker"
     SetTextColor 255 178 102
@@ -1450,7 +1439,7 @@ Hide # 聯盟 - 3.12劫盜 - 盜賊之印
     SetBorderColor 255 178 102
     SetFontSize 40
 
-Hide # 聯盟 - 3.12劫盜 - 劫盜目標
+Show # 聯盟 - 3.12劫盜 - 劫盜目標
     Class "Heist Target"
     SetTextColor 74 230 58
     SetBackgroundColor 0 0 0 150
@@ -1458,7 +1447,7 @@ Hide # 聯盟 - 3.12劫盜 - 劫盜目標
     SetFontSize 45
     MinimapIcon 2 Green Star
 
-Hide # 聯盟 - 3.12劫盜 - 盜賊飾品
+Show # 聯盟 - 3.12劫盜 - 盜賊飾品
     Class "Trinket"
     BaseType "Thief's Trinket"
     SetTextColor 0 51 0
@@ -1469,14 +1458,14 @@ Hide # 聯盟 - 3.12劫盜 - 盜賊飾品
     MinimapIcon 0 Green Triangle
     PlayEffect Green
 
-Hide # 聯盟 - 3.12劫盜 - 契約書
+Show # 聯盟 - 3.12劫盜 - 契約書
     BaseType "Contract"
     SetTextColor 100 50 0
     SetBackgroundColor 255 178 102
     SetBorderColor 204 102 0
     SetFontSize 40
 
-Hide # 聯盟 - 3.12劫盜 - 合同
+Show # 聯盟 - 3.12劫盜 - 合同
     Class "Quest Item"
     BaseType "Contract"
     SetTextColor 0 255 0
@@ -1487,7 +1476,7 @@ Hide # 聯盟 - 3.12劫盜 - 合同
     MinimapIcon 0 Green Triangle
     PlayEffect Green
 
-Hide # 聯盟 - 3.12劫盜 - 藍圖
+Show # 聯盟 - 3.12劫盜 - 藍圖
     BaseType "Blueprint"
     SetTextColor 0 0 204
     SetBackgroundColor 255 178 102
@@ -1497,7 +1486,7 @@ Hide # 聯盟 - 3.12劫盜 - 藍圖
     MinimapIcon 2 Red Circle
     PlayEffect Red
 
-Hide # 聯盟 - 3.12劫盜 - 劫盜裝備
+Show # 聯盟 - 3.12劫盜 - 劫盜裝備
     Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
     SetTextColor 254 186 255
     SetBackgroundColor 128 0 128 255
@@ -1507,7 +1496,7 @@ Hide # 聯盟 - 3.12劫盜 - 劫盜裝備
     MinimapIcon 2 Red Star
     PlayEffect Red
 
-Hide # 聯盟 - 3.12劫盜 - 替代技能
+Show # 聯盟 - 3.12劫盜 - 替代技能
     AlternateQuality True
     SetTextColor 0 255 255
     SetBorderColor 0 255 255
@@ -1516,7 +1505,7 @@ Hide # 聯盟 - 3.12劫盜 - 替代技能
     MinimapIcon 0 Blue Star
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 贗品裝備
+Show # 聯盟 - 3.12劫盜 - 贗品裝備
     Replica True
     SetTextColor 255 165 0 255
     SetBackgroundColor 177 123 63 111
@@ -1526,7 +1515,7 @@ Hide # 聯盟 - 3.12劫盜 - 贗品裝備
     MinimapIcon 0 Orange UpsideDownHouse
     PlayEffect Orange
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 能量法杖
+Show # 聯盟 - 3.12劫盜 - 裝備 - 能量法杖
     Class "Wands"
     BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand"
     SetBorderColor 180 255 0
@@ -1535,7 +1524,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 能量法杖
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 中毒匕首
+Show # 聯盟 - 3.12劫盜 - 裝備 - 中毒匕首
     Class "Daggers"
     BaseType "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger"
     SetBorderColor 180 255 0
@@ -1544,7 +1533,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 中毒匕首
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 烈衝匕首
+Show # 聯盟 - 3.12劫盜 - 裝備 - 烈衝匕首
     Class "Rune Daggers"
     BaseType "Flickerflame Blade" "Flashfire Blade" "Infernal Blade"
     SetBorderColor 180 255 0
@@ -1553,7 +1542,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 烈衝匕首
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 混點爪
+Show # 聯盟 - 3.12劫盜 - 裝備 - 混點爪
     Class "Claws"
     BaseType "Shadow Fangs" "Malign Fangs" "Void Fangs"
     SetBorderColor 180 255 0
@@ -1562,7 +1551,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 混點爪
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 盛怒斧
+Show # 聯盟 - 3.12劫盜 - 裝備 - 盛怒斧
     Class "One Hand Axes"
     BaseType "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe"
     SetBorderColor 180 255 0
@@ -1571,7 +1560,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 盛怒斧
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 物轉元劍
+Show # 聯盟 - 3.12劫盜 - 裝備 - 物轉元劍
     Class "One Hand Swords"
     BaseType "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade"
     SetBorderColor 180 255 0
@@ -1580,7 +1569,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 物轉元劍
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 熾熱衝擊錘
+Show # 聯盟 - 3.12劫盜 - 裝備 - 熾熱衝擊錘
     Class "One Hand Maces"
     BaseType "Flare Mace" "Crack Mace" "Boom Mace"
     SetBorderColor 180 255 0
@@ -1589,7 +1578,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 熾熱衝擊錘
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 元素超載/元素之相/磨難秘辛權杖
+Show # 聯盟 - 3.12劫盜 - 裝備 - 元素超載/元素之相/磨難秘辛權杖
     Class "Sceptres"
     BaseType "Oscillating Sceptre" "Stabilising Sceptre" "Alternating Sceptre"
     SetBorderColor 180 255 0
@@ -1598,7 +1587,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 元素超載/元素之相/磨難秘辛權�
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 火點弓
+Show # 聯盟 - 3.12劫盜 - 裝備 - 火點弓
     Class "Bows"
     BaseType "Hedron Bow" "Foundry Bow" "Solarine Bow"
     SetBorderColor 180 255 0
@@ -1607,7 +1596,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 火點弓
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - EB長杖
+Show # 聯盟 - 3.12劫盜 - 裝備 - EB長杖
     BaseType "Transformer Staff" "Reciprocation Staff" "Battery Staff"
     SetBorderColor 180 255 0
     SetFontSize 43
@@ -1615,7 +1604,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - EB長杖
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 藍紅球長杖
+Show # 聯盟 - 3.12劫盜 - 裝備 - 藍紅球長杖
     Class "Warstaves"
     BaseType "Capacity Rod" "Potentiality Rod"
     SetBorderColor 180 255 0
@@ -1624,7 +1613,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 藍紅球長杖
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 品質砍斧
+Show # 聯盟 - 3.12劫盜 - 裝備 - 品質砍斧
     Class "Two Hand Axes"
     BaseType "Prime Cleaver" "Honed Cleaver" "Apex Cleaver"
     SetBorderColor 180 255 0
@@ -1633,7 +1622,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 品質砍斧
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 元穿雙手劍
+Show # 聯盟 - 3.12劫盜 - 裝備 - 元穿雙手劍
     Class "Two Hand Swords"
     BaseType "Rebuking Blade" "Blasting Blade" "Banishing Blade"
     SetBorderColor 180 255 0
@@ -1642,7 +1631,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 元穿雙手劍
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 戰吼雙手錘
+Show # 聯盟 - 3.12劫盜 - 裝備 - 戰吼雙手錘
     Class "Two Hand Maces"
     BaseType "Blunt Force Condenser" "Crushing Force Magnifier" "Impact Force Propagator"
     SetBorderColor 180 255 0
@@ -1651,7 +1640,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 戰吼雙手錘
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 殘喘盾
+Show # 聯盟 - 3.12劫盜 - 裝備 - 殘喘盾
     Class "Shields"
     BaseType "Exhausting Spirit Shield" "Subsuming Spirit Shield" "Transfer-attuned Spirit Shield"
     SetBorderColor 180 255 0
@@ -1660,7 +1649,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 殘喘盾
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 焦灼盾
+Show # 聯盟 - 3.12劫盜 - 裝備 - 焦灼盾
     Class "Shields"
     BaseType "Exothermic Tower Shield" "Magmatic Tower Shield" "Heat-attuned Tower Shield"
     SetBorderColor 180 255 0
@@ -1669,7 +1658,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 焦灼盾
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 易碎盾
+Show # 聯盟 - 3.12劫盜 - 裝備 - 易碎盾
     Class "Shields"
     BaseType "Endothermic Buckler" "Polar Buckler" "Cold-attuned Buckler"
     SetBorderColor 180 255 0
@@ -1678,7 +1667,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 易碎盾
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 特殊腰帶
+Show # 聯盟 - 3.12劫盜 - 裝備 - 特殊腰帶
     Class "Belts"
     BaseType "Micro-Distillery Belt" "Mechalarm Belt"
     SetBorderColor 180 255 0
@@ -1687,7 +1676,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 特殊腰帶
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 特殊項鍊
+Show # 聯盟 - 3.12劫盜 - 裝備 - 特殊項鍊
     Class "Amulets"
     BaseType "Astrolabe Amulet" "Simplex Amulet"
     SetBorderColor 180 255 0
@@ -1696,7 +1685,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 特殊項鍊
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 特殊戒指
+Show # 聯盟 - 3.12劫盜 - 裝備 - 特殊戒指
     Class "Rings"
     BaseType "Cogwork Ring" "Geodesic Ring"
     SetBorderColor 180 255 0
@@ -1707,7 +1696,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 特殊戒指
 
 # 【聯盟-3.11花園】3019
 
-Hide # 聯盟 - 3.11花園 - 費斯特之鏡
+Show # 聯盟 - 3.11花園 - 費斯特之鏡
     Class "Stackable Currency"
     BaseType "Facetor's Lens"
     SetTextColor 255 0 0
@@ -1718,7 +1707,7 @@ Hide # 聯盟 - 3.11花園 - 費斯特之鏡
     MinimapIcon 0 Blue Star
     PlayEffect Blue
 
-Hide # 聯盟 - 3.11花園 - 神諭升級卷軸
+Show # 聯盟 - 3.11花園 - 神諭升級卷軸
     Class "Stackable Currency"
     BaseType "Time-light Scroll" "Specularity Scroll" "Haemocombustion Scroll" "Fragmentation Scroll" "Electroshock Scroll" "Deregulation Scroll"
     SetTextColor 0 0 153
@@ -1729,7 +1718,7 @@ Hide # 聯盟 - 3.11花園 - 神諭升級卷軸
     MinimapIcon 0 Blue Star
     PlayEffect Blue
 
-Hide # 聯盟 - 3.11花園 - 野獸誘餌
+Show # 聯盟 - 3.11花園 - 野獸誘餌
     Class "Map Fragments"
     BaseType "Craicic Lure" "Saqawine Lure" "Fenumal Lure" "Farric Lure"
     SetTextColor 255 165 0
@@ -1740,7 +1729,7 @@ Hide # 聯盟 - 3.11花園 - 野獸誘餌
     MinimapIcon 0 Orange Star
     PlayEffect Orange
 
-Hide # 聯盟 - 3.11花園 - 女神升級版
+Show # 聯盟 - 3.11花園 - 女神升級版
     Class "Map Fragments"
     BaseType "Gift to the Goddess" "Dedication to the Goddess" "Tribute to the Goddess"
     SetTextColor 51 153 255
@@ -1750,7 +1739,7 @@ Hide # 聯盟 - 3.11花園 - 女神升級版
     MinimapIcon 0 Blue Star
     PlayEffect Blue
 
-Hide # 聯盟 - 3.11花園 - 展翅聖甲蟲
+Show # 聯盟 - 3.11花園 - 展翅聖甲蟲
     Class "Map Fragments"
     BaseType "Winged"
     SetTextColor 210 150 255
@@ -1761,7 +1750,7 @@ Hide # 聯盟 - 3.11花園 - 展翅聖甲蟲
     MinimapIcon 0 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 聯盟 - 3.11花園 - 神聖之花
+Show # 聯盟 - 3.11花園 - 神聖之花
     Class "Map Fragments"
     BaseType "Sacred Blossom"
     SetTextColor 51 153 255
@@ -1773,7 +1762,7 @@ Hide # 聯盟 - 3.11花園 - 神聖之花
 
 # 【聯盟-3.10譫妄】3018
 
-Hide # 聯盟 - 3.10譫妄 - 譫妄玉
+Show # 聯盟 - 3.10譫妄 - 譫妄玉
     Class "Currency"
     BaseType "Delirium Orb"
     SetTextColor 0 0 0
@@ -1784,7 +1773,7 @@ Hide # 聯盟 - 3.10譫妄 - 譫妄玉
     MinimapIcon 1 Grey Diamond
     PlayEffect Grey
 
-Hide # 聯盟 - 3.10譫妄 - 幻像斷片
+Show # 聯盟 - 3.10譫妄 - 幻像斷片
     Class "Currency"
     BaseType "Simulacrum Splinter"
     SetTextColor 0 0 0
@@ -1795,40 +1784,40 @@ Hide # 聯盟 - 3.10譫妄 - 幻像斷片
     MinimapIcon 1 Grey Star
     PlayEffect Grey
 
-Hide # 聯盟 - 3.10譫妄 - 嗓音
+Show # 聯盟 - 3.10譫妄 - 嗓音
     Rarity = Unique
     Class "Jewel"
     BaseType "Large Cluster Jewel"
     SetTextColor 255 255 255
     SetBackgroundColor 255 0 0
-    SetFontSize 100
+    SetFontSize 45
     MinimapIcon 0 Red Hexagon
     PlayEffect Red
     PlayAlertSound 1 250 
 
-Hide # 聯盟 - 3.10譫妄 - 星團珠寶(傳奇)
+Show # 聯盟 - 3.10譫妄 - 星團珠寶(傳奇)
     Rarity = Unique
     Class "Jewel"
     BaseType "Cluster Jewel"
     SetBackgroundColor 255 255 255
     SetBorderColor 255 165 0
-    SetFontSize 80
+    SetFontSize 44
     PlayAlertSound 4 150
     MinimapIcon 0 Red Hexagon
     PlayEffect Red
 
-Hide # 聯盟 - 3.10譫妄 - 星團珠寶
+Show # 聯盟 - 3.10譫妄 - 星團珠寶
     Class "Jewel"
     BaseType "Cluster Jewel"
     SetTextColor 255 255 255
     SetBackgroundColor 204 102 0
     SetBorderColor 175 96 37
-    SetFontSize 80
+    SetFontSize 45
     PlayAlertSound 9 200
     MinimapIcon 0 White Circle
     PlayEffect White
 
-Hide # 聯盟 - 3.10譫妄 - 幻象異界
+Show # 聯盟 - 3.10譫妄 - 幻象異界
     Class "Map Fragments"
     BaseType "Simulacrum"
     SetTextColor 255 255 255
@@ -1847,7 +1836,7 @@ Show # 聯盟 - 3.9鍊魔 - 洶湧/充能/研磨/冶煉/本質/毒性催化劑
     SetTextColor 0 0 0
     SetBackgroundColor 255 255 119
     SetBorderColor 255 215 0
-    SetFontSize 80
+    SetFontSize 40
 
 Show # 聯盟 - 3.9鍊魔 - 多棱/富饒/加速/易變催化劑
     Class "Currency"
@@ -1855,10 +1844,10 @@ Show # 聯盟 - 3.9鍊魔 - 多棱/富饒/加速/易變催化劑
     SetTextColor 255 61 0
     SetBackgroundColor 255 255 119
     SetBorderColor 255 0 0 255
-    SetFontSize 80
+    SetFontSize 45
     PlayAlertSound 9 300
 
-Hide # 聯盟 - 3.9鍊魔 - 器官
+Show # 聯盟 - 3.9鍊魔 - 器官
     Class "Metamorph Sample"
     BaseType "Metamorph Brain" "Metamorph Eye" "Metamorph Liver" "Metamorph Lung" "Metamorph Heart"
     SetTextColor 255 246 143
@@ -1871,7 +1860,7 @@ Hide # 聯盟 - 3.9鍊魔 - 器官
 
 # 【聯盟-3.8凋落】3016
 
-Hide # 聯盟 - 3.8凋落 - 清透/深褐/琥珀/翠綠/清綠/碧藍/奼紫/緋紅/靛青油瓶
+Show # 聯盟 - 3.8凋落 - 清透/深褐/琥珀/翠綠/清綠/碧藍/奼紫/緋紅/靛青油瓶
     Class "Currency"
     BaseType "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Indigo Oil"
     SetTextColor 0 0 0
@@ -1879,20 +1868,20 @@ Hide # 聯盟 - 3.8凋落 - 清透/深褐/琥珀/翠綠/清綠/碧藍/奼紫/緋
     SetBorderColor 255 255 0
     SetFontSize 44
 
-Hide # 聯盟 - 3.8凋落 - 漆黑/乳白/純銀/金黃/汙染油瓶
+Show # 聯盟 - 3.8凋落 - 漆黑/乳白/純銀/金黃/汙染油瓶
     Class "Currency"
     BaseType "Black Oil" "Opalescent Oil" "Silver Oil" "Golden Oil" "Tainted Oil"
     SetTextColor 0 0 0
     SetBackgroundColor 255 255 0
     SetBorderColor 0 0 0
-    SetFontSize 80
+    SetFontSize 44
     PlayAlertSound 9 300
     MinimapIcon 0 Yellow Star
     PlayEffect Yellow
 
 # 【聯盟-3.7戰亂】3015
 
-Hide # 聯盟 - 3.7戰亂 - 培育器 - 低階培育器(先祖/附魔/尊師/探險/深淵/低語)
+Show # 聯盟 - 3.7戰亂 - 培育器 - 低階培育器(先祖/附魔/尊師/探險/深淵/低語)
     Class "Incubator"
     BaseType "Primal Incubator" "Enchanted Incubator" "Eldritch Incubator" "Kalguuran Incubator" "Abyssal Incubator" "Whispering Incubator"
     SetTextColor 0 0 0
@@ -1900,9 +1889,9 @@ Hide # 聯盟 - 3.7戰亂 - 培育器 - 低階培育器(先祖/附魔/尊師/探
     SetBorderColor 0 0 0
     SetFontSize 45
 
-Hide # 聯盟 - 3.7戰亂 - 培育器 - 中階培育器(飛掠/卓越/超凡/朦朧/神秘/注能/寶石匠/化石/諭示/製圖/命運/眾星/凋落/鍊魔/譫妄)
+Show # 聯盟 - 3.7戰亂 - 培育器 - 中階培育器(飛掠/卓越/超凡/朦朧/神秘/注能/寶石匠/化石/諭示/製圖/命運/眾星/凋落/鍊魔/譫妄)
     Class "Incubator"
-    BaseType "Skittering Incubator" "Singular Incubator" "Otherworldly Incubator" "Obscured Incubator" "Mysterious Incubator" "Infused Incubator" "Gemcutter's Incubator" "Fragmented Incubator" "Fossilised Incubator" "Foreboding Incubator" "Cartographer's Incubator" "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Diviner's Incubator" "Celestial Jeweller's Incubator" "Blighted Incubator" "Morphing Incubator" "Maddening Incubator"
+    BaseType "Skittering Incubator" "Singular Incubator" "Otherworldly Incubator" "Obscured Incubator" "Mysterious Incubator" "Infused Incubator" "Gemcutter's Incubator" "Fragmented Incubator" "Fossilised Incubator" "Foreboding Incubator" "Cartographer's Incubator" "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Diviner's Incubator" "Celestial Jeweller's Incubator" "Blighted Incubator"  "Maddening Incubator"
     SetTextColor 0 0 0
     SetBackgroundColor 255 200 0
     SetBorderColor 0 0 0
@@ -1910,7 +1899,7 @@ Hide # 聯盟 - 3.7戰亂 - 培育器 - 中階培育器(飛掠/卓越/超凡/朦
     PlayAlertSound 2 300
     MinimapIcon 0 Yellow Star
 
-Hide # 聯盟 - 3.7戰亂 - 培育器 - 高階培育器(時間遺忘/幻術師/華麗/占卜/精緻)
+Show # 聯盟 - 3.7戰亂 - 培育器 - 高階培育器(時間遺忘/幻術師/華麗/占卜/精緻)
     Class "Incubator"
     BaseType "Time-Lost Incubator" "Thaumaturge's Incubator" "Ornate Incubator" "Geomancer's Incubator" "Fine Incubator"
     SetTextColor 0 0 0
@@ -1919,7 +1908,7 @@ Hide # 聯盟 - 3.7戰亂 - 培育器 - 高階培育器(時間遺忘/幻術師/�
     SetFontSize 45
     MinimapIcon 0 Yellow Star
 
-Hide # 聯盟 - 3.7戰亂 - 軍團裂片 - 不朽/卡魯/瓦爾
+Show # 聯盟 - 3.7戰亂 - 軍團裂片 - 不朽/卡魯/瓦爾
     Class "Currency"
     BaseType "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Vaal Splinter"
     SetTextColor 255 215 222 
@@ -1927,7 +1916,7 @@ Hide # 聯盟 - 3.7戰亂 - 軍團裂片 - 不朽/卡魯/瓦爾
     SetFontSize 45
     MinimapIcon 0 Purple Star
 
-Hide # 聯盟 - 3.7戰亂 - 軍團裂片 - 馬拉克斯/聖宗
+Show # 聯盟 - 3.7戰亂 - 軍團裂片 - 馬拉克斯/聖宗
     Class "Currency"
     BaseType "Timeless Maraketh Splinter" "Timeless Templar Splinter"
     SetTextColor 255 255 119
@@ -1936,7 +1925,7 @@ Hide # 聯盟 - 3.7戰亂 - 軍團裂片 - 馬拉克斯/聖宗
     SetFontSize 45
     MinimapIcon 0 Purple Star
 
-Hide # 聯盟 - 3.7戰亂 - 軍團印記
+Show # 聯盟 - 3.7戰亂 - 軍團印記
     Class "Map Fragments"
     BaseType "Timeless Eternal Emblem" "Timeless Karui Emblem" "Timeless Maraketh Emblem" "Timeless Templar Emblem" "Timeless Vaal Emblem"
     SetTextColor 255 255 255
@@ -1945,7 +1934,7 @@ Hide # 聯盟 - 3.7戰亂 - 軍團印記
     PlayAlertSound ShChaos 200
     MinimapIcon 0 White Star
 
-Hide # 聯盟 - 3.7戰亂 - 永恆珠寶
+Show # 聯盟 - 3.7戰亂 - 永恆珠寶
     Class "Jewel"
     BaseType "Timeless Jewel"
     SetTextColor 128 0 128 255
@@ -1958,7 +1947,7 @@ Hide # 聯盟 - 3.7戰亂 - 永恆珠寶
 
 # 【聯盟-3.6追憶】3014
 
-Hide # 聯盟 - 3.6追憶 - 破裂物品
+Show # 聯盟 - 3.6追憶 - 破裂物品
     FracturedItem True
     SetTextColor 237 240 235 255
     SetBackgroundColor 106 172 220
@@ -1967,7 +1956,7 @@ Hide # 聯盟 - 3.6追憶 - 破裂物品
     MinimapIcon 1 White Hexagon
     PlayEffect White
 
-Hide # 聯盟 - 3.6追憶 - 追憶物品
+Show # 聯盟 - 3.6追憶 - 追憶物品
     SynthesisedItem True
     SetTextColor 237 240 235 255
     SetBackgroundColor 106 172 220
@@ -1979,7 +1968,7 @@ Hide # 聯盟 - 3.6追憶 - 追憶物品
 
 # 【聯盟-3.5密教】3013
 
-Hide # 聯盟 - 3.5密教 - 密教詞綴物品
+Show # 聯盟 - 3.5密教 - 密教詞綴物品
     HasExplicitMod "Veil"
     SetTextColor 0 0 0
     SetBackgroundColor 255 225 85
@@ -1988,7 +1977,7 @@ Hide # 聯盟 - 3.5密教 - 密教詞綴物品
     PlayAlertSound 16 200
     MinimapIcon 2 White Hexagon
 
-Hide # 聯盟 - 3.5密教 - 鍍金聖甲蟲
+Show # 聯盟 - 3.5密教 - 鍍金聖甲蟲
     Class "Map Fragments"
     BaseType "Gilded"
     SetTextColor 0 0 0
@@ -1999,7 +1988,7 @@ Hide # 聯盟 - 3.5密教 - 鍍金聖甲蟲
     MinimapIcon 0 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 聯盟 - 3.5密教 - 圓滑聖甲蟲
+Show # 聯盟 - 3.5密教 - 圓滑聖甲蟲
     Class "Map Fragments"
     BaseType "Polished"
     SetTextColor 0 0 0
@@ -2010,7 +1999,7 @@ Hide # 聯盟 - 3.5密教 - 圓滑聖甲蟲
     MinimapIcon 1 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 聯盟 - 3.5密教 - 鏽蝕聖甲蟲
+Show # 聯盟 - 3.5密教 - 鏽蝕聖甲蟲
     Class "Map Fragments"
     BaseType "Rusted"
     SetTextColor 0 0 0
@@ -2022,7 +2011,7 @@ Hide # 聯盟 - 3.5密教 - 鏽蝕聖甲蟲
 
 # 【聯盟-3.4掘獄】3012
 
-Hide # 聯盟 - 3.4掘獄 - 掘獄聯盟專屬詞綴裝備
+Show # 聯盟 - 3.4掘獄 - 掘獄聯盟專屬詞綴裝備
     HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft" "of the Underground" "Subterranean"
     SetBorderColor 180 255 0
     SetFontSize 42
@@ -2030,7 +2019,7 @@ Hide # 聯盟 - 3.4掘獄 - 掘獄聯盟專屬詞綴裝備
     MinimapIcon 2 Red Hexagon
     PlayEffect Brown
 
-Hide # 聯盟 - 3.4掘獄 - 4S強力鑄新儀
+Show # 聯盟 - 3.4掘獄 - 4S強力鑄新儀
     Class "Delve Stackable Socketable Currency"
     BaseType "Prime Chaotic Resonator" "Prime Alchemical Resonator"
     SetTextColor 0 0 0
@@ -2041,7 +2030,7 @@ Hide # 聯盟 - 3.4掘獄 - 4S強力鑄新儀
     MinimapIcon 0 Red Triangle
     PlayEffect Red
 
-Hide # 聯盟 - 3.4掘獄 - 1S/2S/3S煉金鑄新儀(銀色)
+Show # 聯盟 - 3.4掘獄 - 1S/2S/3S煉金鑄新儀(銀色)
     Class "Delve Stackable Socketable Currency"
     BaseType "Primitive Alchemical Resonator" "Potent Alchemical Resonator" "Powerful Alchemical Resonator"
     SetTextColor 0 0 0
@@ -2052,7 +2041,7 @@ Hide # 聯盟 - 3.4掘獄 - 1S/2S/3S煉金鑄新儀(銀色)
     MinimapIcon 2 White Triangle
     PlayEffect White
 
-Hide # 聯盟 - 3.4掘獄 - 1S/2S/3S混沌鑄新儀(黃色)
+Show # 聯盟 - 3.4掘獄 - 1S/2S/3S混沌鑄新儀(黃色)
     Class "Delve Stackable Socketable Currency"
     BaseType "Primitive Chaotic Resonator" "Potent Chaotic Resonator" "Powerful Chaotic Resonator"
     SetTextColor 0 0 0
@@ -2063,7 +2052,7 @@ Hide # 聯盟 - 3.4掘獄 - 1S/2S/3S混沌鑄新儀(黃色)
     MinimapIcon 2 White Triangle
     PlayEffect White
 
-Hide # 聯盟 - 3.4掘獄 - 化石 -高階化石(血漬/破裂/雕琢/鑲金/鏤空/雕紋/暴擊/能力/無瑕化石)
+Show # 聯盟 - 3.4掘獄 - 化石 -高階化石(血漬/破裂/雕琢/鑲金/鏤空/雕紋/暴擊/能力/無瑕化石)
     Class "Currency"
     BaseType "Bloodstained Fossil" "Fractured Fossil" "Faceted Fossil" "Gilded Fossil" "Hollow Fossil" "Glyphic Fossil" "Sanctified Fossil" "Deft Fossil" "Fundamental Fossil" "Perfect Fossil"
     SetTextColor 0 0 0
@@ -2074,7 +2063,7 @@ Hide # 聯盟 - 3.4掘獄 - 化石 -高階化石(血漬/破裂/雕琢/鑲金/鏤
     MinimapIcon 0 Yellow Star
     PlayEffect Yellow
 
-Hide # 聯盟 - 3.4掘獄 - 化石 -一般化石
+Show # 聯盟 - 3.4掘獄 - 化石 -一般化石
     Class "Currency"
     BaseType "Fossil"
     SetTextColor 0 0 0
@@ -2085,7 +2074,7 @@ Hide # 聯盟 - 3.4掘獄 - 化石 -一般化石
 
 # 【聯盟-3.3穿越】3011
 
-Hide # 聯盟 - 3.3穿越 - 穿越聯盟專屬詞綴裝備
+Show # 聯盟 - 3.3穿越 - 穿越聯盟專屬詞綴裝備
     HasExplicitMod "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
     SetBorderColor 180 255 0
     SetFontSize 42
@@ -2093,7 +2082,7 @@ Hide # 聯盟 - 3.3穿越 - 穿越聯盟專屬詞綴裝備
     MinimapIcon 2 Red Hexagon
     PlayEffect Brown
 
-Hide # 聯盟 - 3.3穿越 - 連通之石/閃粉之器
+Show # 聯盟 - 3.3穿越 - 連通之石/閃粉之器
     Class "Incursion Item"
     SetTextColor 255 180 135
     SetBackgroundColor 0 0 0
@@ -2103,7 +2092,7 @@ Hide # 聯盟 - 3.3穿越 - 連通之石/閃粉之器
     MinimapIcon 0 Red Star
     PlayEffect Blue
 
-Hide # 聯盟 - 3.3穿越 - 升級之罈
+Show # 聯盟 - 3.3穿越 - 升級之罈
     Class "Currency"
     BaseType "Vial of Awakening" "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Sacrifice" "Vial of Summoning" "Vial of the Ghost" "Vial of the Ritual" "Vial of Transcendence"
     SetTextColor 0 0 0
@@ -2114,7 +2103,7 @@ Hide # 聯盟 - 3.3穿越 - 升級之罈
     MinimapIcon 0 Red Star
     PlayEffect Blue
 
-Hide # 聯盟 - 3.3穿越 - 神廟地圖
+Show # 聯盟 - 3.3穿越 - 神廟地圖
     Class "Misc Map Items"
     BaseType "Chronicle of Atzoatl"
     SetTextColor 255 180 135
@@ -2127,7 +2116,7 @@ Hide # 聯盟 - 3.3穿越 - 神廟地圖
 
 # 【聯盟-3.2獸獵】3010
 
-Hide # 聯盟 - 3.2獸獵 - 獸魂玉
+Show # 聯盟 - 3.2獸獵 - 獸魂玉
     Class "Currency"
     BaseType "Bestiary Orb"
     SetTextColor 0 0 0
@@ -2138,7 +2127,7 @@ Hide # 聯盟 - 3.2獸獵 - 獸魂玉
     MinimapIcon 2 Green Diamond
     PlayEffect Green
 
-Hide # 聯盟 - 3.2獸獵 - 野獸聯盟專屬詞綴裝備 傲貓，飛羽，毒蛛，蟹將祝福
+Show # 聯盟 - 3.2獸獵 - 野獸聯盟專屬詞綴裝備 傲貓，飛羽，毒蛛，蟹將祝福
     HasExplicitMod "of Farrul" "of Saqawal" "of Fenumus" "of Craiceann"
     SetBorderColor 255 0 0
     SetFontSize 42
@@ -2146,25 +2135,25 @@ Hide # 聯盟 - 3.2獸獵 - 野獸聯盟專屬詞綴裝備 傲貓，飛羽，毒
     MinimapIcon 2 Yellow Hexagon
     PlayEffect Yellow
 
-Hide # 聯盟 - 3.2獸獵 - 套索捕獸網
+Show # 聯盟 - 3.2獸獵 - 套索捕獸網
     Class "Currency"
     BaseType "Strong Rope Net" "Reinforced Rope Net" "Simple Rope Net"
     SetTextColor 0 128 0
     SetFontSize 37
 
-Hide # 聯盟 - 3.2獸獵 - 硬鐵捕獸網
+Show # 聯盟 - 3.2獸獵 - 硬鐵捕獸網
     Class "Currency"
     BaseType "Strong Iron Net" "Reinforced Iron Net" "Simple Iron Net"
     SetTextColor 46 199 92
     SetFontSize 38
 
-Hide # 聯盟 - 3.2獸獵 - 鋼鐵捕獸網
+Show # 聯盟 - 3.2獸獵 - 鋼鐵捕獸網
     Class "Currency"
     BaseType "Strong Steel Net" "Reinforced Steel Net" "Simple Steel Net"
     SetTextColor 74 230 58
     SetFontSize 40
 
-Hide # 聯盟 - 3.2獸獵 - 幻術/亡靈捕獸網
+Show # 聯盟 - 3.2獸獵 - 幻術/亡靈捕獸網
     Class "Currency"
     BaseType "Thaumaturgical Net" "Necromancy Net"
     SetTextColor 25 235 25
@@ -2175,7 +2164,7 @@ Hide # 聯盟 - 3.2獸獵 - 幻術/亡靈捕獸網
 
 # 【聯盟-3.1深淵】3009
 
-Hide # 聯盟 - 3.1深淵 - 深淵腰帶 - 傳奇
+Show # 聯盟 - 3.1深淵 - 深淵腰帶 - 傳奇
     Rarity = Unique
     Class "Belts"
     BaseType "Stygian Vise"
@@ -2186,7 +2175,7 @@ Hide # 聯盟 - 3.1深淵 - 深淵腰帶 - 傳奇
     MinimapIcon 0 Red Hexagon
     PlayEffect Red
 
-Hide # 聯盟 - 3.1深淵 - 深淵腰帶 - 84+
+Show # 聯盟 - 3.1深淵 - 深淵腰帶 - 84+
     ItemLevel >= 84
     Class "Belts"
     BaseType "Stygian Vise"
@@ -2198,7 +2187,7 @@ Hide # 聯盟 - 3.1深淵 - 深淵腰帶 - 84+
     MinimapIcon 1 Green Hexagon
     PlayEffect Green
 
-Hide # 聯盟 - 3.1深淵 - 深淵腰帶 - 75~83
+Show # 聯盟 - 3.1深淵 - 深淵腰帶 - 75~83
     ItemLevel >= 75
     ItemLevel <= 83
     Class "Belts"
@@ -2211,7 +2200,7 @@ Hide # 聯盟 - 3.1深淵 - 深淵腰帶 - 75~83
     MinimapIcon 1 Green Hexagon
     PlayEffect Green
 
-Hide # 聯盟 - 3.1深淵 - 深淵腰帶 - 60~74
+Show # 聯盟 - 3.1深淵 - 深淵腰帶 - 60~74
     ItemLevel >= 60
     ItemLevel <= 74
     Class "Belts"
@@ -2224,7 +2213,7 @@ Hide # 聯盟 - 3.1深淵 - 深淵腰帶 - 60~74
     MinimapIcon 1 Green Hexagon
     PlayEffect Green
 
-Hide # 聯盟 - 3.1深淵 - 深淵腰帶 - 1~59
+Show # 聯盟 - 3.1深淵 - 深淵腰帶 - 1~59
     ItemLevel < 60
     Class "Belts"
     BaseType "Stygian Vise"
@@ -2236,7 +2225,7 @@ Hide # 聯盟 - 3.1深淵 - 深淵腰帶 - 1~59
     MinimapIcon 1 Green Hexagon
     PlayEffect Green
 
-Hide # 聯盟 - 3.1深淵 - 深淵珠寶 - 傳奇
+Show # 聯盟 - 3.1深淵 - 深淵珠寶 - 傳奇
     Rarity = Unique
     Class "Abyss Jewel"
     SetBackgroundColor 255 255 255
@@ -2246,7 +2235,7 @@ Hide # 聯盟 - 3.1深淵 - 深淵珠寶 - 傳奇
     MinimapIcon 0 Red Hexagon
     PlayEffect Red
 
-Hide # 聯盟 - 3.1深淵 - 深淵珠寶 - 84+
+Show # 聯盟 - 3.1深淵 - 深淵珠寶 - 84+
     ItemLevel >= 84
     Class "Abyss Jewel"
     SetTextColor 255 192 203
@@ -2256,7 +2245,7 @@ Hide # 聯盟 - 3.1深淵 - 深淵珠寶 - 84+
     PlayAlertSound 9 200
     PlayEffect Yellow Temp
 
-Hide # 聯盟 - 3.1深淵 - 深淵珠寶 - 75-83
+Show # 聯盟 - 3.1深淵 - 深淵珠寶 - 75-83
     ItemLevel >= 75
     ItemLevel <= 83
     Class "Abyss Jewel"
@@ -2266,7 +2255,7 @@ Hide # 聯盟 - 3.1深淵 - 深淵珠寶 - 75-83
     SetFontSize 40
     PlayAlertSound 9 200
 
-Hide # 聯盟 - 3.1深淵 - 深淵珠寶 - 60~74
+Show # 聯盟 - 3.1深淵 - 深淵珠寶 - 60~74
     ItemLevel >= 60
     ItemLevel <= 74
     Class "Abyss Jewel"
@@ -2276,7 +2265,7 @@ Hide # 聯盟 - 3.1深淵 - 深淵珠寶 - 60~74
     SetFontSize 40
     PlayAlertSound 9 200
 
-Hide # 聯盟 - 3.1深淵 - 深淵珠寶 - 1~59
+Show # 聯盟 - 3.1深淵 - 深淵珠寶 - 1~59
     ItemLevel < 60
     Class "Abyss Jewel"
     SetTextColor 255 192 203
@@ -2287,7 +2276,7 @@ Hide # 聯盟 - 3.1深淵 - 深淵珠寶 - 1~59
 
 # 【聯盟-3.0神諭】3008
 
-Hide # 聯盟 - 3.0神諭 - 神諭碎片
+Show # 聯盟 - 3.0神諭 - 神諭碎片
     Class "Piece"
     SetTextColor 255 177 0 255
     SetBackgroundColor 119 168 255 255
@@ -2299,7 +2288,7 @@ Hide # 聯盟 - 3.0神諭 - 神諭碎片
 
 # 【聯盟-2.6不朽】3007
 
-Hide # 聯盟 - 2.6不朽 - 聯盟石(超越、復仇、裂痕)
+Show # 聯盟 - 2.6不朽 - 聯盟石(超越、復仇、裂痕)
     ItemLevel >= 67
     Class "Leaguestones"
     BaseType "Beyond Leaguestone" "Nemesis Leaguestone" "Breach Leaguestone"
@@ -2310,7 +2299,7 @@ Hide # 聯盟 - 2.6不朽 - 聯盟石(超越、復仇、裂痕)
     PlayAlertSound 9 300
     PlayEffect Yellow
 
-Hide # 聯盟 - 2.6不朽 - 聯盟石(魔法)
+Show # 聯盟 - 2.6不朽 - 聯盟石(魔法)
     Rarity >= Magic
     Class "Leaguestones"
     SetTextColor 0 0 0
@@ -2320,7 +2309,7 @@ Hide # 聯盟 - 2.6不朽 - 聯盟石(魔法)
     PlayAlertSound 9 300
     PlayEffect Blue
 
-Hide # 聯盟 - 2.6不朽 - 聯盟石(普通)
+Show # 聯盟 - 2.6不朽 - 聯盟石(普通)
     Rarity = Normal
     Class "Leaguestones"
     SetTextColor 0 0 0
@@ -2330,20 +2319,20 @@ Hide # 聯盟 - 2.6不朽 - 聯盟石(普通)
     PlayAlertSound 9 300
     PlayEffect White
 
-Hide # 聯盟 - 2.6不朽 - 古典遺鑰/古朽遺鑰/瓦爾遺鑰
+Show # 聯盟 - 2.6不朽 - 古典遺鑰/古朽遺鑰/瓦爾遺鑰
     Class "Misc Map Items"
     BaseType "Ancient Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key"
     SetTextColor 248 97 97
     SetBackgroundColor 251 249 206 255
     SetBorderColor 240 240 80
-    SetFontSize 80
+    SetFontSize 45
     MinimapIcon 0 Red Diamond
     PlayEffect Red
     PlayAlertSound 1 250 
 
 # 【聯盟-2.5裂痕】3006
 
-Hide # 聯盟 - 2.5裂痕 - 裂痕石
+Show # 聯盟 - 2.5裂痕 - 裂痕石
     Class "Map Fragments"
     BaseType "Xoph's Breachstone" "Tul's Breachstone" "Esh's Breachstone" "Uul-Netol's Breachstone" "Chayula's Breachstone"
     SetTextColor 255 255 255
@@ -2354,7 +2343,7 @@ Hide # 聯盟 - 2.5裂痕 - 裂痕石
     MinimapIcon 1 Red Circle
     PlayEffect Red
 
-Hide # 聯盟 - 2.5裂痕 - 裂痕裂片
+Show # 聯盟 - 2.5裂痕 - 裂痕裂片
     Class "Currency"
     BaseType "Splinter of Xoph" "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Chayula"
     SetTextColor 255 192 203
@@ -2363,59 +2352,59 @@ Hide # 聯盟 - 2.5裂痕 - 裂痕裂片
     PlayAlertSound ShChaos 150
     MinimapIcon 0 Red Star
 
-Hide # 聯盟 - 2.5裂痕 - 裂痕祝福
+Show # 聯盟 - 2.5裂痕 - 裂痕祝福
     Class "Currency"
     BaseType "Blessing of Xoph" "Blessing of Tul" "Blessing of Esh" "Blessing of Uul-Netol" "Blessing of Chayula"
     SetTextColor 0 0 0
     SetBackgroundColor 10 255 175
     SetBorderColor 205 240 240
-    SetFontSize 80
+    SetFontSize 41
     PlayAlertSound 10 150
     PlayEffect Yellow
 
 # 【聯盟-2.4精髓】3005
 
-Hide # 聯盟 - 2.4精髓 - 精髓 -污染精華&污染器皿
+Show # 聯盟 - 2.4精髓 - 精髓 -污染精華&污染器皿
     Class "Currency"
     BaseType "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium" "Remnant of Corruption"
     SetTextColor 0 0 0
     SetBackgroundColor 255 0 0
     SetBorderColor 225 85 85
-    SetFontSize 60
+    SetFontSize 42
     PlayAlertSound 9 300
     PlayEffect Red
 
-Hide # 聯盟 - 2.4精髓 - 精髓 -T1
+Show # 聯盟 - 2.4精髓 - 精髓 -T1
     Class "Currency"
     BaseType "Deafening Essence of"
     SetTextColor 150 255 255
-    SetFontSize 60
+    SetFontSize 40
     PlayAlertSound 9 300
 
-Hide # 聯盟 - 2.4精髓 - 精髓 -T2
+Show # 聯盟 - 2.4精髓 - 精髓 -T2
     Class "Currency"
     BaseType "Shrieking Essence of"
     SetTextColor 65 255 255
-    SetFontSize 60
+    SetFontSize 40
     PlayAlertSound 9 200
 
-Hide # 聯盟 - 2.4精髓 - 精髓 -T3
+Show # 聯盟 - 2.4精髓 - 精髓 -T3
     Class "Currency"
     BaseType "Screaming Essence of"
     SetTextColor 0 255 255
-    SetFontSize 60
+    SetFontSize 39
     PlayAlertSound 9 150
 
-Hide # 聯盟 - 2.4精髓 - 精髓 -T4
+Show # 聯盟 - 2.4精髓 - 精髓 -T4
     Class "Currency"
     BaseType "Wailing Essence of" "Weeping Essence of" "Muttering Essence of" "Whispering Essence of"
     SetTextColor 0 210 255
-    SetFontSize 60
+    SetFontSize 38
     PlayAlertSound 9 150
 
 # 【聯盟-2.1魔符】3002
 
-Hide # 聯盟 - 2.1魔符 - 魔符 - T1普通
+Show # 聯盟 - 2.1魔符 - 魔符 - T1普通
     Rarity = Normal
     Class "Amulets"
     BaseType "Breakrib Talisman" "Ashscale Talisman" "Deep One Talisman" "Lone Antler Talisman" "Deadhand Talisman" "Bonespire Talisman" "Black Maw Talisman" "Undying Flesh Talisman" "Rot Head Talisman" "Mandible Talisman" "Writhing Talisman" "Chrysalis Talisman"
@@ -2424,7 +2413,7 @@ Hide # 聯盟 - 2.1魔符 - 魔符 - T1普通
     SetBorderColor 0 0 0
     SetFontSize 37
 
-Hide # 聯盟 - 2.1魔符 - 魔符 - T1魔法
+Show # 聯盟 - 2.1魔符 - 魔符 - T1魔法
     Rarity = Magic
     Class "Amulets"
     BaseType "Breakrib Talisman" "Ashscale Talisman" "Deep One Talisman" "Lone Antler Talisman" "Deadhand Talisman" "Bonespire Talisman" "Black Maw Talisman" "Undying Flesh Talisman" "Rot Head Talisman" "Mandible Talisman" "Writhing Talisman" "Chrysalis Talisman"
@@ -2433,7 +2422,7 @@ Hide # 聯盟 - 2.1魔符 - 魔符 - T1魔法
     SetBorderColor 0 0 0
     SetFontSize 37
 
-Hide # 聯盟 - 2.1魔符 - 魔符 - T1稀有
+Show # 聯盟 - 2.1魔符 - 魔符 - T1稀有
     Rarity = Rare
     Class "Amulets"
     BaseType "Breakrib Talisman" "Ashscale Talisman" "Deep One Talisman" "Lone Antler Talisman" "Deadhand Talisman" "Bonespire Talisman" "Black Maw Talisman" "Undying Flesh Talisman" "Rot Head Talisman" "Mandible Talisman" "Writhing Talisman" "Chrysalis Talisman"
@@ -2442,7 +2431,7 @@ Hide # 聯盟 - 2.1魔符 - 魔符 - T1稀有
     SetFontSize 37
     PlayAlertSound 9 300
 
-Hide # 聯盟 - 2.1魔符 - 魔符 - T2普通
+Show # 聯盟 - 2.1魔符 - 魔符 - T2普通
     Rarity = Normal
     Class "Amulets"
     BaseType "Fangjaw Talisman" "Avian Twins Talisman" "Splitnewt Talisman" "Hexclaw Talisman" "Wereclaw Talisman" "Clutching Talisman" "Primal Skull Talisman" "Horned Talisman"
@@ -2451,7 +2440,7 @@ Hide # 聯盟 - 2.1魔符 - 魔符 - T2普通
     SetBorderColor 0 0 0
     SetFontSize 38
 
-Hide # 聯盟 - 2.1魔符 - 魔符 - T2魔法
+Show # 聯盟 - 2.1魔符 - 魔符 - T2魔法
     Rarity = Magic
     Class "Amulets"
     BaseType "Fangjaw Talisman" "Avian Twins Talisman" "Splitnewt Talisman" "Hexclaw Talisman" "Wereclaw Talisman" "Clutching Talisman" "Primal Skull Talisman" "Horned Talisman"
@@ -2460,7 +2449,7 @@ Hide # 聯盟 - 2.1魔符 - 魔符 - T2魔法
     SetBorderColor 0 0 0
     SetFontSize 38
 
-Hide # 聯盟 - 2.1魔符 - 魔符 - T2稀有
+Show # 聯盟 - 2.1魔符 - 魔符 - T2稀有
     Rarity = Rare
     Class "Amulets"
     BaseType "Fangjaw Talisman" "Avian Twins Talisman" "Splitnewt Talisman" "Hexclaw Talisman" "Wereclaw Talisman" "Clutching Talisman" "Primal Skull Talisman" "Horned Talisman"
@@ -2469,7 +2458,7 @@ Hide # 聯盟 - 2.1魔符 - 魔符 - T2稀有
     SetFontSize 38
     PlayAlertSound 9 300
 
-Hide # 聯盟 - 2.1魔符 - 魔符 - T3普通
+Show # 聯盟 - 2.1魔符 - 魔符 - T3普通
     Rarity = Normal
     Class "Amulets"
     BaseType "Monkey Twins Talisman" "Three Rat Talisman" "Longtooth Talisman" "Rotfeather Talisman" "Three Hands Talisman" "Spinefuse Talisman" "Monkey Paw Talisman"
@@ -2478,7 +2467,7 @@ Hide # 聯盟 - 2.1魔符 - 魔符 - T3普通
     SetBorderColor 0 0 0
     SetFontSize 39
 
-Hide # 聯盟 - 2.1魔符 - 魔符 - T3魔法
+Show # 聯盟 - 2.1魔符 - 魔符 - T3魔法
     Rarity = Magic
     Class "Amulets"
     BaseType "Monkey Twins Talisman" "Three Rat Talisman" "Longtooth Talisman" "Rotfeather Talisman" "Three Hands Talisman" "Spinefuse Talisman" "Monkey Paw Talisman"
@@ -2487,7 +2476,7 @@ Hide # 聯盟 - 2.1魔符 - 魔符 - T3魔法
     SetBorderColor 0 0 0
     SetFontSize 39
 
-Hide # 聯盟 - 2.1魔符 - 魔符 - T3稀有
+Show # 聯盟 - 2.1魔符 - 魔符 - T3稀有
     Rarity = Rare
     Class "Amulets"
     BaseType "Monkey Twins Talisman" "Three Rat Talisman" "Longtooth Talisman" "Rotfeather Talisman" "Three Hands Talisman" "Spinefuse Talisman" "Monkey Paw Talisman"
@@ -2496,7 +2485,7 @@ Hide # 聯盟 - 2.1魔符 - 魔符 - T3稀有
     SetFontSize 39
     PlayAlertSound 9 300
 
-Hide # 聯盟 - 2.1魔符 - 魔符 - T4普通
+Show # 聯盟 - 2.1魔符 - 魔符 - T4普通
     Rarity = Normal
     Class "Amulets"
     BaseType "Greatwolf Talisman"
@@ -2505,7 +2494,7 @@ Hide # 聯盟 - 2.1魔符 - 魔符 - T4普通
     SetBorderColor 0 0 0
     SetFontSize 40
 
-Hide # 聯盟 - 2.1魔符 - 魔符 - T4魔法
+Show # 聯盟 - 2.1魔符 - 魔符 - T4魔法
     Rarity = Magic
     Class "Amulets"
     BaseType "Greatwolf Talisman"
@@ -2514,7 +2503,7 @@ Hide # 聯盟 - 2.1魔符 - 魔符 - T4魔法
     SetBorderColor 0 0 0
     SetFontSize 40
 
-Hide # 聯盟 - 2.1魔符 - 魔符 - T4稀有
+Show # 聯盟 - 2.1魔符 - 魔符 - T4稀有
     Rarity = Rare
     Class "Amulets"
     BaseType "Greatwolf Talisman"
@@ -2525,7 +2514,7 @@ Hide # 聯盟 - 2.1魔符 - 魔符 - T4稀有
 
 # 【聯盟-2.0軍團】3001
 
-Hide # 聯盟 - 2.0軍團 - 軍團聯盟專屬詞綴裝備
+Show # 聯盟 - 2.0軍團 - 軍團聯盟專屬詞綴裝備
     HasExplicitMod "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"
     SetBorderColor 180 255 0
     SetFontSize 42
@@ -2535,7 +2524,7 @@ Hide # 聯盟 - 2.0軍團 - 軍團聯盟專屬詞綴裝備
 
 # 【聯盟-2.2昇華】3003
 
-Hide # 聯盟 - 2.2昇華 - 附魔物品
+Show # 聯盟 - 2.2昇華 - 附魔物品
     AnyEnchantment True
     SetTextColor 53 87 170 255
     SetBackgroundColor 174 243 203
@@ -2544,26 +2533,26 @@ Hide # 聯盟 - 2.2昇華 - 附魔物品
     MinimapIcon 1 White Hexagon
     PlayEffect White
 
-Hide # 聯盟 - 2.2昇華 - 黃金鑰匙
+Show # 聯盟 - 2.2昇華 - 黃金鑰匙
     Class "Labyrinth"
     BaseType "Golden Key"
     SetTextColor 205 185 25
     SetFontSize 45
 
-Hide # 聯盟 - 2.2昇華 - 白銀鑰匙
+Show # 聯盟 - 2.2昇華 - 白銀鑰匙
     Class "Labyrinth"
     BaseType "Silver Key"
     SetTextColor 230 232 250
     SetFontSize 45
 
-Hide # 聯盟 - 2.2昇華 - 古銅鑰匙
+Show # 聯盟 - 2.2昇華 - 古銅鑰匙
     Class "Labyrinth"
     BaseType "Treasure Key"
     SetTextColor 165 120 83
     SetFontSize 45
     PlayEffect Yellow
 
-Hide # 聯盟 - 2.2昇華 - 其他迷宮物品
+Show # 聯盟 - 2.2昇華 - 其他迷宮物品
     Class "Labyrinth Trinket"
     SetTextColor 205 179 139
     SetFontSize 45
@@ -2584,7 +2573,7 @@ Hide # 聯盟 - 2.2昇華 - 其他迷宮物品
 Show # 命運卡 - T1
     Class "Divination"
     BaseType "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "Brother's Stash" "Burning Blood" "Deadly Joy" "Gift of Asenath" "House of Mirrors" "Immortal Resolve" "Love Through Ice" "Luminous Trove" "Nook's Crown" "Pride of the First Ones" "Seven Years Bad Luck" "Succor of the Sinless" "The Cheater" "The Craving" "The Demon" "The Doctor" "The Fiend" "The Immortal" "The Nurse" "The Samurai's Eye" "Unrequited Love" "Eternal Bonds" "The Scout"
-    SetFontSize 80
+    SetFontSize 45
     SetTextColor 0 0 255 255
     SetBorderColor 0 0 255 255
     SetBackgroundColor 255 255 255 255
@@ -2596,8 +2585,8 @@ Show # 命運卡 - T1
 
 Show # 命運卡 - T2
     Class "Divination"
-    BaseType "A Note in the Wind" "Broken Promises" "Chaotic Disposition" "Council of Cats" "Dark Dreams" "Dementophobia" "Desecrated Virtue" "Draped in Dreams" "Hunter's Reward" "Keeper's Corruption" "The Academic" "The Artist" "The Bargain" "The Celestial Justicar" "The Dragon's Heart" "The Enlightened" "The Escape" "The Eye of Terror" "The Greatest Intentions" "The Gulf" "The Life Thief" "The Long Con" "The Offspring" "The Patient" "The Price of Loyalty" "The Progeny of Lunaris" "The Sacrifice" "The Saint's Treasure" "The Spark and the Flame" "The Strategist" "The Sustenance" "The Void" "The White Knight" "Wealth and Power" "Winter's Embrace" "The Rabbit's Foot" "Chasing Risk" "The Catch" "The Forgotten Treasure" "The Aspirant" "Judging Voices" "Justified Ambition" "Misery in Darkness" "Duality" "The Transformation" "Magnum Opus" "Imperfect Memories" "The Magma Crab"
-    SetFontSize 80
+    BaseType "A Note in the Wind" "Broken Promises" "Chaotic Disposition" "Council of Cats" "Dark Dreams" "Dementophobia" "Desecrated Virtue" "Draped in Dreams" "Hunter's Reward" "Keeper's Corruption" "The Academic" "The Artist" "The Bargain" "The Celestial Justicar" "The Dragon's Heart" "The Enlightened" "The Escape" "The Eye of Terror" "The Greatest Intentions" "The Gulf" "The Rusted Bard" "The Life Thief" "The Long Con" "The Offspring" "The Patient" "The Price of Loyalty" "The Progeny of Lunaris" "The Sacrifice" "The Saint's Treasure" "The Spark and the Flame" "The Strategist" "The Sustenance" "The Void" "The White Knight" "Wealth and Power" "Winter's Embrace" "The Rabbit's Foot" "Chasing Risk" "The Catch" "The Forgotten Treasure" "The Aspirant" "Judging Voices" "Justified Ambition" "Misery in Darkness" "Duality" "The Transformation" "Magnum Opus" "Imperfect Memories" "The Magma Crab"
+    SetFontSize 45
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
     SetBackgroundColor 0 20 180 255
@@ -2693,7 +2682,7 @@ Show # 輿圖物品 - 虛空石
     SetTextColor 101 183 161
     SetBackgroundColor 0 0 0 
     SetBorderColor 101 183 161
-    SetFontSize 100
+    SetFontSize 50
     PlayAlertSound 16 200
     MinimapIcon 0 White Cross	
     PlayEffect White
@@ -2704,26 +2693,27 @@ Show # 輿圖物品 - 釋界之邀
     SetTextColor 0 0 0
     SetBackgroundColor 253 204 255
     SetBorderColor 255 94 255
-    SetFontSize 100
+    SetFontSize 45
+    PlayAlertSound 6 250
     MinimapIcon 0 Red Diamond
+    PlayEffect Red
 
-
-Hide # 輿圖物品 - 新月裂片
+Show # 輿圖物品 - 新月裂片
     Class "Currency"
     BaseType "Crescent Splinter"
     SetTextColor 255 255 255
     SetBackgroundColor 150 0 255 
     SetBorderColor 250 0 250
-    SetFontSize 80
+    SetFontSize 45
     PlayAlertSound 9 300
 
-Hide # 輿圖物品 - 釋界之令
+Show # 輿圖物品 - 釋界之令
     Class "Map Fragments"
     BaseType "The Maven's Writ" 
     SetTextColor 200 0 255
     SetBackgroundColor 0 0 0
     SetBorderColor 200 0 255
-    SetFontSize 100
+    SetFontSize 45
     PlayAlertSound 6 300 
     MinimapIcon 0 Purple Triangle
     PlayEffect Purple
@@ -2731,7 +2721,7 @@ Hide # 輿圖物品 - 釋界之令
 Show # 輿圖物品 - 眾神聖器
     Class "Map Fragments"
     BaseType "Divine Vessel"
-    SetFontSize 80
+    SetFontSize 45
     SetTextColor 255 255 255               
     SetBorderColor 0 0 0 0            
     SetBackgroundColor 0 0 0    
@@ -2741,7 +2731,7 @@ Show # 輿圖物品 - 眾神聖器
 
 Show # 輿圖物品 - 眾神聖器(奪取靈魂)
     Class "Pantheon Soul"
-    SetFontSize 80
+    SetFontSize 45
     SetTextColor 0 0 0 255              
     SetBorderColor 0 0 0 255            
     SetBackgroundColor 159 15 213 255   
@@ -2870,7 +2860,7 @@ Show # 輿圖物品 - 救贖者碎片
     MinimapIcon 0 Cyan Pentagon
     PlayEffect Cyan
 
-Hide # 輿圖物品 - 女神祭品
+Show # 輿圖物品 - 女神祭品
     BaseType "Offering to the Goddess" "Dedication to the Goddess" "Tribute to the Goddess"
     SetTextColor 0 0 0 
     SetBackgroundColor 0 255 255 
@@ -2880,7 +2870,7 @@ Hide # 輿圖物品 - 女神祭品
     MinimapIcon 0 Yellow Square
     PlayEffect Yellow
 
-Hide # 輿圖物品 - 凡人的碎片
+Show # 輿圖物品 - 凡人的碎片
     Class "Map Fragments"
     BaseType "Mortal"
     SetTextColor 0 0 0
@@ -2891,7 +2881,7 @@ Hide # 輿圖物品 - 凡人的碎片
     MinimapIcon 2 Yellow Triangle
     PlayEffect Yellow
 
-Hide # 輿圖物品 - 午夜的奉獻
+Show # 輿圖物品 - 午夜的奉獻
     Class "Map Fragments"
     BaseType "Sacrifice at Midnight"
     SetTextColor 0 0 0 
@@ -2902,7 +2892,7 @@ Hide # 輿圖物品 - 午夜的奉獻
     MinimapIcon 2 Yellow Triangle
     PlayEffect Yellow
 
-Hide # 輿圖物品 - 正午黃昏黎明的奉獻
+Show # 輿圖物品 - 正午黃昏黎明的奉獻
     Class "Map Fragments"
     BaseType "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Noon"
     SetTextColor 200 0 255
@@ -2979,7 +2969,7 @@ Show # 技能 - 增幅輔助
 
 # 【技能寶石-特殊】6003
 
-Hide # 技能 - 時空之門/引爆地雷/瓦爾．裂痕
+Show # 技能 - 時空之門/引爆地雷/瓦爾．裂痕
     Class "Gems"
     BaseType "Portal" "Detonate Mines" "Vaal Breach" 
     SetTextColor 0 255 255
@@ -2989,7 +2979,7 @@ Hide # 技能 - 時空之門/引爆地雷/瓦爾．裂痕
 
 # 【技能寶石-高等高品】6004
 
-Hide # 技能 - 技能等級21+
+Show # 技能 - 技能等級21+
     GemLevel >= 21
     Class "Gems"
     SetTextColor 255 0 0
@@ -3000,7 +2990,7 @@ Hide # 技能 - 技能等級21+
     MinimapIcon 0 Green Star
     PlayEffect Green
 
-Hide # 技能 - 技能品質20+
+Show # 技能 - 技能品質20+
     Quality >= 20
     Class "Gems"
     SetTextColor 0 255 255
@@ -3011,7 +3001,7 @@ Hide # 技能 - 技能品質20+
     MinimapIcon 0 Green Star
     PlayEffect Green
 
-Hide # 技能 - 技能品質15~19
+Show # 技能 - 技能品質15~19
     Quality >= 15
     Quality <= 19
     Class "Gems"
@@ -3019,13 +3009,13 @@ Hide # 技能 - 技能品質15~19
     SetFontSize 43
     PlayEffect White Temp
 
-Hide # 技能 - 技能品質1~14
-    Quality >= 15
+Show # 技能 - 技能品質1~14
+    Quality >= 1
     Class "Gems"
     SetTextColor 10 230 230
     SetFontSize 40
 
-Hide # 技能 - 等級15+
+Show # 技能 - 等級15+
     Class "Gems"
     GemLevel >= 15
     SetTextColor 0 166 0
@@ -3033,11 +3023,11 @@ Hide # 技能 - 等級15+
 
 # 【技能寶石-一般技能】6005
 
-Hide # 技能 - 瓦爾技能
+Show # 技能 - 瓦爾技能
     Class "Gems"
     BaseType "Vaal"
 
-Hide # 技能 - 一般技能
+Show # 技能 - 一般技能
     Class "Gems"
 
 # 【裝備】
@@ -3048,7 +3038,7 @@ Hide # 技能 - 一般技能
 
 # 【裝備-勢力裝備】
 
-Hide # 裝備 - 勢力裝備 - 塑界裝備
+Show # 裝備 - 勢力裝備 - 塑界裝備
     HasInfluence Shaper
     SetBackgroundColor 255 0 0 200
     SetBorderColor 0 255 255
@@ -3057,7 +3047,7 @@ Hide # 裝備 - 勢力裝備 - 塑界裝備
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 勢力裝備 - 尊師裝備
+Show # 裝備 - 勢力裝備 - 尊師裝備
     HasInfluence Elder
     SetBackgroundColor 137 0 205
     SetBorderColor 0 255 255
@@ -3066,7 +3056,7 @@ Hide # 裝備 - 勢力裝備 - 尊師裝備
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 勢力裝備 - 聖戰士裝備
+Show # 裝備 - 勢力裝備 - 聖戰士裝備
     HasInfluence Crusader 
     SetBackgroundColor 205 38 38
     SetBorderColor 0 255 255
@@ -3075,7 +3065,7 @@ Hide # 裝備 - 勢力裝備 - 聖戰士裝備
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 勢力裝備 - 救贖者裝備
+Show # 裝備 - 勢力裝備 - 救贖者裝備
     HasInfluence Redeemer 
     SetBackgroundColor 0 191 255
     SetBorderColor 0 255 255
@@ -3084,7 +3074,7 @@ Hide # 裝備 - 勢力裝備 - 救贖者裝備
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 勢力裝備 - 狩獵者裝備
+Show # 裝備 - 勢力裝備 - 狩獵者裝備
     HasInfluence Hunter
     SetBackgroundColor 154 205 50
     SetBorderColor 0 255 255
@@ -3093,7 +3083,7 @@ Hide # 裝備 - 勢力裝備 - 狩獵者裝備
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 勢力裝備 - 總督軍裝備
+Show # 裝備 - 勢力裝備 - 總督軍裝備
     HasInfluence Warlord
     SetBackgroundColor 200 170 0
     SetBorderColor 0 255 255
@@ -3110,7 +3100,7 @@ Show # 裝備 - 高價傳奇 - 腰帶 - 魔血
     BaseType "Heavy Belt"
     SetTextColor 255 255 255
     SetBackgroundColor 255 0 0
-    SetFontSize 120
+    SetFontSize 45
     PlayAlertSound 6 200
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
@@ -3121,7 +3111,7 @@ Show # 裝備 - 高價傳奇 - 盾牌 - 大地主
     BaseType "Elegant Round Shield"
     SetBackgroundColor 255 255 255
     SetBorderColor 255 165 0
-    SetFontSize 120
+    SetFontSize 44
     PlayAlertSound 4 150
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
@@ -3132,12 +3122,12 @@ Show # 裝備 - 高價傳奇 - 腰帶 - 獵首
     BaseType "Leather Belt"
     SetTextColor 255 255 255
     SetBackgroundColor 255 0 0
-    SetFontSize 120
+    SetFontSize 45
     PlayAlertSound 6 200
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 項鍊 - 烏爾尼多之誓
+Show # 裝備 - 高價傳奇 - 項鍊 - 烏爾尼多之誓
     Rarity = Unique
     Class "Amulets"
     BaseType "Unset Amulet"
@@ -3148,7 +3138,7 @@ Hide # 裝備 - 高價傳奇 - 項鍊 - 烏爾尼多之誓
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 法杖 - 潛能魔棒
+Show # 裝備 - 高價傳奇 - 法杖 - 潛能魔棒
     Rarity = Unique
     Class "Wands"
     BaseType "Prophecy Wand"
@@ -3159,7 +3149,7 @@ Hide # 裝備 - 高價傳奇 - 法杖 - 潛能魔棒
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 單手武 - 西拉氣流殺
+Show # 裝備 - 高價傳奇 - 單手武 - 西拉氣流殺
     Rarity = Unique
     Class "One Hand Swords"
     BaseType "Charan's Sword"
@@ -3170,7 +3160,7 @@ Hide # 裝備 - 高價傳奇 - 單手武 - 西拉氣流殺
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 單手武 - 離異夢寐(夏烏拉) 
+Show # 裝備 - 高價傳奇 - 單手武 - 離異夢寐(夏烏拉) 
     Rarity = Unique
     Class "One Hand Swords"
     BaseType "Cutlass"
@@ -3181,7 +3171,7 @@ Hide # 裝備 - 高價傳奇 - 單手武 - 離異夢寐(夏烏拉)
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 單手武 - 矛盾對決
+Show # 裝備 - 高價傳奇 - 單手武 - 矛盾對決
     Rarity = Unique
     Class "Thrusting One Hand Swords"
     BaseType "Vaal Rapier"
@@ -3192,7 +3182,7 @@ Hide # 裝備 - 高價傳奇 - 單手武 - 矛盾對決
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 單手武 - 卡斯普里的怨恨
+Show # 裝備 - 高價傳奇 - 單手武 - 卡斯普里的怨恨
     Rarity = Unique
     Class "Thrusting One Hand Swords"
     BaseType "Jewelled Foil"
@@ -3203,7 +3193,7 @@ Hide # 裝備 - 高價傳奇 - 單手武 - 卡斯普里的怨恨
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 單手武 - 開膛斧
+Show # 裝備 - 高價傳奇 - 單手武 - 開膛斧
     Rarity = Unique
     Class "One Hand Axes"
     BaseType "Siege Axe"
@@ -3214,7 +3204,7 @@ Hide # 裝備 - 高價傳奇 - 單手武 - 開膛斧
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 雙手武 - 雷霆聖杖
+Show # 裝備 - 高價傳奇 - 雙手武 - 雷霆聖杖
     Rarity = Unique
     Class "Staves"
     BaseType "Imperial Staff"
@@ -3225,7 +3215,7 @@ Hide # 裝備 - 高價傳奇 - 雙手武 - 雷霆聖杖
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 箭袋 - 馬洛尼的機關
+Show # 裝備 - 高價傳奇 - 箭袋 - 馬洛尼的機關
     Rarity = Unique
     Class "Quivers"
     BaseType "Ornate Quiver"
@@ -3236,7 +3226,7 @@ Hide # 裝備 - 高價傳奇 - 箭袋 - 馬洛尼的機關
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 盾牌 - 懸念/降伏(烏爾尼多)
+Show # 裝備 - 高價傳奇 - 盾牌 - 懸念/降伏(烏爾尼多)
     Rarity = Unique
     Class "Shields"
     BaseType "Ezomyte Tower Shield"
@@ -3247,7 +3237,7 @@ Hide # 裝備 - 高價傳奇 - 盾牌 - 懸念/降伏(烏爾尼多)
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 盾牌 - 月影之耀
+Show # 裝備 - 高價傳奇 - 盾牌 - 月影之耀
     Rarity = Unique
     Class "Shields"
     BaseType "Jingling Spirit Shield"
@@ -3258,7 +3248,7 @@ Hide # 裝備 - 高價傳奇 - 盾牌 - 月影之耀
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 頭盔 - 信仰守護
+Show # 裝備 - 高價傳奇 - 頭盔 - 信仰守護
     Rarity = Unique
     Class "Helmets"
     BaseType "Runic Helm"
@@ -3269,7 +3259,7 @@ Hide # 裝備 - 高價傳奇 - 頭盔 - 信仰守護
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 頭盔 - 卡迪根皇冠
+Show # 裝備 - 高價傳奇 - 頭盔 - 卡迪根皇冠
     Rarity = Unique
     Class "Helmets"
     BaseType "Runic Crown"
@@ -3280,7 +3270,7 @@ Hide # 裝備 - 高價傳奇 - 頭盔 - 卡迪根皇冠
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 頭盔 - 異教面紗
+Show # 裝備 - 高價傳奇 - 頭盔 - 異教面紗
     Rarity = Unique
     Class "Helmets"
     BaseType "Deicide Mask"
@@ -3291,7 +3281,7 @@ Hide # 裝備 - 高價傳奇 - 頭盔 - 異教面紗
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 頭盔 - 謎容/異想/混沌一瞥
+Show # 裝備 - 高價傳奇 - 頭盔 - 謎容/異想/混沌一瞥
     Rarity = Unique
     Class "Helmets"
     BaseType "Vaal Mask"
@@ -3302,7 +3292,7 @@ Hide # 裝備 - 高價傳奇 - 頭盔 - 謎容/異想/混沌一瞥
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 頭盔 - 議會之心/費爾羅咥喙
+Show # 裝備 - 高價傳奇 - 頭盔 - 議會之心/費爾羅咥喙
     Rarity = Unique
     Class "Helmets"
     BaseType "Harlequin Mask"
@@ -3313,7 +3303,7 @@ Hide # 裝備 - 高價傳奇 - 頭盔 - 議會之心/費爾羅咥喙
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 頭盔 - 奎爾珊畸面/魂飲化面/惡縫之面/堂皇冠冕/審判莊嚴
+Show # 裝備 - 高價傳奇 - 頭盔 - 奎爾珊畸面/魂飲化面/惡縫之面/堂皇冠冕/審判莊嚴
     Rarity = Unique
     Class "Helmets"
     BaseType "Magistrate Crown"
@@ -3324,7 +3314,7 @@ Hide # 裝備 - 高價傳奇 - 頭盔 - 奎爾珊畸面/魂飲化面/惡縫之�
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 頭盔 - 祭禮之雨/德沃托的信念之盔
+Show # 裝備 - 高價傳奇 - 頭盔 - 祭禮之雨/德沃托的信念之盔
     Rarity = Unique
     Class "Helmets"
     BaseType "Nightmare Bascinet"
@@ -3335,7 +3325,7 @@ Hide # 裝備 - 高價傳奇 - 頭盔 - 祭禮之雨/德沃托的信念之盔
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 頭盔 - 切特斯的威權/菲恩絲獠牙/吞噬之冠
+Show # 裝備 - 高價傳奇 - 頭盔 - 切特斯的威權/菲恩絲獠牙/吞噬之冠
     Rarity = Unique
     Class "Helmets"
     BaseType "Necromancer Circlet"
@@ -3346,7 +3336,7 @@ Hide # 裝備 - 高價傳奇 - 頭盔 - 切特斯的威權/菲恩絲獠牙/吞�
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 頭盔 - 雛鳥之征
+Show # 裝備 - 高價傳奇 - 頭盔 - 雛鳥之征
     Rarity = Unique
     Class "Helmets"
     BaseType "Steel Circlet"
@@ -3357,7 +3347,7 @@ Hide # 裝備 - 高價傳奇 - 頭盔 - 雛鳥之征
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 頭盔 - 極地之嗥/刺殺
+Show # 裝備 - 高價傳奇 - 頭盔 - 極地之嗥/刺殺
     Rarity = Unique
     Class "Helmets"
     BaseType "Sinner Tricorne"
@@ -3368,7 +3358,7 @@ Hide # 裝備 - 高價傳奇 - 頭盔 - 極地之嗥/刺殺
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 頭盔 - 斯卡沃之徒/斯塔空加之首/酷寒斗篷
+Show # 裝備 - 高價傳奇 - 頭盔 - 斯卡沃之徒/斯塔空加之首/酷寒斗篷
     Rarity = Unique
     Class "Helmets"
     BaseType "Silken Hood"
@@ -3379,7 +3369,7 @@ Hide # 裝備 - 高價傳奇 - 頭盔 - 斯卡沃之徒/斯塔空加之首/酷�
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 頭盔 - 金縷帽
+Show # 裝備 - 高價傳奇 - 頭盔 - 金縷帽
     Rarity = Unique
     Class "Helmets"
     BaseType "Leather Cap"
@@ -3390,7 +3380,7 @@ Hide # 裝備 - 高價傳奇 - 頭盔 - 金縷帽
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 頭盔 - 深淵之喚/嗜炎斗篷
+Show # 裝備 - 高價傳奇 - 頭盔 - 深淵之喚/嗜炎斗篷
     Rarity = Unique
     Class "Helmets"
     BaseType "Ezomyte Burgonet"
@@ -3401,7 +3391,7 @@ Hide # 裝備 - 高價傳奇 - 頭盔 - 深淵之喚/嗜炎斗篷
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 手套 - 夜之觸
+Show # 裝備 - 高價傳奇 - 手套 - 夜之觸
     Rarity = Unique
     Class "Gloves"
     BaseType "Runic Gages"
@@ -3412,7 +3402,7 @@ Hide # 裝備 - 高價傳奇 - 手套 - 夜之觸
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 手套 - 毀面者
+Show # 裝備 - 高價傳奇 - 手套 - 毀面者
     Rarity = Unique
     Class "Gloves"
     BaseType "Strapped Mitts"
@@ -3423,7 +3413,7 @@ Hide # 裝備 - 高價傳奇 - 手套 - 毀面者
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 手套 - 虛空/蛇皮獻祭
+Show # 裝備 - 高價傳奇 - 手套 - 虛空/蛇皮獻祭
     Rarity = Unique
     Class "Gloves"
     BaseType "Legion Gloves"
@@ -3434,7 +3424,7 @@ Hide # 裝備 - 高價傳奇 - 手套 - 虛空/蛇皮獻祭
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 手套 - 闇核號令
+Show # 裝備 - 高價傳奇 - 手套 - 闇核號令
     Rarity = Unique
     Class "Gloves"
     BaseType "Riveted Gloves"
@@ -3445,7 +3435,7 @@ Hide # 裝備 - 高價傳奇 - 手套 - 闇核號令
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 手套 - 費爾羅鋒爪/偷息
+Show # 裝備 - 高價傳奇 - 手套 - 費爾羅鋒爪/偷息
     Rarity = Unique
     Class "Gloves"
     BaseType "Hydrascale Gauntlets"
@@ -3456,7 +3446,7 @@ Hide # 裝備 - 高價傳奇 - 手套 - 費爾羅鋒爪/偷息
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 手套 - 相生相剋
+Show # 裝備 - 高價傳奇 - 手套 - 相生相剋
     Rarity = Unique
     Class "Gloves"
     BaseType "Sorcerer Gloves"
@@ -3467,7 +3457,7 @@ Hide # 裝備 - 高價傳奇 - 手套 - 相生相剋
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 手套 - 議會之握
+Show # 裝備 - 高價傳奇 - 手套 - 議會之握
     Rarity = Unique
     Class "Gloves"
     BaseType "Arcanist Gloves"
@@ -3478,7 +3468,7 @@ Hide # 裝備 - 高價傳奇 - 手套 - 議會之握
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 手套 - 虛空之力
+Show # 裝備 - 高價傳奇 - 手套 - 虛空之力
     Rarity = Unique
     Class "Gloves"
     BaseType "Conjurer Gloves"
@@ -3489,7 +3479,7 @@ Hide # 裝備 - 高價傳奇 - 手套 - 虛空之力
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 手套 - 馬雷葛蘿的血染手套
+Show # 裝備 - 高價傳奇 - 手套 - 馬雷葛蘿的血染手套
     Rarity = Unique
     Class "Gloves"
     BaseType "Deerskin Gloves"
@@ -3500,7 +3490,7 @@ Hide # 裝備 - 高價傳奇 - 手套 - 馬雷葛蘿的血染手套
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 手套 - 阿茲里的捷思/多里亞尼之拳
+Show # 裝備 - 高價傳奇 - 手套 - 阿茲里的捷思/多里亞尼之拳
     Rarity = Unique
     Class "Gloves"
     BaseType "Vaal Gauntlets"
@@ -3511,7 +3501,7 @@ Hide # 裝備 - 高價傳奇 - 手套 - 阿茲里的捷思/多里亞尼之拳
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 手套 - 昇華之風/怨恨鍛造
+Show # 裝備 - 高價傳奇 - 手套 - 昇華之風/怨恨鍛造
     Rarity = Unique
     Class "Gloves"
     BaseType "Ancient Gauntlets"
@@ -3522,7 +3512,7 @@ Hide # 裝備 - 高價傳奇 - 手套 - 昇華之風/怨恨鍛造
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 鞋子 - 空向、絕地   
+Show # 裝備 - 高價傳奇 - 鞋子 - 空向、絕地   
     ItemLevel >= 84
     Rarity = Unique
     Class "Boots"
@@ -3534,7 +3524,7 @@ Hide # 裝備 - 高價傳奇 - 鞋子 - 空向、絕地
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 鞋子 - 沃拉娜的軍隊
+Show # 裝備 - 高價傳奇 - 鞋子 - 沃拉娜的軍隊
     Rarity = Unique
     Class "Boots"
     BaseType "Runic Sabatons"
@@ -3545,7 +3535,7 @@ Hide # 裝備 - 高價傳奇 - 鞋子 - 沃拉娜的軍隊
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 鞋子 - 奧爾羅斯的衝刺
+Show # 裝備 - 高價傳奇 - 鞋子 - 奧爾羅斯的衝刺
     Rarity = Unique
     Class "Boots"
     BaseType "Runic Sollerets"
@@ -3556,7 +3546,7 @@ Hide # 裝備 - 高價傳奇 - 鞋子 - 奧爾羅斯的衝刺
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 鞋子 - 瘋癲之引
+Show # 裝備 - 高價傳奇 - 鞋子 - 瘋癲之引
     Rarity = Unique
     Class "Boots"
     BaseType "Two-Toned Boots"
@@ -3567,7 +3557,7 @@ Hide # 裝備 - 高價傳奇 - 鞋子 - 瘋癲之引
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 鞋子 - 菲恩絲刺靴
+Show # 裝備 - 高價傳奇 - 鞋子 - 菲恩絲刺靴
     Rarity = Unique
     Class "Boots"
     BaseType "Assassin's Boots"
@@ -3578,7 +3568,7 @@ Hide # 裝備 - 高價傳奇 - 鞋子 - 菲恩絲刺靴
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 鞋子 - 死亡大門
+Show # 裝備 - 高價傳奇 - 鞋子 - 死亡大門
     Rarity = Unique
     Class "Boots"
     BaseType "Crusader Boots"
@@ -3589,7 +3579,7 @@ Hide # 裝備 - 高價傳奇 - 鞋子 - 死亡大門
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 鞋子 - 斯卡沃鷹爪
+Show # 裝備 - 高價傳奇 - 鞋子 - 斯卡沃鷹爪
     Rarity = Unique
     Class "Boots"
     BaseType "Hydrascale Boots"
@@ -3600,7 +3590,7 @@ Hide # 裝備 - 高價傳奇 - 鞋子 - 斯卡沃鷹爪
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 鞋子 - 阿茲里的金履
+Show # 裝備 - 高價傳奇 - 鞋子 - 阿茲里的金履
     Rarity = Unique
     Class "Boots"
     BaseType "Slink Boots"
@@ -3611,7 +3601,7 @@ Hide # 裝備 - 高價傳奇 - 鞋子 - 阿茲里的金履
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 鞋子 - 龍炎足跡
+Show # 裝備 - 高價傳奇 - 鞋子 - 龍炎足跡
     Rarity = Unique
     Class "Boots"
     BaseType "Nubuck Boots"
@@ -3622,7 +3612,7 @@ Hide # 裝備 - 高價傳奇 - 鞋子 - 龍炎足跡
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 鞋子 - 盟誓之跡
+Show # 裝備 - 高價傳奇 - 鞋子 - 盟誓之跡
     Rarity = Unique
     Class "Boots"
     BaseType "Rawhide Boots"
@@ -3633,7 +3623,7 @@ Hide # 裝備 - 高價傳奇 - 鞋子 - 盟誓之跡
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 鞋子 - 無盡之距/奎爾珊之跡
+Show # 裝備 - 高價傳奇 - 鞋子 - 無盡之距/奎爾珊之跡
     Rarity = Unique
     Class "Boots"
     BaseType "Goliath Greaves"
@@ -3644,7 +3634,7 @@ Hide # 裝備 - 高價傳奇 - 鞋子 - 無盡之距/奎爾珊之跡
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 鞋子 - 岡姆的穩重之靴/赤紅蹤跡
+Show # 裝備 - 高價傳奇 - 鞋子 - 岡姆的穩重之靴/赤紅蹤跡
     Rarity = Unique
     Class "Boots"
     BaseType "Titan Greaves"
@@ -3655,7 +3645,7 @@ Hide # 裝備 - 高價傳奇 - 鞋子 - 岡姆的穩重之靴/赤紅蹤跡
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 衣服 - 焊匠之膚/印卜薩的心碎/達佩爾甘格偽裝
+Show # 裝備 - 高價傳奇 - 衣服 - 焊匠之膚/印卜薩的心碎/達佩爾甘格偽裝
     Rarity = Unique
     Class "Body Armours"
     BaseType "Sadist Garb"
@@ -3666,7 +3656,7 @@ Hide # 裝備 - 高價傳奇 - 衣服 - 焊匠之膚/印卜薩的心碎/達佩�
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 衣服 - 斯卡沃之巢
+Show # 裝備 - 高價傳奇 - 衣服 - 斯卡沃之巢
     Rarity = Unique
     Class "Body Armours"
     BaseType "Blood Raiment"
@@ -3677,7 +3667,7 @@ Hide # 裝備 - 高價傳奇 - 衣服 - 斯卡沃之巢
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 衣服 - 衛道之袍/維多里奧之絕響
+Show # 裝備 - 高價傳奇 - 衣服 - 衛道之袍/維多里奧之絕響
     Rarity = Unique
     Class "Body Armours"
     BaseType "Lacquered Garb"
@@ -3688,7 +3678,7 @@ Hide # 裝備 - 高價傳奇 - 衣服 - 衛道之袍/維多里奧之絕響
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 衣服 - 葛魯斯寇真皮
+Show # 裝備 - 高價傳奇 - 衣服 - 葛魯斯寇真皮
     Rarity = Unique
     Class "Body Armours"
     BaseType "Wyrmscale Doublet"
@@ -3705,12 +3695,12 @@ Show # 裝備 - 高價傳奇 - 衣服 - 薛朗的護身長袍
     BaseType "Occultist's Vestment"
     SetBackgroundColor 255 255 255
     SetBorderColor 255 165 0
-    SetFontSize 80
+    SetFontSize 44
     PlayAlertSound 4 150
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 衣服 - 陶米兒艾斯理之袍/無常禮袍
+Show # 裝備 - 高價傳奇 - 衣服 - 陶米兒艾斯理之袍/無常禮袍
     Rarity = Unique
     Class "Body Armours"
     BaseType "Savant's Robe"
@@ -3727,12 +3717,12 @@ Show # 裝備 - 高價傳奇 - 衣服 - 西里的戰衣/完美姿態
     BaseType "Zodiac Leather"
     SetBackgroundColor 255 255 255
     SetBorderColor 255 165 0
-    SetFontSize 80
+    SetFontSize 44
     PlayAlertSound 4 150
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 衣服 - 岡姆的壯志/背信忘義
+Show # 裝備 - 高價傳奇 - 衣服 - 岡姆的壯志/背信忘義
     Rarity = Unique
     Class "Body Armours"
     BaseType "Glorious Plate"
@@ -3743,7 +3733,7 @@ Hide # 裝備 - 高價傳奇 - 衣服 - 岡姆的壯志/背信忘義
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 衣服 - 堅銅戰罩
+Show # 裝備 - 高價傳奇 - 衣服 - 堅銅戰罩
     Rarity = Unique
     Class "Body Armours"
     BaseType "Gladiator Plate"
@@ -3754,7 +3744,7 @@ Hide # 裝備 - 高價傳奇 - 衣服 - 堅銅戰罩
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 項鍊 - 自然組織
+Show # 裝備 - 高價傳奇 - 項鍊 - 自然組織
     Rarity = Unique
     Class "Amulets"
     BaseType "Rotfeather Talisman"
@@ -3765,7 +3755,7 @@ Hide # 裝備 - 高價傳奇 - 項鍊 - 自然組織
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 項鍊 - 瑞佛詛咒
+Show # 裝備 - 高價傳奇 - 項鍊 - 瑞佛詛咒
     Rarity = Unique
     Class "Amulets"
     BaseType "Wereclaw Talisman"
@@ -3776,7 +3766,7 @@ Hide # 裝備 - 高價傳奇 - 項鍊 - 瑞佛詛咒
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 項鍊 - 巨狼之眼
+Show # 裝備 - 高價傳奇 - 項鍊 - 巨狼之眼
     Rarity = Unique
     Class "Amulets"
     BaseType "Greatwolf Talisman"
@@ -3787,7 +3777,7 @@ Hide # 裝備 - 高價傳奇 - 項鍊 - 巨狼之眼
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 項鍊 - 枯井
+Show # 裝備 - 高價傳奇 - 項鍊 - 枯井
     Rarity = Unique
     Class "Amulets"
     BaseType "Clutching Talisman"
@@ -3798,7 +3788,7 @@ Hide # 裝備 - 高價傳奇 - 項鍊 - 枯井
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 項鍊 - 夜守
+Show # 裝備 - 高價傳奇 - 項鍊 - 夜守
     Rarity = Unique
     Class "Amulets"
     BaseType "Black Maw Talisman"
@@ -3815,12 +3805,12 @@ Show # 裝備 - 高價傳奇 - 戒指 - 貝雷戒/意志呼喚/瑞佛之冠/先�
     BaseType "Two-Stone Ring"
     SetBackgroundColor 255 255 255
     SetBorderColor 255 165 0
-    SetFontSize 80
+    SetFontSize 44
     PlayAlertSound 4 150
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 藥劑 - 巫火秘釀/再生的罪惡
+Show # 裝備 - 高價傳奇 - 藥劑 - 巫火秘釀/再生的罪惡
     Rarity = Unique
     Class "Flasks"
     BaseType "Stibnite Flask"
@@ -3831,7 +3821,7 @@ Hide # 裝備 - 高價傳奇 - 藥劑 - 巫火秘釀/再生的罪惡
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 藥劑 - 維克塔血器
+Show # 裝備 - 高價傳奇 - 藥劑 - 維克塔血器
     Rarity = Unique
     Class "Flasks"
     BaseType "Topaz Flask"
@@ -3842,7 +3832,7 @@ Hide # 裝備 - 高價傳奇 - 藥劑 - 維克塔血器
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 藥劑 - 哲櫟
+Show # 裝備 - 高價傳奇 - 藥劑 - 哲櫟
     Rarity = Unique
     Class "Flasks"
     BaseType "Bismuth Flask"
@@ -3853,7 +3843,7 @@ Hide # 裝備 - 高價傳奇 - 藥劑 - 哲櫟
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 藥劑 - 恨意
+Show # 裝備 - 高價傳奇 - 藥劑 - 恨意
     Rarity = Unique
     Class "Flasks"
     BaseType "Sapphire Flask"
@@ -3864,7 +3854,7 @@ Hide # 裝備 - 高價傳奇 - 藥劑 - 恨意
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 藥劑 - 追魂者/禁果/碎魂者
+Show # 裝備 - 高價傳奇 - 藥劑 - 追魂者/禁果/碎魂者
     Rarity = Unique
     Class "Flasks"
     BaseType "Quartz Flask"
@@ -3875,7 +3865,7 @@ Hide # 裝備 - 高價傳奇 - 藥劑 - 追魂者/禁果/碎魂者
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 藥劑 - 魯米的靈藥/獅吼精華
+Show # 裝備 - 高價傳奇 - 藥劑 - 魯米的靈藥/獅吼精華
     Rarity = Unique
     Class "Flasks"
     BaseType "Granite Flask"
@@ -3886,7 +3876,7 @@ Hide # 裝備 - 高價傳奇 - 藥劑 - 魯米的靈藥/獅吼精華
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 藥劑 - 不破環之靈藥/奧爾羅斯的決心/星光聖杯/沃拉娜的醞釀
+Show # 裝備 - 高價傳奇 - 藥劑 - 不破環之靈藥/奧爾羅斯的決心/星光聖杯/沃拉娜的醞釀
     Rarity = Unique
     Class "Flasks"
     BaseType "Iron Flask"
@@ -3897,7 +3887,7 @@ Hide # 裝備 - 高價傳奇 - 藥劑 - 不破環之靈藥/奧爾羅斯的決心
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 藥劑 - 閃耀精華/滅日
+Show # 裝備 - 高價傳奇 - 藥劑 - 閃耀精華/滅日
     Rarity = Unique
     Class "Flasks"
     BaseType "Ruby Flask"
@@ -3908,7 +3898,7 @@ Hide # 裝備 - 高價傳奇 - 藥劑 - 閃耀精華/滅日
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 藥劑 - 卡魯之血
+Show # 裝備 - 高價傳奇 - 藥劑 - 卡魯之血
     Rarity = Unique
     Class "Flasks"
     BaseType "Sanctified Life Flask"
@@ -3919,7 +3909,7 @@ Hide # 裝備 - 高價傳奇 - 藥劑 - 卡魯之血
     MinimapIcon 0 Red UpsideDownHouse
     PlayEffect Red
 
-Hide # 裝備 - 高價傳奇 - 藥劑 - 阿茲里的諾言
+Show # 裝備 - 高價傳奇 - 藥劑 - 阿茲里的諾言
     Rarity = Unique
     Class "Flasks"
     BaseType "Amethyst Flask"
@@ -4498,7 +4488,7 @@ Hide # 裝備 - 特殊裝備 - 石錘、破岩錘、堅錘
     SetBackgroundColor 150 150 200 60
     SetBorderColor 255 255 255 125
 
-Hide # 裝備 - 特殊裝備 - 魚竿
+Show # 裝備 - 特殊裝備 - 魚竿
     Class "Fishing Rod"
     SetBorderColor 255 215 0
     SetFontSize 42
@@ -5170,7 +5160,7 @@ Show # 裝備 - 高亮基底 獵首 魔血 AA盾 #
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底  AA盾 # 
+Show # 裝備 - 高亮基底  AA盾 # 
     Rarity = Normal
     Class "Shields"
     BaseType  "Champion Kite Shield"
@@ -5464,91 +5454,11 @@ Hide # 裝備 - 隱藏裝備 - 隱藏的白、藍裝 "弓" "法杖" "爪" "匕�
     SetBorderColor 255 255 255 0
     SetFontSize 32
 
-
-Hide 
-	Class "Sentinel"
-    BaseType "Ancient Apex Sentinel"
-Hide 
-	Class "Sentinel"
-    BaseType "Ancient Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Ancient Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Brimstone Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Brimstone Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Brimstone Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Bronze Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Bronze Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Bronze Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cobalt Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cobalt Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cobalt Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cosmic Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cryptic Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cryptic Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cryptic Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Emberstone Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Emberstone Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Emberstone Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Obsidian Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Obsidian Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Obsidian Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Primeval Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Primeval Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Primeval Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Rusted Stalker Sentinel" 		
-
 # 【裝備-新物品防漏】
-
 
 Show # 新物品防漏 - 若遊戲更新添加新物品（新裝備基底除外）都會以此式樣顯示，所以當你看到此式樣的物品時，說明你的過濾需要更新了。
     SetTextColor 255 0 0
     SetBorderColor 255 255 255
     SetFontSize 40
     PlayAlertSound 15 200
+
