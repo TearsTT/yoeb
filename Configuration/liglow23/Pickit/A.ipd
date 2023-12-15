@@ -1434,7 +1434,7 @@
 [Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Chant" && [StashItem] == "true"	//安賽娜絲的歌頌		存倉																									
 //[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wreath of Phrecia" && [ForceSellItem] == "true"	//費西亞之環		賣出																									
 //[Type] == "Tribal Circlet" && [Rarity] == "Unique" # [UniqueName] == "Mark of the Red Covenant" && [ForceSellItem] == "true"	//焰首支環		賣出																									
-//[Type] == "Bone Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wraithlord" && [ForceSellItem] == "true"	//憤靈郡主		賣出																									
+[Type] == "Bone Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wraithlord" && [StashItem] == "true"	//憤靈郡主		賣出																									
 //[Type] == "Bone Circlet" && [Rarity] == "Unique" # [UniqueName] == "Plume of Pursuit" && [ForceSellItem] == "true"	//追逐之羽		賣出																									
 //[Type] == "Lunaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Doedre's Scorn" && [ForceSellItem] == "true"	//德瑞的蔑視		賣出																									
 //[Type] == "Steel Circlet" && [Rarity] == "Unique" # [UniqueName] == "Maw of Conquest" && [ForceSellItem] == "true"	//雛鳥之征		賣出																									
