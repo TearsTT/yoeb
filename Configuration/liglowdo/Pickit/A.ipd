@@ -923,8 +923,19 @@
 //			關閉																									
 //	// 18F 藥水（預設關閉）			//																								
 //					下面這行可以預設物等																							
-//已設定不存倉	//水銀藥劑		賣出		85	85物品等級包含以上賣出																						
-//已設定不存倉	//黃金藥劑		賣出		85																							
+																					
+	 [Type] == "Bismuth Flask" # 	[StashItem]	 == "true" 	//	//灰岩藥劑	不撿不存倉																						
+	 [Type] == "Stibnite Flask" # 	[StashItem]	 == "true" 	//	//迷霧藥劑	不撿不存倉																						
+	 [Type] == "Amethyst Flask" # 	[StashItem]	 == "true" 	//	//紫晶藥劑	不撿不存倉																																												
+	 [Type] == "Silver Flask" # 	[StashItem]	 == "true" 	//	//真銀藥劑	不撿不存倉																																								
+	[Type] == "Diamond Flask" # 	[StashItem]	 == "true" 	//	//寶鑽藥劑	不撿不存倉																						
+	 [Type] == "Granite Flask" # 	[StashItem]	 == "true" 	//	//堅岩藥劑	不撿不存倉																						
+	 [Type] == "Jade Flask" # 	[StashItem]	 == "true" 	//	//翠玉藥劑	不撿不存倉																						
+	 [Type] == "Quartz Flask" # 	[StashItem]	 == "true" 	//	//石英藥劑	不撿不存倉																						
+	 [Type] == "Sulphur Flask" # 	[StashItem]	 == "true" 	//	//硫磺藥劑	不撿不存倉																						
+	 [Type] == "Basalt Flask" # 	[StashItem]	 == "true" 	//	//石化藥劑	不撿不售出	
+
+[Type] == "Quicksilver Flask" # 	[StashItem]	 == "true" 	//	//水銀藥劑	拾取且存倉																						
 //已設定不存倉	//小型生命藥劑		賣出		85																							
 //已設定不存倉	//生命藥劑（中）		賣出		85																							
 //已設定不存倉	//生命藥劑（大）		賣出		85																							
@@ -955,20 +966,7 @@
 //已設定不存倉	//高階複合藥劑		賣出		85																							
 //已設定不存倉	//聖語複合藥劑		賣出		85																							
 //已設定不存倉	//祝福複合藥劑		賣出		85																							
-//已設定不存倉	//灰岩藥劑		賣出		85																							
-//已設定不存倉	//迷霧藥劑		賣出		85																							
-//已設定不存倉	//紫晶藥劑		賣出		85																							
-//已設定不存倉	//紅玉藥劑		賣出		85																							
-//已設定不存倉	//藍玉藥劑		賣出		85																							
-//已設定不存倉	//黃玉藥劑		賣出		85																							
-//已設定不存倉	//真銀藥劑		賣出		85																							
-//已設定不存倉	//海藍藥劑		賣出		85																							
-//已設定不存倉	//寶鑽藥劑		賣出		85																							
-//已設定不存倉	//堅岩藥劑		賣出		85																							
-//已設定不存倉	//翠玉藥劑		賣出		85																							
-//已設定不存倉	//石英藥劑		賣出		85																							
-//已設定不存倉	//硫磺藥劑		賣出		85																							
-//已設定不存倉	//石化藥劑		賣出		85																							
+																							
 //	// 19F 聖甲蟲																											
 [Type] == "Rusted Ambush Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕伏擊		賣出																									
 [Type] == "Polished Ambush Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑伏擊		賣出																									
