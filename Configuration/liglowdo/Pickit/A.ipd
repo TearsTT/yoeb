@@ -900,7 +900,10 @@
 [Type] == "Maven's Invitation: The Elderslayers" # [StashItem] == "true" //	//釋界之邀：尊師殺手		存倉																									
 [Type] == "Maven's Invitation: The Forgotten" # [ForceSellItem] == "true" //	//釋界之邀：遺忘		賣出																									
 [Type] == "Maven's Invitation: The Formed" # [StashItem] == "true" //	//釋界之邀：塑型		存倉																									
-[Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉																									
+[Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉		
+[Type] == "Maven's Invitation: The Hidden" # [ForceSellItem] == "true" //	//釋界之邀：隱匿		存倉	
+[Type] == "Maven's Invitation: The Feared" # [ForceSellItem] == "true" //	//釋界之邀：恐懼		存倉	
+[Type] == "Maven's Invitation: The Atlas" # [ForceSellItem] == "true" //	//釋界之邀：輿圖		存倉	
 //																												
 //	// 15F 六連裝 (目前有無法正常賣出的語法錯誤，但是我找不到問題點)			//																								
 //[Sockets] == "6" && [Linked] >= "6" # [StashItem] ="true" //	//六連裝		不撿	//																								
