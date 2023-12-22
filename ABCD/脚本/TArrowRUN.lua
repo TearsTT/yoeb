@@ -29,21 +29,11 @@ g_duobiHpVal=0.2
 --pos=指定位置 nil为自动选择 2为衣服 3为主武器 4为副武器 5为头盔 6为项链 7为左戒指 8为右戒指 9为护手 10为鞋子 11为腰带
 --nType 有效场景 nil为无论何时都有效 0为没在刷异界才有效 1为只在刷异界才有效
 
-
-SetNeedSkillLineData(93,"燃燒箭矢,nil|氣勢輔助,nil",1,nil,nil)
-SetNeedSkillLineData(94,"火砲砲塔,nil|元素攻擊傷害輔助,nil|快速攻擊輔助,nil|多重圖騰輔助,nil",nil,nil,0,nil,nil,nil,nil,nil,nil,nil,nil,nil,30)
-SetNeedSkillLineData(95,"魔改箭矢輔助,nil|狂怒,nil|暴擊獲得暴擊球輔助,nil|龍捲射擊,nil",nil,nil,0)
-SetNeedSkillLineData(96,"鋼筋鐵骨,nil|元素淨化,nil|憤怒,nil",nil,nil,0)
-SetNeedSkillLineData(97,"狙擊者印記,nil|召喚寒冰魔像,nil|擊中時印記輔助,nil",nil,nil,0)
-SetNeedSkillLineData(98,"彈片砲塔,nil|快速攻擊輔助,nil|猛毒投射物輔助,nil|齊射輔助,nil",30,nil,0)
-SetNeedSkillLineData(99,"電流箭矢,nil|附加冰冷傷害輔助,nil|元素攻擊傷害輔助,nil|幻影射手輔助,nil|附加火焰傷害輔助,nil|氣勢輔助,nil",13,nil,0)
-SetNeedSkillLineData(100,"閃電箭矢,nil,1|附加冰冷傷害輔助,nil|元素攻擊傷害輔助,nil|三體輔助,nil|啟發輔助,nil|幻影射手輔助,nil|附加火焰傷害輔助,nil",nil,nil,0,nil,nil,nil,nil,nil,nil,nil,nil,nil,12)
-
-SetNeedSkillLineData(96,"魔改箭矢輔助,nil|箭雨,nil|元素要害,nil|咒術降臨輔助,nil",nil,5,1)
-SetNeedSkillLineData(97,"元素淨化,nil|冰霜之捷,nil|憤怒,nil|啟蒙輔助,nil",nil,10,1)
-SetNeedSkillLineData(98,"擊中時印記輔助,nil|狙擊者印記,nil|鋼筋鐵骨,nil",nil,9,1)
-SetNeedSkillLineData(99,"魔改箭矢輔助,nil|狂怒,nil|暴擊獲得暴擊球輔助,nil|閃電箭矢,nil|冰霜射擊,nil|元素打擊,nil",nil,3,1)
-SetNeedSkillLineData(100,"龍捲射擊,nil,1|附加冰冷傷害輔助,nil|元素攻擊傷害輔助,nil|三體輔助,nil|啟發輔助,nil|幻影射手輔助,nil",nil,2,1,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil)
+SetNeedSkillLineData(96,"魔改箭矢輔助,nil|箭雨,nil|元素要害,nil|咒術降臨輔助,nil",nil,5,nil)
+SetNeedSkillLineData(97,"元素淨化,nil|冰霜之捷,nil|憤怒,nil|啟蒙輔助,nil",nil,10,nil)
+SetNeedSkillLineData(98,"擊中時印記輔助,nil|狙擊者印記,nil|鋼筋鐵骨,nil",nil,9,nil)
+SetNeedSkillLineData(99,"魔改箭矢輔助,nil|狂怒,nil|暴擊獲得暴擊球輔助,nil|閃電箭矢,nil|冰霜射擊,nil|元素打擊,nil",nil,3,nil)
+SetNeedSkillLineData(100,"龍捲射擊,nil,1|附加冰冷傷害輔助,nil|元素攻擊傷害輔助,nil|三體輔助,nil|啟發輔助,nil|幻影射手輔助,nil",nil,2,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil)
 
 --添加攻击技能 name=技能名 className=技能类名 noLine=不在直线就能攻击 挑选攻击技能会从上到下寻找，要把厉害的技能加在前面
 AddAttackSkillData("龍捲射擊","Tornado Shot",false,50,0)--添加攻击技能
@@ -59,11 +49,7 @@ SetSkillLimitMaxLv("鋼筋鐵骨",nil,14)
 -- SetYiJieZhaoHuanLingTiData(mapClassName,name,className)--设置异界时召唤的灵体数据 mapClassName=剧情图类名 name=灵体名 className=灵体类名
 
 --SetNeedFlaskData(pos,flask,modsData,minLv)--设置药瓶摆放
-SetNeedFlaskData(1,"生命药剂","泡騰的,FlaskPartialInstantRecovery4",70,"不朽生命藥劑","Metadata/Items/Flasks/FlaskLife11",nil)
-SetNeedFlaskData(2,"生命药剂","沸騰的,FlaskFullInstantRecovery1",70,"不朽生命藥劑","Metadata/Items/Flasks/FlaskLife11",nil)
-SetNeedFlaskData(3,"水银药剂","nil")
-SetNeedFlaskData(4,"魔力药剂","nil")
-SetNeedFlaskData(5,"魔力药剂","耐久的,FlaskEffectNotRemovedOnFullMana1",70,"永恆魔力藥劑","Metadata/Items/Flasks/FlaskMana12",nil)
+
 
 g_addHpVal=0.7--HP低于多少吃红药
 g_addMpVal=0.2--MP低于多少吃蓝药
@@ -171,30 +157,11 @@ AddShengJiZhuangBeiGoodsData("富豪石","Metadata/Items/Currency/CurrencyUpgradeMa
 --wxWordName 身上跟背包都有没有指定装备时才无效 此为指定装备的词缀名字 如果不需要此功能请填nil
 --wxWordClassName 身上跟背包都有没有指定装备时才无效 此为指定装备的词缀类名 如果不需要此功能请填nil
 --val 分数 自己定义这件装给多少评分，填nil默认为9999分
-SetGaoJiHuanZhuangData("游侠","革兜","Metadata/Items/Armours/Helmets/HelmetDex3","寒焰","Heatshiver",nil,nil,nil,nil,nil,1,nil,nil,nil,nil,nil,nil,nil,nil,nil)
-SetGaoJiHuanZhuangData("游侠","星辰皮甲","Metadata/Items/Armours/BodyArmours/BodyDex16","西里的戰衣","Hyrri's Ire",nil,nil,nil,nil,nil,1,nil,nil,nil,nil,nil,nil,nil,nil,nil)
-SetGaoJiHuanZhuangData("游侠","羊皮手套","Metadata/Items/Armours/Gloves/GlovesDex2","冰冷之眼","Hrimsorrow",nil,nil,nil,nil,nil,1,nil,nil,nil,nil,nil,nil,nil,nil,nil)
-SetGaoJiHuanZhuangData("游侠","始祖箭袋","Metadata/Items/Quivers/QuiverNew13","優雅迷鏡","The Poised Prism",nil,nil,nil,nil,nil,1,nil,nil,nil,nil,nil,nil,nil,nil,nil)
-SetGaoJiHuanZhuangData("游侠","皮革腰帶","Metadata/Items/Belts/Belt3","永生","Immortal Flesh",nil,nil,nil,nil,nil,1,nil,nil,nil,nil,nil,nil,nil,nil,nil)
-SetGaoJiHuanZhuangData("游侠","強化脛甲","Metadata/Items/Armours/Boots/BootsStr4","惡風足跡","Windscream",nil,nil,nil,nil,nil,1,nil,nil,nil,nil,nil,nil,nil,nil,nil)
-SetGaoJiHuanZhuangData("游侠","三相戒指","Metadata/Items/Rings/Ring8","元素之章","The Taming",nil,nil,nil,8,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil)
-SetGaoJiHuanZhuangData("游侠","黃玉戒指","Metadata/Items/Rings/Ring5","基加薩魯","Kikazaru",nil,nil,nil,7,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil)
-SetGaoJiHuanZhuangData("游侠","翠玉護身符","Metadata/Items/Amulets/Amulet4","西里的真理","Hyrri's Truth",nil,nil,nil,nil,nil,1,nil,nil,nil,nil,nil,nil,nil,nil,nil)
+SetGaoJiHuanZhuangData("游侠","簡易之袍","Metadata/Items/Armours/BodyArmours/BodyInt1","無盡之衣","Tabula Rasa",nil,nil,nil,nil,nil,0,nil,nil,nil,nil,nil,nil,nil,nil,5000)
+SetGaoJiHuanZhuangData("游侠","皮帽","Metadata/Items/Armours/Helmets/HelmetDex1","金縷帽","Goldrim",nil,nil,nil,nil,nil,0,nil,nil,nil,nil,nil,nil,nil,nil,5000)
 
-SetJiaoYiGoods(nil,"簡易之袍","Metadata/Items/Armours/BodyArmours/BodyInt1","無盡之衣","Tabula Rasa","3",nil)
-SetJiaoYiGoods(nil,"皮帽","Metadata/Items/Armours/Helmets/HelmetDex1","金縷帽","Goldrim","3",nil)
-SetJiaoYiGoods(nil,"革兜","Metadata/Items/Armours/Helmets/HelmetDex3","寒焰","Heatshiver","3",nil)
-SetJiaoYiGoods(nil,"星辰皮甲","Metadata/Items/Armours/BodyArmours/BodyDex16","西里的戰衣","Hyrri's Ire","3",nil)
-SetJiaoYiGoods(nil,"羊皮手套","Metadata/Items/Armours/Gloves/GlovesDex2","冰冷之眼","Hrimsorrow","3",nil)
-SetJiaoYiGoods(nil,"始祖箭袋","Metadata/Items/Quivers/QuiverNew13","優雅迷鏡","The Poised Prism","3",nil)
-SetJiaoYiGoods(nil,"皮革腰帶","Metadata/Items/Belts/Belt3","永生","Immortal Flesh","3",nil)
-SetJiaoYiGoods(nil,"強化脛甲","Metadata/Items/Armours/Boots/BootsStr4","惡風足跡","Windscream","3",nil)
-SetJiaoYiGoods(nil,"三相戒指","Metadata/Items/Rings/Ring8","元素之章","The Taming","3",nil)
-SetJiaoYiGoods(nil,"黃玉戒指","Metadata/Items/Rings/Ring5","基加薩魯","Kikazaru","3",nil)
-SetJiaoYiGoods(nil,"翠玉護身符","Metadata/Items/Amulets/Amulet4","西里的真理","Hyrri's Truth","3",nil)
 
 SetShopNotBuyGoods(啟蒙輔助,nil)--设置不去商店里买的东西
-
 
 
 --SetTaskShengJiData(taskClassName,taskIndex,shengjiMapClassName,needLv)--设置跑图时升级 taskClassName=任务类名 taskIndex=任务索引 nil为忽略，只匹配任务类名 shengjiMapClassName=要刷的地图类名 needLv=升级到多少级为止
