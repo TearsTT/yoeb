@@ -16,7 +16,7 @@
 2、函数型：函数名(参数1,参数2) 这样的就是函数型 由函数名与若干个参数组成 参数被半角括号()套起来
 ]]
 ------------------基本设置
-g_needMinimizeGame=false			--最小化遊戲窗口 true为最小化 false或nil为不最小化
+g_needMinimizeGame=false		--最小化遊戲窗口 true为最小化 false或nil为不最小化
 g_imBoss=false					--如果是仓库号要为true 挂机号为false
 g_attackDis=50					--攻击距离
 g_yiJieTimeOut=5*60			--异界地图内的超时时间 单位为秒 如果未设置就会用g_timeOut *是乘号 这里为15乘以60=15分钟
@@ -25,13 +25,14 @@ g_addTianFu=true				--自动按设定好的配置加天赋 true为加 nil或false为不加
 g_shengJiBaoShi=true			--自动升级宝石 true为升级 nil或false为不升级
 g_sellSkillGem=true				--自动卖超过40品质的技能宝石
 g_notHuanYaoLv=82				--大于等于多少级只捡蓝色以上药 
-g_needAutoChangeEquip=false		--开启自动换装 true为换 nil或false为不换
-g_needAutoSetBaoShi=false		--开启自动换宝石 true为换 nil或false为不换
-g_bossGiveZhuangBei=false		--交易时仓库号给予缺少的高级换装中的装备 true为给 false为不给 是对仓库号设置的
+g_needAutoChangeEquip=true		--开启自动换装 true为换 nil或false为不换
+g_needAutoSetBaoShi=true		--开启自动换宝石 true为换 nil或false为不换
+g_bossGiveZhuangBei=true		--交易时仓库号给予缺少的高级换装中的装备 true为给 false为不给 是对仓库号设置的
 g_xiaoHaoGetZhuangBei=false		--挂机号向发装仓库号申请领高级换装中的装备 true为申请 false为不申请 
 
 --SetZhuangBeiBoss(bossName,srvName)--设置发装仓库号 bossName=发装号名字 字符串型 srvName=服务器名字，如果多个区用同一份配置的话填上服务器名字可单独区分 如果不是可忽略 或填nil 
 --SetZhuangBeiBoss("这里填上你自己的发装仓库号名字","区名字")--发装备的仓库号 如果不需要 就注释掉 只有挂机号跟仓库号都是 外挂账号 才有效
+
 
 --SetNeedAddTianFu(tfStr)--设置异界天赋加点 
 SetNeedAddTianFu("异界地图天赋=atlas_boss_adjacent_maps_2-相鄰地圖掉落機率|atlas_path_11-相鄰地圖掉落機率|atlas_path_23_-相鄰地圖掉落機率|atlas_boss_adjacent_maps_1-相鄰地圖掉落機率|atlas_boss_adjacent_maps_8-相鄰地圖掉落機率|atlas_kirac_1_10-基拉克任務機率|atlas_kirac_1_9-基拉克任務機率|atlas_zana_1_6-重點偵察|atlas_kirac_1_8_-基拉克任務機率|atlas_kirac_1_7-基拉克任務機率|atlas_path_96-掉落複製地圖|atlas_path_94-掉落複製地圖|atlas_map_drops_8-掉落複製地圖|atlas_path_92-掉落複製地圖|atlas_path_61-物品數量|atlas_path_44-物品數量|atlas_path_35-物品數量|atlas_path_90-掉落複製地圖|atlas_keystone_smallnodes_1-流浪之路|atlas_path_37-相鄰地圖掉落機率|atlas_path_30-相鄰地圖掉落機率|atlas_path_18-相鄰地圖掉落機率|atlas_path_15-相鄰地圖掉落機率|atlas_path_2-相鄰地圖掉落機率|atlas_kirac_2_1-基拉克任務機率|atlas_kirac_2_2-基拉克任務機率|atlas_kirac_2_3-基拉克任務機率|atlas_map_tier_5_1-高階地圖機率|atlas_map_tier_5_2-高階地圖機率|atlas_map_tier_3_1-高階地圖機率|atlas_keystone_enhanced_kirac_crafts-超載電路|atlas_map_tier_3_2-高階地圖機率|atlas_map_tier_4_2-高階地圖機率|atlas_map_tier_4_1-高階地圖機率|atlas_path_17-相鄰地圖掉落機率|atlas_map_tier_2_1-高階地圖機率|atlas_map_tier_2_2-高階地圖機率|atlas_path_38-相鄰地圖掉落機率|atlas_path_21-相鄰地圖掉落機率|atlas_path_27-相鄰地圖掉落機率|atlas_path_28-相鄰地圖掉落機率|atlas_map_tier_1_2_-高階地圖機率|atlas_map_tier_1_1-高階地圖機率|atlas_path_14-相鄰地圖掉落機率|atlas_path_26-相鄰地圖掉落機率|atlas_path_25_-相鄰地圖掉落機率|atlas_path_16-相鄰地圖掉落機率|atlas_path_24_-相鄰地圖掉落機率|atlas_path_12-相鄰地圖掉落機率|atlas_path_22-相鄰地圖掉落機率|atlas_path_13-相鄰地圖掉落機率|atlas_path_8-相鄰地圖掉落機率|atlas_path_9-相鄰地圖掉落機率|atlas_path_20-相鄰地圖掉落機率|atlas_path_1-相鄰地圖掉落機率|atlas_path_19-相鄰地圖掉落機率|atlas_path_10-相鄰地圖掉落機率|atlas_path_6-相鄰地圖掉落機率|atlas_path_5-相鄰地圖掉落機率|atlas_path_30_1-相鄰地圖掉落機率|atlas_map_drops_1-掉落複製地圖|atlas_map_drops_10-掉落複製地圖|atlas_map_drops_11-掉落複製地圖|atlas_path_4-相鄰地圖掉落機率|atlas_path_7-相鄰地圖掉落機率|atlas_path_88-掉落複製地圖|atlas_map_drops_12_-掉落複製地圖|atlas_path_87-掉落複製地圖|atlas_map_drops_13-掉落複製地圖|atlas_map_drops_16-掉落複製地圖|atlas_map_drops_15-掉落複製地圖|atlas_path_82-掉落複製地圖|atlas_map_drops_14-掉落複製地圖|atlas_path_85-掉落複製地圖|atlas_map_drops_4-掉落複製地圖|atlas_path_83-掉落複製地圖|atlas_map_drops_5-掉落複製地圖|atlas_path_84-掉落複製地圖|")
@@ -49,22 +50,41 @@ AddNeedBuySkillTime(1,"a1q6")
 AddNeedBuySkillTime(1,"a1q9")
 AddNeedBuySkillTime(1,"a1q7")
 ----A2
-AddNeedBuySkillTime(2,"a2q7")
+AddNeedBuySkillTime(2,"a2q11")
+AddNeedBuySkillTime(1,"a2q11")
+AddNeedBuySkillTime(2,"a2q6")
 AddNeedBuySkillTime(1,"a2q6")
+AddNeedBuySkillTime(2,"a2q7")
+AddNeedBuySkillTime(1,"a2q7")
+AddNeedBuySkillTime(2,"a2q4")
+AddNeedBuySkillTime(1,"a2q4")
 AddNeedBuySkillTime(2,"a2q9")
 AddNeedBuySkillTime(1,"a2q9")
 AddNeedBuySkillTime(2,"a2q2")
-AddNeedBuySkillTime(1,"a2q8")
 AddNeedBuySkillTime(1,"a2q2")
+AddNeedBuySkillTime(2,"a2q8")
+AddNeedBuySkillTime(1,"a2q8")
 -----A3
 AddNeedBuySkillTime(2,"a3q1")
+AddNeedBuySkillTime(1,"a3q1")
 AddNeedBuySkillTime(2,"a3q11")
+AddNeedBuySkillTime(1,"a3q11")
+AddNeedBuySkillTime(2,"a3q3")
 AddNeedBuySkillTime(1,"a3q3")
+AddNeedBuySkillTime(2,"a3q4")
 AddNeedBuySkillTime(1,"a3q4")
 AddNeedBuySkillTime(3,"a3q8")
+AddNeedBuySkillTime(2,"a3q8")
+AddNeedBuySkillTime(1,"a3q8")
 AddNeedBuySkillTime(3,"a3q9")
+AddNeedBuySkillTime(2,"a3q9")
+AddNeedBuySkillTime(1,"a3q9")
 AddNeedBuySkillTime(3,"a3q12")
+AddNeedBuySkillTime(2,"a3q12")
+AddNeedBuySkillTime(1,"a3q12")
 AddNeedBuySkillTime(3,"a3q10")
+AddNeedBuySkillTime(2,"a3q10")
+AddNeedBuySkillTime(1,"a3q10")
 ----A4
 AddNeedBuySkillTime(3,"a4q2")
 AddNeedBuySkillTime(2,"a4q2")
@@ -91,8 +111,12 @@ AddNeedBuySkillTime(11,"a11q1")	--在拾取碎片 这个任务时检测购买一遍
 
 
 --药瓶摆放
---SetNeedFlaskData(pos,flask)--设置药  pos=位置 1-5  flask=药 字符串型，支持以下 (生命药剂,魔力药剂,复合药剂,宝钻药剂,红玉药剂,蓝玉药剂,黄玉药剂,坚岩药剂,水银药剂,紫晶药剂,石英药剂,翠玉药剂,石化药剂,海蓝药剂,迷雾药剂,硫磺药剂,真银药剂,灰岩药剂)
-
+--SetNeedFlaskData(pos,flask,modsData,minLv)--设置药瓶摆放
+SetNeedFlaskData(1,"生命药剂","熱情洋溢的,FlaskPartialInstantRecovery3|密封之,FlaskBleedCorruptingBloodImmunity1",90)
+SetNeedFlaskData(2,"魔力药剂","耐久的,FlaskEffectNotRemovedOnFullMana1|奧術師之FlaskBuffReducedManaCostWhileHealing4",90)
+SetNeedFlaskData(3,"宝钻药剂","nil")
+SetNeedFlaskData(4,"紫晶药剂","nil")
+SetNeedFlaskData(5,"水银药剂","nil")
 
 --AddNotMakeTaskData(taskClassName)--添加不需要做的任务 taskClassName为任务类名
 AddNotMakeTaskData("a2q5")--梦中圣地
@@ -112,7 +136,6 @@ AddNotMakeTaskData("a10q5")--深海之路
 AddUseGoodsData("天賦之書")--添加天赋之书
 AddUseGoodsData("後悔之書")--添加後悔之书
 
-
 --SetZhongShenData(className1,className2)--设置要加的众神殿数据 className1=高阶数据类名 字符串型 className2=低阶数据类名 字符串型 
 SetZhongShenData("Lunaris","Gruthkul")--设置月影女神之魂与绝望之母 格鲁丝克之魂
 
@@ -130,7 +153,7 @@ SetZhongShenData("Lunaris","Gruthkul")--设置月影女神之魂与绝望之母 格鲁丝克之魂
 SetSaveIndex("通货|可堆叠通货","1")
 SetSaveIndex("异界地图","2|3")
 SetSaveIndex("项链|戒指|爪|匕首|法杖|单手剑|细剑|单手斧|单手锤|符文匕首|短杖|战杖|弓|长杖|双手剑|双手斧|双手锤|腰带|手套|鞋子|头盔","3|4")
-SetSaveIndex("珠宝|命运卡|衣服|盾|箭袋|地图碎片","4")
+SetSaveIndex("主动技能宝石|辅助技能宝石|珠宝|命运卡|衣服|盾|箭袋|地图碎片","4")
 SetSaveIndex("生命药剂|魔力药剂|复合药剂|功能药剂","4")
 SetSaveIndex(nil,"4","啟蒙輔助","Metadata/Items/Gems/SupportGemAdditionalXP")--技能寶石
 SetSaveIndex(nil,"4","賦予輔助","Metadata/Items/Gems/SupportGemAdditionalLevel")--技能寶石
@@ -160,11 +183,11 @@ SetNotMapGoMap("2_9_1",10)	--无地图时刷血色通道
 
 g_yiJieLv=74				--够了多少级才去刷异界
 g_checkSellMapCnt=60		--地图超过这个数量才会检测出售地图
-g_destroyNoUseMap=false		--销毁上面设置不使用的地图 nil或false为不销毁
-g_mapUseFuHaoLv=76			--大于等于多少级对蓝图使用富豪石 nil为永远不使用
+g_destroyNoUseMap=nil		--销毁上面设置不使用的地图 nil或false为不销毁
+g_mapUseFuHaoLv=78			--大于等于多少级对蓝图使用富豪石 nil为永远不使用
 g_mapUseZengFuLv=nil			--大于等于多少级对蓝图使用增幅石 nil为永远不使用
-g_mapUseDianJingLv=76		--大于等于多少级对白图使用点金石 nil为永远不使用
-g_mapUseTuiBianLv=72		--大于等于多少级对白图使用蜕变石 nil为永远不使用
+g_mapUseDianJingLv=78		--大于等于多少级对白图使用点金石 nil为永远不使用
+g_mapUseTuiBianLv=76		--大于等于多少级对白图使用蜕变石 nil为永远不使用
 g_mapUseJiHuiLv=nil			--大于等于多少级对白图使用机会石 nil为永远不使用
 g_mapUseWaErLv=82			--大于等于多少级对白、蓝地图使用瓦尔宝珠 nil为永远不使用
 g_mapUseDingZiLv=nil			--大于等于多少级使用制图钉 nil为永远不使用
@@ -178,9 +201,11 @@ g_mapUseOrangeMap=false		--true为使用橙图 nil或false为不使用
 
 
 -- SetNoUseMapShuXing(className)--设置不使用带有某种属性的地图,参数 className为属性类名
+SetNoUseMapShuXing("map_monsters_reflect_%_physical_damage")--设置不打物理反射属性
 SetNoUseMapShuXing("map_monsters_reflect_%_elemental_damage")--设置不打魔法反射属性
 SetNoUseMapShuXing("map_players_no_regeneration_including_es")--无法回复
 SetNoUseMapShuXing("is_blighted_map")--凋落地图
+
 
 --SetLastEnterSmallMap(mapClassName)--设置需要后进小房间的异界地图
 --mapClassName 异界地图类名 字符串型
@@ -197,10 +222,9 @@ SetLastEnterSmallMap("MapWorldsArena")--競技場
 SetLastEnterSmallMap("MapWorldsOvergrownRuin")--長草遺跡
 SetLastEnterSmallMap("MapWorldsGorge")--冰川山丘
 
-
-
 --SetSellGoodsData(name,className,cnt,color)--设置卖(换)的地图 
 --name=物品名 className=物品类名 先识别物品名 识别不到就识别类名 cnt=够多少去卖 color=颜色 0白 1蓝 2黄 多个用|隔开
+
 
 SetSellGoodsData("冰川山丘","Metadata/Items/Maps/MapWorldsGlacier",3,"0|1|2|")
 SetSellGoodsData("怒浪之港","Metadata/Items/Maps/MapWorldsPier",3,"0|1|2|")
@@ -316,10 +340,6 @@ SetSellGoodsData("魔金寶庫","Metadata/Items/Maps/MapWorldsVault",3,"0|1|2|")
 
 
 
-
-
-
-
 --SetCompoundDivinationCard(name,className,nType) --设置需要合成的命运卡 name=卡片名 className=卡片类名 nType=合成场景 nil或不填为无论何时都合成 0为没在刷异界才合 1为只在刷异界才合
 SetCompoundDivinationCard("黑暗三面","Metadata/Items/DivinationCards/DivinationCardThreeFacesInTheDark")--设置合成忠诚命运卡
 SetCompoundDivinationCard("蘭塔朵迷惘之愛","Metadata/Items/DivinationCards/DivinationCardLantadorsLostLove")--设置合成忠诚命运卡
@@ -348,20 +368,20 @@ SetCompoundDivinationCard("赌徒","Metadata/Items/DivinationCards/DivinationCardT
 SetCompoundDivinationCard("工匠大师","Metadata/Items/DivinationCards/DivinationCardTheMasterArtisan")--设置合成忠诚命运卡
 SetCompoundDivinationCard("情人","Metadata/Items/DivinationCards/DivinationCardTheLover")--设置合成忠诚命运卡
 SetCompoundDivinationCard("净白","Metadata/Items/DivinationCards/DivinationCardTheOpulecent")--设置合成忠诚命运卡
-SetCompoundDivinationCard("谦逊","Metadata/Items/DivinationCards/DivinationCardHumility")--设置合成忠诚命运卡
+SetCompoundDivinationCard("谦逊","Metadata/Items/DivinationCards/DivinationCardHumility",0)--设置合成忠诚命运卡
 
 --SetNeedBuyGoodsData(name,className,cnt,buyName,buyClassName)--设置开始刷异界时间检测购买指定物品
 --name=自己有的通货名 className=自己有的通货类名 cnt=够多少个触发 0或nil 不会触发 buyName=需要购买的物品名 buyClassName=需要购买的物品类名
 
 g_buyNpcData={
-mapClassName="1_3_town"
-,className="Metadata/NPC/Act3/ClarissaTown"
-}--将会在3章 1_3_town 此NPC下购买 name:卡尔丽莎
+mapClassName="1_1_town"
+,className="Metadata/NPC/Act1/NessaTown"
+}--将会在1章 1_1_town 此NPC下购买 name:奈沙
 
---SetNeedBuyGoodsData("知识卷轴","Metadata/Items/Currency/CurrencyIdentification",nil,"传送卷轴","Metadata/Items/Currency/CurrencyPortal")
---SetNeedBuyGoodsData("传送卷轴","Metadata/Items/Currency/CurrencyPortal",nil,"蜕变石","Metadata/Items/Currency/CurrencyUpgradeToMagic")
-SetNeedBuyGoodsData("蜕变石","Metadata/Items/Currency/CurrencyUpgradeToMagic",200,"增幅石","Metadata/Items/Currency/CurrencyAddModToMagic")
-SetNeedBuyGoodsData("增幅石","Metadata/Items/Currency/CurrencyAddModToMagic",200,"改造石","Metadata/Items/Currency/CurrencyRerollMagic")
+SetNeedBuyGoodsData("知识卷轴","Metadata/Items/Currency/CurrencyIdentification",nil,"传送卷轴","Metadata/Items/Currency/CurrencyPortal")
+SetNeedBuyGoodsData("传送卷轴","Metadata/Items/Currency/CurrencyPortal",nil,"蜕变石","Metadata/Items/Currency/CurrencyUpgradeToMagic")
+--SetNeedBuyGoodsData("蜕变石","Metadata/Items/Currency/CurrencyUpgradeToMagic",200,"增幅石","Metadata/Items/Currency/CurrencyAddModToMagic")
+--SetNeedBuyGoodsData("增幅石","Metadata/Items/Currency/CurrencyAddModToMagic",200,"改造石","Metadata/Items/Currency/CurrencyRerollMagic")
 --SetNeedBuyGoodsData("改造石","Metadata/Items/Currency/CurrencyRerollMagic",nil,"工匠石","Metadata/Items/Currency/CurrencyRerollSocketNumbers")
 --SetNeedBuyGoodsData("工匠石","Metadata/Items/Currency/CurrencyRerollSocketNumbers",100,"链结石","Metadata/Items/Currency/CurrencyRerollSocketLinks")
 --SetNeedBuyGoodsData("链结石","Metadata/Items/Currency/CurrencyRerollSocketLinks",100,"机会石","Metadata/Items/Currency/CurrencyUpgradeRandomly")
@@ -384,12 +404,12 @@ SetNeedBuyGoodsData("增幅石","Metadata/Items/Currency/CurrencyAddModToMagic",200
 --lineCnt 数字型 连洞数量 忽略则填 nil
 --checkCangKu 计算保留数量时是否连仓库内的数量也计算进去 nil或false为不计算仓库 true 为需要计算
 SetGoodsCaoZuo("通货|可堆叠通货|异界地图","0|2")--多个大类设置捡存
-SetGoodsCaoZuo("主动技能宝石|辅助技能宝石","0|1",nil,nil,nil,nil,20)--拾取品质超过5的技能宝石
+SetGoodsCaoZuo("主动技能宝石|辅助技能宝石","0|2",nil,nil,nil,nil,23)--拾取品质超过5的技能宝石
+
 SetGoodsCaoZuo(nil,"0|1|4",nil,nil,nil,nil,nil,nil,"3")--拾取 鉴定 出售橙色物品
-SetGoodsCaoZuo(nil,nil,"点金石","Metadata/Items/Currency/CurrencyUpgradeToRare",nil,nil,nil,40)--身上保留40
-SetGoodsCaoZuo(nil,nil,"机会石","Metadata/Items/Currency/CurrencyUpgradeRandomly",nil,nil,nil,40)--身上保留40
 SetGoodsCaoZuo(nil,nil,"知识卷轴","Metadata/Items/Currency/CurrencyIdentification",nil,nil,nil,40)--够了就不捡了
 SetGoodsCaoZuo(nil,nil,"传送卷轴","Metadata/Items/Currency/CurrencyPortal",nil,nil,nil,80)--够了就不捡了
+SetGoodsCaoZuo(nil,nil,"点金石","Metadata/Items/Currency/CurrencyUpgradeToRare",nil,nil,nil,40)--身上保留40
 SetGoodsCaoZuo(nil,"0|1",nil,nil,nil,nil,nil,nil,"0|1|2",6)--6洞装设置捡卖
 SetGoodsCaoZuo(nil,"0|1",nil,nil,nil,nil,nil,nil,"0|1|2",nil,6)--6连洞装设置捡卖
 SetGoodsCaoZuo("爪","0|1|4",nil,nil,nil,nil,5,nil,"2")--捡卖精良的黄爪子
@@ -413,6 +433,8 @@ SetGoodsCaoZuo(nil,"1|3",nil,"Metadata/Items/Metamorphosis/MetamorphosisLung")--
 SetGoodsCaoZuo(nil,"1|3",nil,"Metadata/Items/Metamorphosis/MetamorphosisHeart")--鍊魔心臟不捡
 
 
+
+
 SetGoodsCaoZuo("异界地图","1|3","致命岩灘","Metadata/Items/Maps/MapWorldsCursedCrypt",nil,nil,nil,nil,"3")
 SetGoodsCaoZuo("异界地图","1|3","濱海山丘","Metadata/Items/Maps/MapWorldsAtoll",nil,nil,nil,nil,"3")
 SetGoodsCaoZuo("异界地图","1|3","晨曦墓地","Metadata/Items/Maps/MapWorldsCemetery",nil,nil,nil,nil,"3")
@@ -433,7 +455,7 @@ SetGoodsCaoZuo(nil,"1|3","琥珀油瓶","Metadata/Items/Currency/Mushrune3")
 SetGoodsCaoZuo(nil,"1|3","翠綠油瓶","Metadata/Items/Currency/Mushrune4")
 SetGoodsCaoZuo(nil,"1|3","清綠油瓶","Metadata/Items/Currency/Mushrune5")
 SetGoodsCaoZuo(nil,"1|3","碧藍油瓶","Metadata/Items/Currency/Mushrune6")
-SetGoodsCaoZuo(nil,"1|3","预言","Metadata/Items/Currency/CurrencyItemisedProphecy")
+--SetGoodsCaoZuo(nil,"1|3","预言","Metadata/Items/Currency/CurrencyItemisedProphecy")
 SetGoodsCaoZuo(nil,"1|3","暴炎化石","Metadata/Items/Currency/CurrencyDelveCraftingFire")--可堆疊通貨
 SetGoodsCaoZuo(nil,"1|3","寒風化石","Metadata/Items/Currency/CurrencyDelveCraftingCold")--可堆疊通貨
 SetGoodsCaoZuo(nil,"1|3","金鋼化石","Metadata/Items/Currency/CurrencyDelveCraftingLightning")--可堆疊通貨
@@ -1459,7 +1481,7 @@ SetJiaoYiGoods(nil,"魔性法杖","Metadata/Items/Weapons/OneHandWeapons/Wands/Wand1
 -- SetJiaoYiGoods(nil,"红玉戒指","Metadata/Items/Rings/Ring7","阿克莱的草原","Ahkeli's Meadow","3",nil)
 -- SetJiaoYiGoods(nil,"红玉戒指","Metadata/Items/Rings/Ring7","阿克莱的山谷","Ahkeli's Valley","3",nil)
 -- SetJiaoYiGoods(nil,"红玉戒指","Metadata/Items/Rings/Ring7","苦痛之环","Circle of Anguish","3",nil)
--- SetJiaoYiGoods(nil,"三相戒指","Metadata/Items/Rings/Ring8","元素之章","The Taming","3",nil)
+SetJiaoYiGoods(nil,"三相戒指","Metadata/Items/Rings/Ring8","元素之章","The Taming","3",nil)
 -- SetJiaoYiGoods(nil,"三相戒指","Metadata/Items/Rings/Ring8","窃罪","Thief's Torment","3",nil)
 -- SetJiaoYiGoods(nil,"月光石戒指","Metadata/Items/Rings/Ring9","薛朗的启示之环","Shavronne's Revelation","3",nil)
 -- SetJiaoYiGoods(nil,"紫晶戒指","Metadata/Items/Rings/Ring10","乡愁之环","Circle of Nostalgia","3",nil)
@@ -1534,7 +1556,7 @@ SetJiaoYiGoods(nil,"帝金护身符","Metadata/Items/Amulets/Amulet6","冬之心","Winte
 -- SetJiaoYiGoods(nil,"素布腰带","Metadata/Items/Belts/Belt1",nil,nil,nil,nil)
 -- SetJiaoYiGoods(nil,"扣链腰带","Metadata/Items/Belts/Belt2",nil,nil,nil,nil)
 SetJiaoYiGoods(nil,"皮革腰带","Metadata/Items/Belts/Belt3","猎首","Headhunter","3",nil)
--- SetJiaoYiGoods(nil,"重革腰带","Metadata/Items/Belts/Belt4","比斯克的缰绳","Bisco's Leash","3",nil)
+SetJiaoYiGoods(nil,"重革腰带","Metadata/Items/Belts/Belt4","魔血","Mageblood","3",nil)
 SetJiaoYiGoods(nil,"饰布腰带","Metadata/Items/Belts/Belt5","普兰德斯之印","Perandus Blazon","3",nil)
 -- SetJiaoYiGoods(nil,"扣钉腰带","Metadata/Items/Belts/Belt6",nil,nil,nil,nil)
 -- SetJiaoYiGoods(nil,"先锋腰带","Metadata/Items/Belts/BeltAtlas1",nil,nil,nil,nil)
@@ -1642,7 +1664,7 @@ SetJiaoYiGoods(nil,"坚毅塔盾","Metadata/Items/Armours/Shields/ShieldStr17","狮眼
 -- SetJiaoYiGoods(nil,"艾兹麦坚盔","Metadata/Items/Armours/Helmets/HelmetStr9",nil,nil,nil,nil)
 -- SetJiaoYiGoods(nil,"皇室坚盔","Metadata/Items/Armours/Helmets/HelmetStr10",nil,nil,nil,nil)
 -- SetJiaoYiGoods(nil,"永恒坚盔","Metadata/Items/Armours/Helmets/HelmetStr11",nil,nil,nil,nil)
--- SetJiaoYiGoods(nil,"皮帽","Metadata/Items/Armours/Helmets/HelmetDex1",nil,nil,nil,nil)
+-- SetJiaoYiGoods(nil,"皮帽","Metadata/Items/Armours/Helmets/HelmetDex1","金縷帽","Goldrim",3,nil)
 -- SetJiaoYiGoods(nil,"三角帽","Metadata/Items/Armours/Helmets/HelmetDex2",nil,nil,nil,nil)
 -- SetJiaoYiGoods(nil,"革兜","Metadata/Items/Armours/Helmets/HelmetDex3",nil,nil,nil,nil)
 -- SetJiaoYiGoods(nil,"狼首皮盔","Metadata/Items/Armours/Helmets/HelmetDex4",nil,nil,nil,nil)
