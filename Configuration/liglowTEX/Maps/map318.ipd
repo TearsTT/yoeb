@@ -1,266 +1,299 @@
-//3.21 æ©˜è²“è¼¿åœ–æª” æ­¤æª”æ¡ˆç‚ºçµ‚ç”Ÿæ‹¾å–æª”è´ˆå“ï¼Œä¸éš¨æ¯å­£æ›´æ–°ï¼Œä½†åŸå‰‡ä¸Šæ¯å­£éƒ½å¯ä»¥ä½¿ç”¨																									
-// å·²è‡ªå‹•åŒ– è«‹ä¿®æ”¹æŒ‰éˆ•å°±å¥½ï¼Œå…¶ä»–ä¸è¦å‹•ã€å…¶ä»–ä¸è¦å‹•ã€å…¶ä»–ä¸è¦å‹•																									
-//	//è£½åœ–é‡˜é»åœ°åœ–		é—œé–‰æ­¤åŠŸèƒ½																						
-//	//åœ°åœ–é»è›»è®ŠçŸ³		é—œé–‰æ­¤åŠŸèƒ½																						
-//	//åœ°åœ–é»å¢å¹…çŸ³		é—œé–‰æ­¤åŠŸèƒ½																						
-//	//åœ°åœ–é»é»é‡‘çŸ³		é—œé–‰æ­¤åŠŸèƒ½	
-//	[MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Rare" # [IgnoreMap]== "true" // é‡‘åœ–å…¨éƒ¨ä¸æ‰“																					
+//	//				//¤¤¤å§PÂ_																				
+	//3.17 ¾ï¿ßÁÖ¹ÏÀÉ ////ÂÅ¦â¤å¦r¥Nªí¤£¯à§ó§ïªºÄæ¦ì¡A¤£­n¥h§ï																								
+//	[Quality]<="16"&& [Rarity]=="Normal"#[UpgradeQuality]== "true"//¨Ï¥Î»s¹Ï°v			//¨Ï¥Î»s¹Ï°v	¤£//¨Ï¥Î»s¹Ï°v																				
+//	[MapTier]>= "1" && [MapTier] <= "16"#[RunMap]== "true"//°õ¦æÁÖ¹Ï			//³o¾î¦æ½Ğ¤Å§ó°Ê																					
+//	[Rarity]== "Normal"#[UpgradeToMagic]== "true"//¨Ï¥Î¸ÀÅÜ¥Û			//¨Ï¥Î¸ÀÅÜ	¤£//¨Ï¥Î¸ÀÅÜ																				
+//	[Rarity]== "Magic"#[AugmentIfPossible]== "true"//¨Ï¥Î¼W´T¥Û			//¨Ï¥Î¼W´T	¤£//¨Ï¥Î¼W´T																				
+//	[Rarity]== "Normal"#[UpgradeToRare]== "true"//¨Ï¥ÎÂIª÷¥Û			//¨Ï¥ÎÂIª÷	¤£//¨Ï¥ÎÂIª÷		
+	[MapTier]>= "1" && [MapTier] <= "16" && [Rarity] == "Rare" # [IgnoreMap]== "true" // ª÷¹Ï¥ş³¡¤£¥´
+	
+	
+			//[Type]=="Crimson Temple Map" # [ExitAfterBossKill] == "true"		 //¥´¦º¤ı´N¶}ªùÂ÷¶}				
+									
+	//Á×¶}¤ı©Ğ¦a¹Ï//(¹w³])				//¤¤¤å§PÂ_																				
+	[Type]=="Graveyard Map" #	[SkipBossArena]	=="true"	//¼Z¼v¹Ó³õ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Dungeon Map" #	[SkipBossArena]	=="true"	//¸T»îª¢º»	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Foundry Map" #	[SkipBossArena]	=="true"	//Áåª÷©Ğ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Cells Map" #	[SkipBossArena]	=="true"	//«Õ»îºÊ¨c	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Relic Chambers Map" #	[SkipBossArena]	=="true"	//¥j¨å±K«Ç	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Frozen Cabins Map" #	[SkipBossArena]	=="true"	//­á­ì¤p«Î	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Grave Trough Map" #	[SkipBossArena]	=="true"	//¹Ó¦a¨¦	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Crimson Township Map" #	[SkipBossArena]	=="true"	//ãn¬õ¤§Âí	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Toxic Sewer Map" #	[SkipBossArena]	=="true"	//»G±Ñ¤U¤ô¹D	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Ivory Temple Map" #	[SkipBossArena]	=="true"	//¶H¤ú¯«·µ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Lava Chamber Map" #	[SkipBossArena]	=="true"	//º²©¥¤§«Ç	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Residence Map" #	[SkipBossArena]	=="true"	//¯«¥D©~©Ò	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Bone Crypt Map" #	[SkipBossArena]	=="true"	//°©¸ñ³®¹Ó	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Underground River Map" #	[SkipBossArena]	=="true"	//¦a©³¤§ªe	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Laboratory Map" #	[SkipBossArena]	=="true"	//¹êÅç©~©Ò	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Overgrown Ruin Map" #	[SkipBossArena]	=="true"	//ªø¯ó¿ò¸ñ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Vaal Pyramid Map" #	[SkipBossArena]	=="true"	//¥Ëº¸ª÷¦r¶ğ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Tower Map" #	[SkipBossArena]	=="true"	//îîº»¦y¶ğ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Waste Pool Map" #	[SkipBossArena]	=="true"	//¦º±Iªd·¾	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Vault Map" #	[SkipBossArena]	=="true"	//Å]ª÷Ä_®w	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Shipyard Map" #	[SkipBossArena]	=="true"	//¿Kª¢²î¶õ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Belfry Map" #	[SkipBossArena]	=="true"	//¶³³»ÄÁ¼Ó	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Lair Map" #	[SkipBossArena]	=="true"	//¾jÃ~±_¥Ş	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Primordial Pool Map" #	[SkipBossArena]	=="true"	//¦å¸{ªh¿A	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Factory Map" #	[SkipBossArena]	=="true"	//ÅKÄÃ¤u¼t	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Summit Map" #	[SkipBossArena]	=="true"	//´H³»¤§Åq	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Primordial Blocks Map" #	[SkipBossArena]	=="true"	//¦å¸{°}¦a	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Necropolis Map" #	[SkipBossArena]	=="true"	//Å]¼v¹Ó³õ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Malformation Map" #	[SkipBossArena]	=="true"	//·î§Î¤`°ì	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Terrace Map" #	[SkipBossArena]	=="true"	//ÅS¥xªá¶é	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Shrine Map" #	[SkipBossArena]	=="true"	//©_³N¯µ·µ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Arsenal Map" #	[SkipBossArena]	=="true"	//¥j§L¤u¼t	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Core Map" #	[SkipBossArena]	=="true"	//®Ö¤ß	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Colosseum Map" #	[SkipBossArena]	=="true"	//¤j¨M°«³õ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Dark Forest Map" #	[SkipBossArena]	=="true"	//©]»y«ÕªL	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Plaza Map" #	[SkipBossArena]	=="true"	//¼s³õ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Lava Lake Map" #	[SkipBossArena]	=="true"	//©¥¼ßº²´ò	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Basilica Map" #	[SkipBossArena]	=="true"	//¸t·µ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Sunken City Map" #	[SkipBossArena]	=="true"	//¨È¯SÄõ´£´µ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Reef Map" #	[SkipBossArena]	=="true"	//¦M¾÷®üÁG	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Bramble Valley Map" #	[SkipBossArena]	=="true"	//¯ğ´Æ¨¦	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Pit of the Chimera Map" #	[SkipBossArena]	=="true"	//©_¬ü©ÔÅ]§|	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Lair of the Hydra Map" #	[SkipBossArena]	=="true"	//¤EÀY³D¦B¸]	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Maze of the Minotaur Map" #	[SkipBossArena]	=="true"	//¤ûÀY¤HÁ¼°ì	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Forge of the Phoenix Map" #	[SkipBossArena]	=="true"	//¤õ»ñ°Äº²®Ö	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Vaal Temple Map" #	[SkipBossArena]	=="true"	//¥Ëº¸±K·µ	¤£¥´³o±i¹Ïªº¤ı																				
+	[Type]=="Harbinger Map" #	[SkipBossArena]	=="true"	//¯«¿Ù¤§·µ¡D·Òº»	¤£¥´³o±i¹Ïªº¤ı																				
+//	//3.17 ¥´¹Ï³]©w //																								
+	[Type]=="Lookout Map" #	[RunMap]	=="true"	//¦p¼i¦MÀğ	¥´³o±i¹Ï																				
+	[Type]=="Beach Map" #	[RunMap]	=="true"	//¥Õ¨FÅyÀY	¥´³o±i¹Ï																				
+	[Type]=="Graveyard Map" #	[RunMap]	=="true"	//¼Z¼v¹Ó³õ	¥´³o±i¹Ï																				
+	[Type]=="Dungeon Map" #	[IgnoreMap]	=="true"	//¸T»îª¢º»	¤£¥´³o±i¹Ï																				
+	[Type]=="Foundry Map" #	[RunMap]	=="true"	//Áåª÷©Ğ	¥´³o±i¹Ï																				
+	[Type]=="Alleyways Map" #	[RunMap]	=="true"	//¦M«°«Ñ§Ë	¥´³o±i¹Ï																				
+	[Type]=="Pen Map" #	[RunMap]	=="true"	//Â©³±º»¨c	¥´³o±i¹Ï																				
+	[Type]=="Desert Map" #	[RunMap]	=="true"	//³h½C¤§¦a	¥´³o±i¹Ï																				
+	[Type]=="Arid Lake Map" #	[RunMap]	=="true"	//°®¬\´ò©¤	¥´³o±i¹Ï																				
+	[Type]=="Flooded Mine Map" #	[RunMap]	=="true"	//¬x¨aÄq§|	¥´³o±i¹Ï																				
+	[Type]=="Marshes Map" #	[RunMap]	=="true"	//´c¯äªh¦a	¥´³o±i¹Ï																				
+	[Type]=="Iceberg Map" #	[RunMap]	=="true"	//·¥­ì¦B´U	¥´³o±i¹Ï																				
+	[Type]=="Cage Map" #	[RunMap]	=="true"	//Åù¯}¨cÅ¢	¥´³o±i¹Ï																				
+	[Type]=="Fungal Hollow Map" #	[RunMap]	=="true"	//¬rµßÅ]°ì	¥´³o±i¹Ï																				
+	[Type]=="Excavation Map" #	[RunMap]	=="true"	//«õ±¸³õ	¥´³o±i¹Ï																				
+	[Type]=="Leyline Map" #	[RunMap]	=="true"	//¯î²Dªª³¥	¥´³o±i¹Ï																				
+	[Type]=="Peninsula Map" #	[RunMap]	=="true"	//°®¼éªL¦a	¥´³o±i¹Ï																				
+	[Type]=="Port Map" #	[RunMap]	=="true"	//¥¢¸¨«°¶õ	¥´³o±i¹Ï																				
+	[Type]=="Burial Chambers Map" #	[RunMap]	=="true"	//§ò¦a¹Ó«Ç	¥´³o±i¹Ï																				
+	[Type]=="Cells Map" #	[RunMap]	=="true"	//«Õ»îºÊ¨c	¥´³o±i¹Ï																				
+	[Type]=="Arcade Map" #	[RunMap]	=="true"	//±YÃaªø´Y	¥´³o±i¹Ï																				
+	[Type]=="City Square Map" #	[RunMap]	=="true"	//¦M«°¼s³õ	¥´³o±i¹Ï																				
+	[Type]=="Relic Chambers Map" #	[IgnoreMap]	=="true"	//¥j¨å±K«Ç	¤£¥´³o±i¹Ï																				
+	[Type]=="Courthouse Map" #	[RunMap]	=="true"	//¥¢§Ç±Ğ°|	¥´³o±i¹Ï																				
+	[Type]=="Strand Map" #	[RunMap]	=="true"	//­P©R©¥Åy	¥´³o±i¹Ï																				
+	[Type]=="Chateau Map" #	[RunMap]	=="true"	//¥j³ù	¥´³o±i¹Ï																				
+	[Type]=="Grotto Map" #	[RunMap]	=="true"	//«Õ·t¦a¥Ş	¥´³o±i¹Ï																				
+	[Type]=="Glacier Map" #	[RunMap]	=="true"	//¦B¤t¤s¥C	¥´³o±i¹Ï																				
+	[Type]=="Volcano Map" #	[RunMap]	=="true"	//¤õ¤sª¢°ì	¥´³o±i¹Ï																				
+	[Type]=="Lighthouse Map" #	[RunMap]	=="true"	//µ´±æ¿O¶ğ	¥´³o±i¹Ï																				
+	[Type]=="Canyon Map" #	[RunMap]	=="true"	//ª¥¶§®l¨¦	¥´³o±i¹Ï																				
+	[Type]=="Frozen Cabins Map" #	[IgnoreMap]	=="true"	//­á­ì¤p«Î	¤£¥´³o±i¹Ï																				
+	[Type]=="Grave Trough Map" #	[IgnoreMap]	=="true"	//¹Ó¦a¨¦	¤£¥´³o±i¹Ï																				
+	[Type]=="Crimson Township Map" #	[RunMap]	=="true"	//ãn¬õ¤§Âí	¥´³o±i¹Ï																				
+	[Type]=="Forking River Map" #	[RunMap]	=="true"	//§Ãªe	¥´³o±i¹Ï																				
+	[Type]=="Cold River Map" #	[RunMap]	=="true"	//´Hªe	¥´³o±i¹Ï																				
+	[Type]=="Forbidden Woods Map" #	[RunMap]	=="true"	//¸T§Ò¤§´Ë	¥´³o±i¹Ï																				
+	[Type]=="Conservatory Map" #	[RunMap]	=="true"	//¹ç¶h·Å©Ğ	¥´³o±i¹Ï																				
+	[Type]=="Sulphur Vents Map" #	[RunMap]	=="true"	//²¸ÁD»k©¤	¥´³o±i¹Ï																				
+	[Type]=="Haunted Mansion Map" #	[RunMap]	=="true"	//«Õ»î¦vªó	¥´³o±i¹Ï																				
+	[Type]=="Maze Map" #	[RunMap]	=="true"	//­ß¯«¤§°ì	¥´³o±i¹Ï																				
+	[Type]=="Channel Map" #	[RunMap]	=="true"	//¯µ±K³q¹D	¥´³o±i¹Ï																				
+	[Type]=="Toxic Sewer Map" #	[RunMap]	=="true"	//»G±Ñ¤U¤ô¹D	¥´³o±i¹Ï																				
+	[Type]=="Ancient City Map" #	[RunMap]	=="true"	//»·¥j¦M«°	¥´³o±i¹Ï																				
+	[Type]=="Ivory Temple Map" #	[RunMap]	=="true"	//¶H¤ú¯«·µ	¥´³o±i¹Ï																				
+	[Type]=="Spider Lair Map" #	[RunMap]	=="true"	//¥¨µï±_¥Ş	¥´³o±i¹Ï																				
+	[Type]=="Barrows Map" #	[RunMap]	=="true"	//¼öªL¶ï¹Ó	¥´³o±i¹Ï																				
+	[Type]=="Mausoleum Map" #	[RunMap]	=="true"	//ÀR¿~³®¹Ó	¥´³o±i¹Ï																				
+	[Type]=="Fields Map" #	[RunMap]	=="true"	//µLÃ¦¥Ğ³¥	¥´³o±i¹Ï																				
+	[Type]=="Jungle Valley Map" #	[RunMap]	=="true"	//¼@¬rªL¨¦	¥´³o±i¹Ï																				
+	[Type]=="Phantasmagoria Map" #	[RunMap]	=="true"	//Å]ÆF¤Ûº»	¥´³o±i¹Ï																				
+	[Type]=="Academy Map" #	[RunMap]	=="true"	//´cÆF¾Ç°|	¥´³o±i¹Ï																				
+	[Type]=="Thicket Map" #	[RunMap]	=="true"	//ÅåÄß¾ğÂO	¥´³o±i¹Ï																				
+	[Type]=="Wharf Map" #	[RunMap]	=="true"	//¬r¤ú®ü´ä	¥´³o±i¹Ï																				
+	[Type]=="Ashen Wood Map" #	[RunMap]	=="true"	//§ò¤ìªL¦a	¥´³o±i¹Ï																				
+	[Type]=="Atoll Map" #	[RunMap]	=="true"	//ÀØ®ü¤s¥C	¥´³o±i¹Ï																				
+	[Type]=="Cemetery Map" #	[RunMap]	=="true"	//±áÄf¹Ó¦a	¥´³o±i¹Ï																				
+	[Type]=="Underground Sea Map" #	[RunMap]	=="true"	//ÀØ®ü«Õ¥Ş	¥´³o±i¹Ï																				
+	[Type]=="Crater Map" #	[RunMap]	=="true"	//´İ¯}âf§|	¥´³o±i¹Ï																				
+	[Type]=="Coral Ruins Map" #	[RunMap]	=="true"	//¯}¸H³ùÁG	¥´³o±i¹Ï																				
+	[Type]=="Lava Chamber Map" #	[RunMap]	=="true"	//º²©¥¤§«Ç	¥´³o±i¹Ï																				
+	[Type]=="Residence Map" #	[RunMap]	=="true"	//¯«¥D©~©Ò	¥´³o±i¹Ï																				
+	[Type]=="Ramparts Map" #	[RunMap]	=="true"	//ÀØ®ü³ùÂS	¥´³o±i¹Ï																				
+	[Type]=="Dunes Map" #	[RunMap]	=="true"	//¼Ç¦â¨F¥C	¥´³o±i¹Ï																				
+	[Type]=="Bone Crypt Map" #	[RunMap]	=="true"	//°©¸ñ³®¹Ó	¥´³o±i¹Ï																				
+	[Type]=="Underground River Map" #	[RunMap]	=="true"	//¦a©³¤§ªe	¥´³o±i¹Ï																				
+	[Type]=="Gardens Map" #	[RunMap]	=="true"	//°g®cªá¶é	¥´³o±i¹Ï																				
+	[Type]=="Arachnid Nest Map" #	[RunMap]	=="true"	//²§µï±_¥Ş	¥´³o±i¹Ï																				
+	[Type]=="Bazaar Map" #	[RunMap]	=="true"	//»·¥j¥«¶°	¥´³o±i¹Ï																				
+	[Type]=="Laboratory Map" #	[RunMap]	=="true"	//¹êÅç©~©Ò	¥´³o±i¹Ï																				
+	[Type]=="Infested Valley Map" #	[IgnoreMap]	=="true"	//¯f¬ÌªL¨¦	¤£¥´³o±i¹Ï																				
+	[Type]=="Overgrown Ruin Map" #	[RunMap]	=="true"	//ªø¯ó¿ò¸ñ	¥´³o±i¹Ï																				
+	[Type]=="Vaal Pyramid Map" #	[IgnoreMap]	=="true"	//¥Ëº¸ª÷¦r¶ğ	¤£¥´³o±i¹Ï																				
+	[Type]=="Geode Map" #	[RunMap]	=="true"	//¸ŞÃÔ´¹¬}	¥´³o±i¹Ï																				
+	[Type]=="Armoury Map" #	[RunMap]	=="true"	//­x±ñ®w	¥´³o±i¹Ï																				
+	[Type]=="Courtyard Map" #	[RunMap]	=="true"	//©_³N¤§®x	¥´³o±i¹Ï																				
+	[Type]=="Mud Geyser Map" #	[RunMap]	=="true"	//³±±âªdÅy	¥´³o±i¹Ï																				
+	[Type]=="Shore Map" #	[RunMap]	=="true"	//¼Ç¥ú®üÅy	¥´³o±i¹Ï																				
+	[Type]=="Tropical Island Map" #	[RunMap]	=="true"	//´¸ªÅ«Õ®q	¥´³o±i¹Ï																				
+	[Type]=="Mineral Pools Map" #	[RunMap]	=="true"	//Àã¦aÄq¤s	¥´³o±i¹Ï																				
+	[Type]=="Moon Temple Map" #	[RunMap]	=="true"	//¼`®S¯«·µ	¥´³o±i¹Ï																				
+	[Type]=="Sepulchre Map" #	[RunMap]	=="true"	//³±·t¹Ó¶ï	¥´³o±i¹Ï																				
+	[Type]=="Tower Map" #	[IgnoreMap]	=="true"	//îîº»¦y¶ğ	¤£¥´³o±i¹Ï																				
+	[Type]=="Waste Pool Map" #	[RunMap]	=="true"	//¦º±Iªd·¾	¥´³o±i¹Ï																				
+	[Type]=="Plateau Map" #	[RunMap]	=="true"	//®ü­·°ª­ì	¥´³o±i¹Ï																				
+	[Type]=="Estuary Map" #	[RunMap]	=="true"	//º²¤õ©¥Åy	¥´³o±i¹Ï																				
+	[Type]=="Vault Map" #	[IgnoreMap]	=="true"	//Å]ª÷Ä_®w	¤£¥´³o±i¹Ï																				
+	[Type]=="Temple Map" #	[RunMap]	=="true"	//¹Ü»î¤§·µ	¥´³o±i¹Ï																				
+	[Type]=="Arena Map" #	[IgnoreMap]	=="true"	//Äv§Ş³õ	¤£¥´³o±i¹Ï																				
+	[Type]=="Museum Map" #	[RunMap]	=="true"	//¥j³Õª«À]	¥´³o±i¹Ï																				
+	[Type]=="Scriptorium Map" #	[RunMap]	=="true"	//¹Ó¼v®Ñ§{	¥´³o±i¹Ï																				
+	[Type]=="Siege Map" #	[RunMap]	=="true"	//¸TÂ_³ò«°	¥´³o±i¹Ï																				
+	[Type]=="Shipyard Map" #	[RunMap]	=="true"	//¿Kª¢²î¶õ	¥´³o±i¹Ï																				
+	[Type]=="Belfry Map" #	[RunMap]	=="true"	//¶³³»ÄÁ¼Ó	¥´³o±i¹Ï																				
+	[Type]=="Arachnid Tomb Map" #	[RunMap]	=="true"	//²§µï¹Ó¶ï	¥´³o±i¹Ï																				
+	[Type]=="Wasteland Map" #	[RunMap]	=="true"	//¯î¦a	¥´³o±i¹Ï																				
+	[Type]=="Precinct Map" #	[RunMap]	=="true"	//­W¦æ¤§°ì	¥´³o±i¹Ï																				
+	[Type]=="Bog Map" #	[RunMap]	=="true"	//¿`®ğªdªh	¥´³o±i¹Ï																				
+	[Type]=="Pier Map" #	[RunMap]	=="true"	//«ã®ö¤§´ä	¥´³o±i¹Ï																				
+	[Type]=="Cursed Crypt Map" #	[RunMap]	=="true"	//´c©G³®¹Ó	¥´³o±i¹Ï																				
+	[Type]=="Orchard Map" #	[RunMap]	=="true"	//±KªLªG¶é	¥´³o±i¹Ï																				
+	[Type]=="Promenade Map" #	[RunMap]	=="true"	//¤ë¦â°j´Y	¥´³o±i¹Ï																				
+	[Type]=="Lair Map" #	[RunMap]	=="true"	//¾jÃ~±_¥Ş	¥´³o±i¹Ï																				
+	[Type]=="Colonnade Map" #	[RunMap]	=="true"	//¿E¾Ô¬W´Y	¥´³o±i¹Ï																				
+	[Type]=="Primordial Pool Map" #	[RunMap]	=="true"	//¦å¸{ªh¿A	¥´³o±i¹Ï																				
+	[Type]=="Spider Forest Map" #	[RunMap]	=="true"	//¥¨µï¤§ªL	¥´³o±i¹Ï																				
+	[Type]=="Coves Map" #	[RunMap]	=="true"	//¯e­·®lÆW	¥´³o±i¹Ï																				
+	[Type]=="Waterways Map" #	[RunMap]	=="true"	//¦M¾÷¤ô¹D	¥´³o±i¹Ï																				
+	[Type]=="Factory Map" #	[RunMap]	=="true"	//ÅKÄÃ¤u¼t	¥´³o±i¹Ï																				
+	[Type]=="Mesa Map" #	[RunMap]	=="true"	//¥­³»¯îºz	¥´³o±i¹Ï																				
+	[Type]=="Pit Map" #	[IgnoreMap]	=="true"	//¥¨§|	¤£¥´³o±i¹Ï																				
+	[Type]=="Dry Sea Map" #	[RunMap]	=="true"	//°®®ü	¥´³o±i¹Ï																				
+	[Type]=="Defiled Cathedral Map" #	[RunMap]	=="true"	//¤£¼ä±Ğ°ó	¥´³o±i¹Ï																				
+	[Type]=="Summit Map" #	[RunMap]	=="true"	//´H³»¤§Åq	¥´³o±i¹Ï																				
+	[Type]=="Overgrown Shrine Map" #	[RunMap]	=="true"	//±K¯ó¯«·µ	¥´³o±i¹Ï																				
+	[Type]=="Castle Ruins Map" #	[RunMap]	=="true"	//¿ò¸ñ¼o¼V	¥´³o±i¹Ï																				
+	[Type]=="Crystal Ore Map" #	[RunMap]	=="true"	//µµ´¹Äq¤s	¥´³o±i¹Ï																				
+	[Type]=="Villa Map" #	[RunMap]	=="true"	//¾y¼v§O¹Ö	¥´³o±i¹Ï																				
+	[Type]=="Primordial Blocks Map" #	[RunMap]	=="true"	//¦å¸{°}¦a	¥´³o±i¹Ï																				
+	[Type]=="Necropolis Map" #	[RunMap]	=="true"	//Å]¼v¹Ó³õ	¥´³o±i¹Ï																				
+	[Type]=="Racecourse Map" #	[RunMap]	=="true"	//¥jÄv³t³õ	¥´³o±i¹Ï																				
+	[Type]=="Caldera Map" #	[RunMap]	=="true"	//¤õ¤sª¢¤f	¥´³o±i¹Ï																				
+	[Type]=="Ghetto Map" #	[RunMap]	=="true"	//¨ª³h©~©Ò	¥´³o±i¹Ï																				
+	[Type]=="Park Map" #	[RunMap]	=="true"	//¶éªL­b	¥´³o±i¹Ï																				
+	[Type]=="Malformation Map" #	[RunMap]	=="true"	//·î§Î¤`°ì	¥´³o±i¹Ï																				
+	[Type]=="Terrace Map" #	[RunMap]	=="true"	//ÅS¥xªá¶é	¥´³o±i¹Ï																				
+	[Type]=="Shrine Map" #	[RunMap]	=="true"	//©_³N¯µ·µ	¥´³o±i¹Ï																				
+	[Type]=="Arsenal Map" #	[RunMap]	=="true"	//¥j§L¤u¼t	¥´³o±i¹Ï																				
+	[Type]=="Desert Spring Map" #	[RunMap]	=="true"	//²¸ÁD¯îºz	¥´³o±i¹Ï																				
+	[Type]=="Core Map" #	[IgnoreMap]	=="true"	//®Ö¤ß	¤£¥´³o±i¹Ï																				
+	[Type]=="Colosseum Map" #	[RunMap]	=="true"	//¤j¨M°«³õ	¥´³o±i¹Ï																				
+	[Type]=="Acid Caverns Map" #	[RunMap]	=="true"	//»Ä©¥»ÄÀ¬	¥´³o±i¹Ï																				
+	[Type]=="Dark Forest Map" #	[RunMap]	=="true"	//©]»y«ÕªL	¥´³o±i¹Ï																				
+	[Type]=="Crimson Temple Map" #	[RunMap]	=="true"	//ãn¬õ¯«·µ	¥´³o±i¹Ï																				
+	[Type]=="Plaza Map" #	[RunMap]	=="true"	//¼s³õ	¥´³o±i¹Ï																				
+	[Type]=="Dig Map" #	[RunMap]	=="true"	//¹H¸T±¸§|	¥´³o±i¹Ï																				
+	[Type]=="Palace Map" #	[RunMap]	=="true"	//¯«°ì¤§·µ	¥´³o±i¹Ï																				
+	[Type]=="Lava Lake Map" #	[RunMap]	=="true"	//©¥¼ßº²´ò	¥´³o±i¹Ï																				
+	[Type]=="Basilica Map" #	[RunMap]	=="true"	//¸t·µ	¥´³o±i¹Ï																				
+	[Type]=="Sunken City Map" #	[RunMap]	=="true"	//¨È¯SÄõ´£´µ	¥´³o±i¹Ï																				
+	[Type]=="Reef Map" #	[RunMap]	=="true"	//¦M¾÷®üÁG	¥´³o±i¹Ï																				
+	[Type]=="Carcass Map" #	[RunMap]	=="true"	//´c¯ä«Í°ì	¥´³o±i¹Ï																				
+	[Type]=="Stagnation Map" #	[RunMap]	=="true"	//²J¶ë¤ô¹D	¥´³o±i¹Ï																				
+	[Type]=="Bramble Valley Map" #	[IgnoreMap]	=="true"	//¯ğ´Æ¨¦	¤£¥´³o±i¹Ï																				
+	[Type]=="Silo Map" #	[RunMap]	=="true"	//Àxª«­Ü	¥´³o±i¹Ï																				
+	[Type]=="Pit of the Chimera Map" #	[IgnoreMap]	=="true"	//©_¬ü©ÔÅ]§|	¤£¥´³o±i¹Ï																				
+	[Type]=="Lair of the Hydra Map" #	[IgnoreMap]	=="true"	//¤EÀY³D¦B¸]	¤£¥´³o±i¹Ï																				
+	[Type]=="Maze of the Minotaur Map" #	[IgnoreMap]	=="true"	//¤ûÀY¤HÁ¼°ì	¤£¥´³o±i¹Ï																				
+	[Type]=="Forge of the Phoenix Map" #	[IgnoreMap]	=="true"	//¤õ»ñ°Äº²®Ö	¤£¥´³o±i¹Ï																				
+	[Type]=="Vaal Temple Map" #	[IgnoreMap]	=="true"	//¥Ëº¸±K·µ	¤£¥´³o±i¹Ï																				
+	[Type]=="Harbinger Map" #	[IgnoreMap]	=="true"	//¯«¿Ù¤§·µ¡D·Òº»	¤£¥´³o±i¹Ï																				
 																									
-// ä»¥ä¸‹é¸æ“‡ä½ é€™å¼µåœ–è¦ä¸è¦æ‰“				//å‚™è¨» ä¸æ‰“çš„ä»æœƒå­˜å€‰																					
-[Type] == "Lookout Map" # [RunMap] == "true" //	//å¦‚å±¥å±ç‰†		æ‰“																						
-[Type] == "Beach Map" # [RunMap] == "true" //	//ç™½æ²™ç˜é ­		æ‰“																						
-[Type] == "Graveyard Map" # [RunMap] == "true" //	//å¢®å½±å¢“å ´		æ‰“																						
-[Type] == "Dungeon Map" # [RunMap] == "true" //	//ç¦é­‚ç‚ç„		æ‰“																						
-[Type] == "Foundry Map" # [RunMap] == "true" //	//éŠé‡‘æˆ¿		æ‰“																						
-[Type] == "Alleyways Map" # [RunMap] == "true" //	//å±åŸå··å¼„		æ‰“																						
-[Type] == "Pen Map" # [RunMap] == "true" //	//ç©¢é™°ç„ç‰¢		æ‰“																						
-[Type] == "Desert Map" # [RunMap] == "true" //	//è²§ç˜ ä¹‹åœ°		æ‰“																						
-[Type] == "Arid Lake Map" # [RunMap] == "true" //	//ä¹¾æ¯æ¹–å²¸		æ‰“																						
-[Type] == "Flooded Mine Map" # [RunMap] == "true" //	//æ´ªç½ç¤¦å‘		æ‰“																						
-[Type] == "Marshes Map" # [RunMap] == "true" //	//æƒ¡è‡­æ²¼åœ°		æ‰“																						
-[Type] == "Iceberg Map" # [RunMap] == "true" //	//æ¥µåŸå†°å¸½		æ‰“																						
-[Type] == "Cage Map" # [RunMap] == "true" //	//ç¾ˆç ´ç‰¢ç± 		æ‰“																						
-[Type] == "Fungal Hollow Map" # [RunMap] == "true" //	//æ¯’èŒé­”åŸŸ		æ‰“																						
-[Type] == "Excavation Map" # [RunMap] == "true" //	//æŒ–æ˜å ´		æ‰“																						
-[Type] == "Leyline Map" # [RunMap] == "true" //	//è’æ¶¼ç‰§é‡		æ‰“																						
-[Type] == "Peninsula Map" # [RunMap] == "true" //	//ä¹¾æ½®æ—åœ°		æ‰“																						
-[Type] == "Port Map" # [RunMap] == "true" //	//å¤±è½åŸå¡¢		æ‰“																						
-[Type] == "Burial Chambers Map" # [RunMap] == "true" //	//æ—±åœ°å¢“å®¤		æ‰“																						
-[Type] == "Cells Map" # [RunMap] == "true" //	//å¹½é­‚ç›£ç‰¢		æ‰“																						
-[Type] == "Arcade Map" # [RunMap] == "true" //	//å´©å£é•·å»Š		æ‰“																						
-[Type] == "City Square Map" # [RunMap] == "true" //	//å±åŸå»£å ´		æ‰“																						
-[Type] == "Relic Chambers Map" # [RunMap] == "true" //	//å¤å…¸å¯†å®¤		æ‰“																						
-[Type] == "Courthouse Map" # [RunMap] == "true" //	//å¤±åºæ•™é™¢		æ‰“																						
-[Type] == "Strand Map" # [RunMap] == "true" //	//è‡´å‘½å²©ç˜		æ‰“																						
-[Type] == "Chateau Map" # [RunMap] == "true" //	//å¤å ¡		æ‰“																						
-[Type] == "Grotto Map" # [RunMap] == "true" //	//å¹½æš—åœ°ç©´		æ‰“																						
-[Type] == "Glacier Map" # [RunMap] == "true" //	//å†°å·å±±ä¸˜		æ‰“																						
-[Type] == "Volcano Map" # [RunMap] == "true" //	//ç«å±±ç‚åŸŸ		æ‰“																						
-[Type] == "Lighthouse Map" # [RunMap] == "true" //	//çµ•æœ›ç‡ˆå¡”		æ‰“																						
-[Type] == "Canyon Map" # [RunMap] == "true" //	//ç‚™é™½å³½è°·		æ‰“																						
-[Type] == "Frozen Cabins Map" # [RunMap] == "true" //	//å‡åŸå°å±‹		æ‰“																						
-[Type] == "Grave Trough Map" # [RunMap] == "true" //	//å¢“åœ°è°·		æ‰“																						
-[Type] == "Crimson Township Map" # [RunMap] == "true" //	//ç·‹ç´…ä¹‹é®		æ‰“																						
-[Type] == "Forking River Map" # [RunMap] == "true" //	//å²”æ²³		æ‰“																						
-[Type] == "Cold River Map" # [RunMap] == "true" //	//å¯’æ²³		æ‰“																						
-[Type] == "Forbidden Woods Map" # [RunMap] == "true" //	//ç¦å¿Œä¹‹æ£®		æ‰“																						
-[Type] == "Conservatory Map" # [RunMap] == "true" //	//å¯§é€¸æº«æˆ¿		æ‰“																						
-[Type] == "Sulphur Vents Map" # [RunMap] == "true" //	//ç¡«ç£ºè•å²¸		æ‰“																						
-[Type] == "Haunted Mansion Map" # [RunMap] == "true" //	//å¹½é­‚å®…é‚¸		æ‰“																						
-[Type] == "Maze Map" # [RunMap] == "true" //	//å†¥ç¥ä¹‹åŸŸ		æ‰“																						
-[Type] == "Channel Map" # [RunMap] == "true" //	//ç§˜å¯†é€šé“		æ‰“																						
-[Type] == "Toxic Sewer Map" # [RunMap] == "true" //	//è…æ•—ä¸‹æ°´é“		æ‰“																						
-[Type] == "Ancient City Map" # [RunMap] == "true" //	//é å¤å±åŸ		æ‰“																						
-[Type] == "Ivory Temple Map" # [RunMap] == "true" //	//è±¡ç‰™ç¥æ®¿		æ‰“																						
-[Type] == "Spider Lair Map" # [RunMap] == "true" //	//å·¨è››å·¢ç©´		æ‰“																						
-[Type] == "Barrows Map" # [RunMap] == "true" //	//ç†±æ—å¡šå¢“		æ‰“																						
-[Type] == "Mausoleum Map" # [RunMap] == "true" //	//éœç¸Šé™µå¢“		æ‰“																						
-[Type] == "Fields Map" # [RunMap] == "true" //	//ç„¡ç–†ç”°é‡		æ‰“																						
-[Type] == "Jungle Valley Map" # [RunMap] == "true" //	//åŠ‡æ¯’æ—è°·		æ‰“																						
-[Type] == "Phantasmagoria Map" # [RunMap] == "true" //	//é­”éˆå¹»ç„		æ‰“																						
-[Type] == "Academy Map" # [RunMap] == "true" //	//æƒ¡éˆå­¸é™¢		æ‰“																						
-[Type] == "Thicket Map" # [RunMap] == "true" //	//é©šæ‡¼æ¨¹å¢		æ‰“																						
-[Type] == "Wharf Map" # [RunMap] == "true" //	//æ¯’ç‰™æµ·æ¸¯		æ‰“																						
-[Type] == "Ashen Wood Map" # [RunMap] == "true" //	//æ—±æœ¨æ—åœ°		æ‰“																						
-[Type] == "Atoll Map" # [RunMap] == "true" //	//æ¿±æµ·å±±ä¸˜		æ‰“																						
-[Type] == "Cemetery Map" # [RunMap] == "true" //	//æ™¨æ›¦å¢“åœ°		æ‰“																						
-[Type] == "Underground Sea Map" # [RunMap] == "true" //	//æ¿±æµ·å¹½ç©´		æ‰“																						
-[Type] == "Crater Map" # [RunMap] == "true" //	//æ®˜ç ´æ®å‘		æ‰“																						
-[Type] == "Coral Ruins Map" # [RunMap] == "true" //	//ç ´ç¢å ¡ç¤		æ‰“																						
-[Type] == "Lava Chamber Map" # [RunMap] == "true" //	//ç†”å²©ä¹‹å®¤		æ‰“																						
-[Type] == "Residence Map" # [RunMap] == "true" //	//ç¥ä¸»å±…æ‰€		æ‰“																						
-[Type] == "Ramparts Map" # [RunMap] == "true" //	//æ¿±æµ·å ¡å£˜		æ‰“																						
-[Type] == "Dunes Map" # [RunMap] == "true" //	//æš®è‰²æ²™ä¸˜		æ‰“																						
-[Type] == "Bone Crypt Map" # [RunMap] == "true" //	//éª¨è·¡é™µå¢“		æ‰“																						
-[Type] == "Underground River Map" # [RunMap] == "true" //	//åœ°åº•ä¹‹æ²³		æ‰“																						
-[Type] == "Gardens Map" # [RunMap] == "true" //	//è¿·å®®èŠ±åœ’		æ‰“																						
-[Type] == "Arachnid Nest Map" # [RunMap] == "true" //	//ç•°è››å·¢ç©´		æ‰“																						
-[Type] == "Bazaar Map" # [RunMap] == "true" //	//é å¤å¸‚é›†		æ‰“																						
-[Type] == "Laboratory Map" # [RunMap] == "true" //	//å¯¦é©—å±…æ‰€		æ‰“																						
-[Type] == "Infested Valley Map" # [RunMap] == "true" //	//ç—…ç–«æ—è°·		æ‰“																						
-[Type] == "Overgrown Ruin Map" # [RunMap] == "true" //	//é•·è‰éºè·¡		æ‰“																						
-[Type] == "Vaal Pyramid Map" # [RunMap] == "true" //	//ç“¦çˆ¾é‡‘å­—å¡”		æ‰“																						
-[Type] == "Geode Map" # [RunMap] == "true" //	//è©­è­æ™¶æ´		æ‰“																						
-[Type] == "Armoury Map" # [RunMap] == "true" //	//è»æ¢°åº«		æ‰“																						
-[Type] == "Courtyard Map" # [RunMap] == "true" //	//å¥‡è¡“ä¹‹åº­		æ‰“																						
-[Type] == "Mud Geyser Map" # [RunMap] == "true" //	//é™°æ™¦æ³¥ç˜		æ‰“																						
-[Type] == "Shore Map" # [RunMap] == "true" //	//æš®å…‰æµ·ç˜		æ‰“																						
-[Type] == "Tropical Island Map" # [RunMap] == "true" //	//æ™´ç©ºå¹½å³¶		æ‰“																						
-[Type] == "Mineral Pools Map" # [RunMap] == "true" //	//æ¿•åœ°ç¤¦å±±		æ‰“																						
-[Type] == "Moon Temple Map" # [RunMap] == "true" //	//å¬‹å¨Ÿç¥æ®¿		æ‰“																						
-[Type] == "Sepulchre Map" # [RunMap] == "true" //	//é™°æš—å¢“å¡š		æ‰“																						
-[Type] == "Tower Map" # [IgnoreMap] == "true" //	//é—‡ç„å°–å¡”		ä¸æ‰“																						
-[Type] == "Waste Pool Map" # [RunMap] == "true" //	//æ­»å¯‚æ³¥æº		æ‰“																						
-[Type] == "Plateau Map" # [RunMap] == "true" //	//æµ·é¢¨é«˜åŸ		æ‰“																						
-[Type] == "Estuary Map" # [RunMap] == "true" //	//ç†”ç«å²©ç˜		æ‰“																						
-[Type] == "Vault Map" # [IgnoreMap] == "true" //	//é­”é‡‘å¯¶åº«		ä¸æ‰“																						
-[Type] == "Temple Map" # [RunMap] == "true" //	//å¥ªé­‚ä¹‹æ®¿		æ‰“																						
-[Type] == "Arena Map" # [RunMap] == "true" //	//ç«¶æŠ€å ´		æ‰“																						
-[Type] == "Museum Map" # [RunMap] == "true" //	//å¤åšç‰©é¤¨		æ‰“																						
-[Type] == "Scriptorium Map" # [RunMap] == "true" //	//å¢“å½±æ›¸åŠ		æ‰“																						
-[Type] == "Siege Map" # [IgnoreMap] == "true" //	//ç¦æ–·åœåŸ		ä¸æ‰“																						
-[Type] == "Shipyard Map" # [RunMap] == "true" //	//ç†¾ç‚èˆ¹å¡¢		æ‰“																						
-[Type] == "Belfry Map" # [IgnoreMap] == "true" //	//é›²é ‚é˜æ¨“		ä¸æ‰“																						
-[Type] == "Arachnid Tomb Map" # [RunMap] == "true" //	//ç•°è››å¢“å¡š		æ‰“																						
-[Type] == "Wasteland Map" # [RunMap] == "true" //	//è’åœ°		æ‰“																						
-[Type] == "Precinct Map" # [RunMap] == "true" //	//è‹¦è¡Œä¹‹åŸŸ		æ‰“																						
-[Type] == "Bog Map" # [RunMap] == "true" //	//ç˜´æ°£æ³¥æ²¼		æ‰“																						
-[Type] == "Pier Map" # [RunMap] == "true" //	//æ€’æµªä¹‹æ¸¯		æ‰“																						
-[Type] == "Cursed Crypt Map" # [RunMap] == "true" //	//æƒ¡å’’é™µå¢“		æ‰“																						
-[Type] == "Orchard Map" # [RunMap] == "true" //	//å¯†æ—æœåœ’		æ‰“																						
-[Type] == "Promenade Map" # [RunMap] == "true" //	//æœˆè‰²è¿´å»Š		æ‰“																						
-[Type] == "Lair Map" # [RunMap] == "true" //	//é¤“ç¸å·¢ç©´		æ‰“																						
-[Type] == "Colonnade Map" # [RunMap] == "true" //	//æ¿€æˆ°æŸ±å»Š		æ‰“																						
-[Type] == "Primordial Pool Map" # [RunMap] == "true" //	//è¡€è…¥æ²¼æ¾¤		æ‰“																						
-[Type] == "Spider Forest Map" # [RunMap] == "true" //	//å·¨è››ä¹‹æ—		æ‰“																						
-[Type] == "Coves Map" # [RunMap] == "true" //	//ç–¾é¢¨å³½ç£		æ‰“																						
-[Type] == "Waterways Map" # [RunMap] == "true" //	//å±æ©Ÿæ°´é“		æ‰“																						
-[Type] == "Factory Map" # [RunMap] == "true" //	//éµé½å·¥å» 		æ‰“																						
-[Type] == "Mesa Map" # [RunMap] == "true" //	//å¹³é ‚è’æ¼ 		æ‰“																						
-[Type] == "Pit Map" # [RunMap] == "true" //	//å·¨å‘		æ‰“																						
-[Type] == "Dry Sea Map" # [RunMap] == "true" //	//ä¹¾æµ·		æ‰“																						
-[Type] == "Defiled Cathedral Map" # [RunMap] == "true" //	//ä¸æ½”æ•™å ‚		æ‰“																						
-[Type] == "Summit Map" # [RunMap] == "true" //	//å¯’é ‚ä¹‹å·”		æ‰“																						
-[Type] == "Overgrown Shrine Map" # [RunMap] == "true" //	//å¯†è‰ç¥æ®¿		æ‰“																						
-[Type] == "Castle Ruins Map" # [RunMap] == "true" //	//éºè·¡å»¢å¢Ÿ		æ‰“																						
-[Type] == "Crystal Ore Map" # [RunMap] == "true" //	//ç´«æ™¶ç¤¦å±±		æ‰“																						
-[Type] == "Villa Map" # [RunMap] == "true" //	//é­…å½±åˆ¥å¢…		æ‰“																						
-[Type] == "Primordial Blocks Map" # [RunMap] == "true" //	//è¡€è…¥é™£åœ°		æ‰“																						
-[Type] == "Necropolis Map" # [RunMap] == "true" //	//é­”å½±å¢“å ´		æ‰“																						
-[Type] == "Racecourse Map" # [RunMap] == "true" //	//å¤ç«¶é€Ÿå ´		æ‰“																						
-[Type] == "Caldera Map" # [RunMap] == "true" //	//ç«å±±ç‚å£		æ‰“																						
-[Type] == "Ghetto Map" # [RunMap] == "true" //	//èµ¤è²§å±…æ‰€		æ‰“																						
-[Type] == "Park Map" # [RunMap] == "true" //	//åœ’æ—è‹‘		æ‰“																						
-[Type] == "Malformation Map" # [RunMap] == "true" //	//ç•¸å½¢äº¡åŸŸ		æ‰“																						
-[Type] == "Terrace Map" # [RunMap] == "true" //	//éœ²å°èŠ±åœ’		æ‰“																						
-[Type] == "Shrine Map" # [RunMap] == "true" //	//å¥‡è¡“ç§˜æ®¿		æ‰“																						
-[Type] == "Arsenal Map" # [RunMap] == "true" //	//å¤å…µå·¥å» 		æ‰“																						
-[Type] == "Desert Spring Map" # [RunMap] == "true" //	//ç¡«ç£ºè’æ¼ 		æ‰“																						
-[Type] == "Core Map" # [IgnoreMap] == "true" //	//æ ¸å¿ƒ		ä¸æ‰“																						
-[Type] == "Colosseum Map" # [RunMap] == "true" //	//å¤§æ±ºé¬¥å ´		æ‰“																						
-[Type] == "Acid Caverns Map" # [RunMap] == "true" //	//é…¸å²©é…¸å¶¼		æ‰“																						
-[Type] == "Dark Forest Map" # [RunMap] == "true" //	//å¤œèªå¹½æ—		æ‰“																						
-[Type] == "Crimson Temple Map" # [RunMap] == "true" //	//ç·‹ç´…ç¥æ®¿		æ‰“																						
-[Type] == "Plaza Map" # [RunMap] == "true" //	//å»£å ´		æ‰“																						
-[Type] == "Dig Map" # [RunMap] == "true" //	//é•ç¦æ˜å‘		æ‰“																						
-[Type] == "Palace Map" # [RunMap] == "true" //	//ç¥åŸŸä¹‹æ®¿		æ‰“																						
-[Type] == "Lava Lake Map" # [IgnoreMap] == "true" //	//å²©æ¼¿ç†”æ¹–		ä¸æ‰“																						
-[Type] == "Basilica Map" # [IgnoreMap] == "true" //	//è–æ®¿		ä¸æ‰“																						
-[Type] == "Sunken City Map" # [IgnoreMap] == "true" //	//äºç‰¹è˜­ææ–¯		ä¸æ‰“																						
-[Type] == "Reef Map" # [IgnoreMap] == "true" //	//å±æ©Ÿæµ·ç¤		ä¸æ‰“																						
-[Type] == "Carcass Map" # [RunMap] == "true" //	//æƒ¡è‡­å±åŸŸ		æ‰“																						
-[Type] == "Stagnation Map" # [IgnoreMap] == "true" //	//æ·¤å¡æ°´é“		ä¸æ‰“																						
-[Type] == "Bramble Valley Map" # [IgnoreMap] == "true" //	//èŠæ£˜è°·		ä¸æ‰“																						
-[Type] == "Silo Map" # [IgnoreMap] == "true" //	//å„²ç‰©å€‰		ä¸æ‰“																						
-[Type] == "Pit of the Chimera Map" # [IgnoreMap] == "true" //	//å¥‡ç¾æ‹‰é­”å‘		ä¸æ‰“																						
-[Type] == "Lair of the Hydra Map" # [IgnoreMap] == "true" //	//ä¹é ­è›‡å†°çªŸ		ä¸æ‰“																						
-[Type] == "Maze of the Minotaur Map" # [IgnoreMap] == "true" //	//ç‰›é ­äººè¬åŸŸ		ä¸æ‰“																						
-[Type] == "Forge of the Phoenix Map" # [IgnoreMap] == "true" //	//ç«é³³å‡°ç†”æ ¸		ä¸æ‰“																						
-[Type] == "Vaal Temple Map" # [IgnoreMap] == "true" //	//ç“¦çˆ¾å¯†æ®¿		ä¸æ‰“																						
-[Type] == "Harbinger Map" # [IgnoreMap] == "true" //	//ç¥è«­ä¹‹æ®¿ï¼ç…‰ç„		ä¸æ‰“																						
-// ä»¥ä¸‹é¸æ“‡è©ç¶´ï¼Œè¦éª°æ‰ã€é¿é–‹ã€é‚„æ˜¯å¯ä»¥æ‰“				//å‚™è¨»ï¼šéª°æ‰æœƒæ¶ˆè€—æ”¹é€ çŸ³åŠæ··æ²ŒçŸ³																					
-[map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Magic" #  [RerollMods] == "true" //	//æ€ªç‰©åå°„_%_å…ƒç´ å‚·å®³(é­”æ³•åœ–)		éª°æ‰																						
-[map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Rare" #  [RerollMods] == "true" //	//æ€ªç‰©åå°„_%_å…ƒç´ å‚·å®³(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Magic" #  [RerollMods] == "true" //	//æ€ªç‰©åå°„_%_ç‰©ç†å‚·å®³(é­”æ³•åœ–)		éª°æ‰																						
-[map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Rare" #  [RerollMods] == "true" //	//æ€ªç‰©åå°„_%_ç‰©ç†å‚·å®³(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Magic" #  [RerollMods] == "true" //	//ç©å®¶ç„¡æ³•å›å¾©ç”Ÿå‘½ã€é­”åŠ›å’Œèƒ½é‡è­·ç›¾(é­”æ³•åœ–)		éª°æ‰																						
-[map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Rare" #  [RerollMods] == "true" //	//ç©å®¶ç„¡æ³•å›å¾©ç”Ÿå‘½ã€é­”åŠ›å’Œèƒ½é‡è­·ç›¾(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Magic" #  [RerollMods] == "true" //	//ç©å®¶å—åˆ°æ™‚ç©ºé–éŠè©›å’’å½±éŸ¿(é­”æ³•åœ–)		éª°æ‰																						
-[map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Rare" #  [RerollMods] == "true" //	//ç©å®¶å—åˆ°æ™‚ç©ºé–éŠè©›å’’å½±éŸ¿(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_player_has_level_X_vulnerability]>= "1" && [Rarity]="Magic" #  [RerollMods] == "true" //	//ç©å®¶å—åˆ°è„†å¼±è©›å’’(é­”æ³•åœ–)		éª°æ‰																						
-[map_player_has_level_X_vulnerability]>= "1" && [Rarity]="Rare" #  [RerollMods] == "true" //	//ç©å®¶å—åˆ°è„†å¼±è©›å’’(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Magic" #  [RerollMods] == "true" //	//ç©å®¶å—åˆ°è¡°å¼±è©›å’’å½±éŸ¿(é­”æ³•åœ–)		éª°æ‰																						
-[map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Rare" #  [RerollMods] == "true" //	//ç©å®¶å—åˆ°è¡°å¼±è©›å’’å½±éŸ¿(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Magic" #  [RerollMods] == "true" //	//ç©å®¶å—åˆ°å…ƒç´ è¦å®³è©›å’’å½±éŸ¿(é­”æ³•åœ–)		éª°æ‰																						
-[map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Rare" #  [RerollMods] == "true" //	//ç©å®¶å—åˆ°å…ƒç´ è¦å®³è©›å’’å½±éŸ¿(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Magic" #  [RerollMods] == "true" //	//ç¨€æœ‰æ€ªæœ‰å¾©ä»‡å±¬æ€§(é­”æ³•åœ–)		éª°æ‰																						
-[map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Rare" #  [RerollMods] == "true" //	//ç¨€æœ‰æ€ªæœ‰å¾©ä»‡å±¬æ€§(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_base_ground_fire_damage_to_deal_per_minute]>= "1" && [Rarity]="Magic" #  [RerollMods] == "true" //	//åœ°åœ–è£¡æœ‰ç‡ƒç‡’åœ°é¢(é­”æ³•åœ–)		éª°æ‰																						
-[map_base_ground_fire_damage_to_deal_per_minute]>= "1" && [Rarity]="Rare" #  [RerollMods] == "true" //	//åœ°åœ–è£¡æœ‰ç‡ƒç‡’åœ°é¢(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_ground_ice]>= "1" && [Rarity]="Magic" #  [RerollMods] == "true" //	//åœ°åœ–è£¡æœ‰å†°ç·©åœ°é¢(é­”æ³•åœ–)		éª°æ‰																						
-[map_ground_ice]>= "1" && [Rarity]="Rare" #  [RerollMods] == "true" //	//åœ°åœ–è£¡æœ‰å†°ç·©åœ°é¢(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_ground_lightning]>= "1" && [Rarity]="Magic" #  [RerollMods] == "true" //	//åœ°åœ–è£¡æœ‰æ„Ÿé›»åœ°é¢(é­”æ³•åœ–)		éª°æ‰																						
-[map_ground_lightning]>= "1" && [Rarity]="Rare" #  [RerollMods] == "true" //	//åœ°åœ–è£¡æœ‰æ„Ÿé›»åœ°é¢(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" #  [RerollMods] == "true" //	//æ±™æŸ“åœ°é¢(é­”æ³•åœ–)		éª°æ‰																						
-[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" #  [RerollMods] == "true" //	//æ±™æŸ“åœ°é¢(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_players_block_chance_+%] < "0" && [Rarity] == "Magic" #  [RerollMods] == "true" //	//é™ä½æ ¼æª”(é­”æ³•åœ–)		éª°æ‰																						
-[map_players_block_chance_+%] < "0" && [Rarity] == "Rare" #  [RerollMods] == "true" //	//é™ä½æ ¼æª”(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Magic" #  [RerollMods] == "true" //	//è„†å¼±è©›å’’(é­”æ³•åœ–)		éª°æ‰																						
-[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Rare" #  [RerollMods] == "true" //	//è„†å¼±è©›å’’(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Magic" #  [RerollMods] == "true" //	//åœ°åœ–æ€ªç‰©é¿å…å…ƒç´ ç•°å¸¸ç‹€æ…‹(é­”æ³•åœ–)		éª°æ‰																						
-[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare #  [RerollMods] == "true" //	//åœ°åœ–æ€ªç‰©é¿å…å…ƒç´ ç•°å¸¸ç‹€æ…‹(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Magic" #  [RerollMods] == "true" //	//é™ä½æœ€å¤§æŠ—(é­”æ³•åœ–)		éª°æ‰																						
-[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Rare" #  [RerollMods] == "true" //	//é™ä½æœ€å¤§æŠ—(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_monsters_cannot_be_leeched_from] > "0" && [Rarity] == "Magic" #   [RerollMods] == "true" //	//ç„¡æ³•å·å–(é­”æ³•åœ–)		éª°æ‰																						
-[map_monsters_cannot_be_leeched_from]  > "0" && [Rarity] == "Rare" #   [RerollMods] == "true" //	//ç„¡æ³•å·å–(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_monsters_steal_charges] >= "1" && [Rarity] == "Magic" #    [RerollMods] == "true" //	//æ€ªç‰©å·çƒ(é­”æ³•åœ–)		éª°æ‰																						
-[map_monsters_steal_charges] >= "1" && [Rarity] == "Rare" #   [RerollMods] == "true" //	//æ€ªç‰©å·çƒ(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_player_cooldown_speed_+%_final] < "0" && [Rarity] == "Magic" #  [RerollMods] == "true" //	//ç©å®¶å†·å»å›å¾©é™ä½(é­”æ³•åœ–)		éª°æ‰																						
-[map_player_cooldown_speed_+%_final] < "0" && [Rarity] == "Rare" #  [RerollMods] == "true" //	//ç©å®¶å†·å»å›å¾©é™ä½(ç¨€æœ‰åœ–)		éª°æ‰																						
-[map_player_non_curse_aura_effect_+%] >= "1" && [Rarity] == "Magic" #  [RerollMods] == "true" //	//ç©å®¶å…‰ç’°æ•ˆæœæ¸›å°‘(é­”æ³•åœ–)		éª°æ‰																						
-[map_player_non_curse_aura_effect_+%] >= "1" && [Rarity] == "Rare" #  [RerollMods] == "true" //	//ç©å®¶å…‰ç’°æ•ˆæœæ¸›å°‘(ç¨€æœ‰åœ–)		éª°æ‰																						
-	//é ç•™																								
-	//é ç•™																								
-	//é ç•™																								
-	//é ç•™																								
-	//é ç•™																								
-	//é ç•™																								
-//é¿é–‹ç‹æˆ¿åœ°åœ–//(é è¨­è«‹å‹¿æ›´å‹•)																									
-[Type]=="Graveyard Map" #[SkipBossArena]=="true"//å¢®å½±å¢“å ´																									
-[Type]=="Dungeon Map" #[SkipBossArena]=="true"//ç¦é­‚ç‚ç„																									
-[Type]=="Foundry Map" #[SkipBossArena]=="true"//éŠé‡‘æˆ¿																									
-[Type]=="Cells Map" #[SkipBossArena]=="true"//å¹½é­‚ç›£ç‰¢																									
-[Type]=="Relic Chambers Map" #[SkipBossArena]=="true"//å¤å…¸å¯†å®¤																									
-[Type]=="Frozen Cabins Map" #[SkipBossArena]=="true"//å‡åŸå°å±‹																									
-[Type]=="Grave Trough Map" #[SkipBossArena]=="true"//å¢“åœ°è°·																									
-[Type]=="Crimson Township Map" #[SkipBossArena]=="true"//ç·‹ç´…ä¹‹é®																									
-[Type]=="Toxic Sewer Map" #[SkipBossArena]=="true"//è…æ•—ä¸‹æ°´é“																									
-[Type]=="Ivory Temple Map" #[SkipBossArena]=="true"//è±¡ç‰™ç¥æ®¿																									
-[Type]=="Lava Chamber Map" #[SkipBossArena]=="true"//ç†”å²©ä¹‹å®¤																									
-[Type]=="Residence Map" #[SkipBossArena]=="true"//ç¥ä¸»å±…æ‰€																									
-[Type]=="Bone Crypt Map" #[SkipBossArena]=="true"//éª¨è·¡é™µå¢“																									
-[Type]=="Underground River Map" #[SkipBossArena]=="true"//åœ°åº•ä¹‹æ²³																									
-[Type]=="Laboratory Map" #[SkipBossArena]=="true"//å¯¦é©—å±…æ‰€																									
-[Type]=="Overgrown Ruin Map" #[SkipBossArena]=="true"//é•·è‰éºè·¡																									
-[Type]=="Vaal Pyramid Map" #[SkipBossArena]=="true"//ç“¦çˆ¾é‡‘å­—å¡”																									
-[Type]=="Tower Map" #[SkipBossArena]=="true"//é—‡ç„å°–å¡”																									
-[Type]=="Waste Pool Map" #[SkipBossArena]=="true"//æ­»å¯‚æ³¥æº																									
-[Type]=="Vault Map" #[SkipBossArena]=="true"//é­”é‡‘å¯¶åº«																									
-[Type]=="Shipyard Map" #[SkipBossArena]=="true"//ç†¾ç‚èˆ¹å¡¢																									
-[Type]=="Belfry Map" #[SkipBossArena]=="true"//é›²é ‚é˜æ¨“																									
-[Type]=="Lair Map" #[SkipBossArena]=="true"//é¤“ç¸å·¢ç©´																									
-[Type]=="Primordial Pool Map" #[SkipBossArena]=="true"//è¡€è…¥æ²¼æ¾¤																									
-[Type]=="Factory Map" #[SkipBossArena]=="true"//éµé½å·¥å» 																									
-[Type]=="Summit Map" #[SkipBossArena]=="true"//å¯’é ‚ä¹‹å·”																									
-[Type]=="Primordial Blocks Map" #[SkipBossArena]=="true"//è¡€è…¥é™£åœ°																									
-[Type]=="Necropolis Map" #[SkipBossArena]=="true"//é­”å½±å¢“å ´																									
-[Type]=="Malformation Map" #[SkipBossArena]=="true"//ç•¸å½¢äº¡åŸŸ																									
-[Type]=="Terrace Map" #[SkipBossArena]=="true"//éœ²å°èŠ±åœ’																									
-[Type]=="Shrine Map" #[SkipBossArena]=="true"//å¥‡è¡“ç§˜æ®¿																									
-[Type]=="Arsenal Map" #[SkipBossArena]=="true"//å¤å…µå·¥å» 																									
-[Type]=="Core Map" #[SkipBossArena]=="true"//æ ¸å¿ƒ																									
-[Type]=="Colosseum Map" #[SkipBossArena]=="true"//å¤§æ±ºé¬¥å ´																									
-[Type]=="Dark Forest Map" #[SkipBossArena]=="true"//å¤œèªå¹½æ—																									
-[Type]=="Plaza Map" #[SkipBossArena]=="true"//å»£å ´																									
-[Type]=="Lava Lake Map" #[SkipBossArena]=="true"//å²©æ¼¿ç†”æ¹–																									
-[Type]=="Basilica Map" #[SkipBossArena]=="true"//è–æ®¿																									
-[Type]=="Sunken City Map" #[SkipBossArena]=="true"//äºç‰¹è˜­ææ–¯																									
-[Type]=="Reef Map" #[SkipBossArena]=="true"//å±æ©Ÿæµ·ç¤																									
-[Type]=="Bramble Valley Map" #[SkipBossArena]=="true"//èŠæ£˜è°·																									
-[Type]=="Pit of the Chimera Map" #[SkipBossArena]=="true"//å¥‡ç¾æ‹‰é­”å‘																									
-[Type]=="Lair of the Hydra Map" #[SkipBossArena]=="true"//ä¹é ­è›‡å†°çªŸ																									
-[Type]=="Maze of the Minotaur Map" #[SkipBossArena]=="true"//ç‰›é ­äººè¬åŸŸ																									
-[Type]=="Forge of the Phoenix Map" #[SkipBossArena]=="true"//ç«é³³å‡°ç†”æ ¸																									
-[Type]=="Vaal Temple Map" #[SkipBossArena]=="true"//ç“¦çˆ¾å¯†æ®¿																									
-[Type]=="Harbinger Map" #[SkipBossArena]=="true"//ç¥è«­ä¹‹æ®¿ï¼ç…‰ç„																									
+	//3.17 ©¿²¤¹Ï»P©¿²¤¶Ç©_¹Ï																								
+	[Type]== "Forge of the Phoenix Map"#[IgnoreMap]== "true"//¤õ»ñ°Äº²®Ö #																								
+	[Type]== "Lair of the Hydra Map"#[IgnoreMap]== "true"//¤EÀY³D¦B¸] #																								
+	[Type]== "Maze of the Minotaur Map"#[IgnoreMap]== "true"//¤ûÀY¤HÁ¼°ì #																								
+	[Type]== "Pit of the Chimera Map"#[IgnoreMap]== "true"//©_¬ü©ÔÅ]§| #																								
+	////Unique Map//// #																								
+//½Ğ¤Å§ó°Ê//	//[Type]== "Overgrown Shrine Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Siege Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Courthouse Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Underground River Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Relic Chambers Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Necropolis Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Maze Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//½Ğ¤Å§ó°Ê//	//[Type]== "Promenade Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//½Ğ¤Å§ó°Ê//	//[Type]== "Cemetery Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Atoll Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Shore Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Underground Sea Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Bone Crypt Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Dunes Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Temple Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//½Ğ¤Å§ó°Ê//	//[Type]== "Basilica Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Harbinger Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Cursed Crypt Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//½Ğ¤Å§ó°Ê//	//[Type]== "Chateau Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Museum Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Moon Temple Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Courtyard Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Park Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Tropical Island Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Vaal Pyramid Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//½Ğ¤Å§ó°Ê//	//[Type]== "Strand Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Temple Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"//																								
+																									
+	//3.17 °Q¹½ªºµüºóÁ×¶} ­«»ë ¡]°È¥²¨â­Ó¡B¨â­Ó¤@°_§ï¡^																								
+	[map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//©Çª«¤Ï®g_%_¤¸¯À¶Ë®`	Á×¶}//©Çª«¤Ï®g_%_¤¸¯À¶Ë®`ªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	[map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//©Çª«¤Ï®g_%_¤¸¯À¶Ë®`	Á×¶}//©Çª«¤Ï®g_%_¤¸¯À¶Ë®`ªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	[map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//©Çª«¤Ï®g_%_ª«²z¶Ë®`	Á×¶}//©Çª«¤Ï®g_%_ª«²z¶Ë®`ªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	[map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//©Çª«¤Ï®g_%_ª«²z¶Ë®`	Á×¶}//©Çª«¤Ï®g_%_ª«²z¶Ë®`ªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	[map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//ª±®aµLªk¦^´_¥Í©R¡BÅ]¤O©M¯à¶qÅ@¬Ş	Á×¶}//ª±®aµLªk¦^´_¥Í©R¡BÅ]¤O©M¯à¶qÅ@¬Şªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	[map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//ª±®aµLªk¦^´_¥Í©R¡BÅ]¤O©M¯à¶qÅ@¬Ş	Á×¶}//ª±®aµLªk¦^´_¥Í©R¡BÅ]¤O©M¯à¶qÅ@¬Şªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	[map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//ª±®a¨ü¨ì®ÉªÅÂêÁå¶A©G¼vÅT	Á×¶}//ª±®a¨ü¨ì®ÉªÅÂêÁå¶A©G¼vÅTªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+//	[map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//ª±®a¨ü¨ì®ÉªÅÂêÁå¶A©G¼vÅT	§Ú¤£©È³o­Ó																				
+	[map_player_has_level_X_vulnerability]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//ª±®a¨ü¨ì¯Ü®z¶A©G	Á×¶}//ª±®a¨ü¨ì¯Ü®z¶A©Gªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	[map_player_has_level_X_vulnerability]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//ª±®a¨ü¨ì¯Ü®z¶A©G	Á×¶}//ª±®a¨ü¨ì¯Ü®z¶A©Gªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+//	[map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//ª±®a¨ü¨ì°I®z¶A©G¼vÅT	§Ú¤£©È³o­Ó																				
+//	[map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//ª±®a¨ü¨ì°I®z¶A©G¼vÅT	§Ú¤£©È³o­Ó																				
+	[map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//ª±®a¨ü¨ì¤¸¯À­n®`¶A©G¼vÅT	Á×¶}//ª±®a¨ü¨ì¤¸¯À­n®`¶A©G¼vÅTªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	[map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//ª±®a¨ü¨ì¤¸¯À­n®`¶A©G¼vÅT	Á×¶}//ª±®a¨ü¨ì¤¸¯À­n®`¶A©G¼vÅTªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+//	[map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//µ}¦³©Ç¦³´_¤³Äİ©Ê	§Ú¤£©È³o­Ó																				
+//	[map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//µ}¦³©Ç¦³´_¤³Äİ©Ê	§Ú¤£©È³o­Ó																				
+	[map_base_ground_fire_damage_to_deal_per_minute]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//¦a¹Ï¸Ì¦³¿U¿N¦a­±	Á×¶}//¦a¹Ï¸Ì¦³¿U¿N¦a­±ªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	[map_base_ground_fire_damage_to_deal_per_minute]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//¦a¹Ï¸Ì¦³¿U¿N¦a­±	Á×¶}//¦a¹Ï¸Ì¦³¿U¿N¦a­±ªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	[map_ground_ice]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//¦a¹Ï¸Ì¦³¦B½w¦a­±	Á×¶}//¦a¹Ï¸Ì¦³¦B½w¦a­±ªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+//	[map_ground_ice]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//¦a¹Ï¸Ì¦³¦B½w¦a­±	§Ú¤£©È³o­Ó																				
+	[map_ground_lightning]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//¦a¹Ï¸Ì¦³·P¹q¦a­±	Á×¶}//¦a¹Ï¸Ì¦³·P¹q¦a­±ªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+//	[map_ground_lightning]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//¦a¹Ï¸Ì¦³·P¹q¦a­±	§Ú¤£©È³o­Ó																				
+	[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//¦¾¬V¦a­±	Á×¶}//¦¾¬V¦a­±ªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+//	[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//¦¾¬V¦a­±	§Ú¤£©È³o­Ó																				
+//	[map_players_block_chance_+%] < "0" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//­°§C®æÀÉ	§Ú¤£©È³o­Ó																				
+//	[map_players_block_chance_+%] < "0" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//­°§C®æÀÉ	§Ú¤£©È³o­Ó																				
+	[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//¯Ü®z¶A©G	Á×¶}//¯Ü®z¶A©Gªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+//	[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//¯Ü®z¶A©G	§Ú¤£©È³o­Ó																				
+	[map_monsters_life_leech_resistance_%] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//µLªk°½¨ú	Á×¶}//µLªk°½¨úªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	[map_monsters_life_leech_resistance_%] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//µLªk°½¨ú	Á×¶}//µLªk°½¨úªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//¦a¹Ï©Çª«Á×§K¤¸¯À²§±`ª¬ºA	§Ú¤£©È³o­Ó																				
+	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare #	[RerollMods]	=="true"	//¦a¹Ï©Çª«Á×§K¤¸¯À²§±`ª¬ºA	§Ú¤£©È³o­Ó																				
+	[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//­°§C³Ì¤j§Ü	Á×¶}//­°§C³Ì¤j§Üªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//­°§C³Ì¤j§Ü	Á×¶}//­°§C³Ì¤j§Üªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë																				
+	
+	 [map_monsters_cannot_be_leeched_from] >= "1" && [Rarity] == "Magic" # [RerollMods] =="true" //µLªk°½¨ú Á×¶}//µLªk°½¨úªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë                    
+	[map_monsters_cannot_be_leeched_from] >= "1" && [Rarity] == "Rare" # [RerollMods] =="true" //µLªk°½¨ú Á×¶}//µLªk°½¨úªº¹Ï¡A¥Î§ï³y©ÎC¥h»ë
+ 
+	[map_monsters_steal_charges] >= "1" && [Rarity] == "Magic" #  [RerollMods]  =="true"            //³Q©Ç°½²y
+	[map_monsters_steal_charges] >= "1" && [Rarity] == "Rare" #  [RerollMods]  =="true"             //³Q©Ç°½²y
 
-[6827] == "1" # [IgnoreMap] == "true" // Elder infuenced maps
-[6827] == "2" # [IgnoreMap] == "true" // Elder infuenced maps
-[6827] == "3" # [IgnoreMap] == "true" // Elder infuenced maps
-[6827] == "4" # [IgnoreMap] == "true" // Elder infuenced maps
+	[6827] == "1" # [IgnoreMap] == "true" // Elder infuenced maps
+	[6827] == "2" # [IgnoreMap] == "true" // Elder infuenced maps
+	[6827] == "3" # [IgnoreMap] == "true" // Elder infuenced maps
+	[6827] == "4" # [IgnoreMap] == "true" // Elder infuenced maps
 
-[13845] == "1"  # [IgnoreMap] == "true" // Baron maps
-[13845] == "2"  # [IgnoreMap] == "true" // Veritania maps
-[13845] == "3"  # [lgnoreMap] == "true" // Drox maps
-[13845] == "4"  # [lgnoreMap] =="true" // AI-Hezmin maps
-[Type] == "Synthesised Map" # [lgnoreMap] == "true" // Synthesised maps
+	[13845] == "1"  # [IgnoreMap] == "true" // Baron maps
+	[13845] == "2"  # [IgnoreMap] == "true" // Veritania maps
+	[13845] == "3"  # [lgnoreMap] == "true" // Drox maps
+	[13845] == "4"  # [lgnoreMap] =="true" // AI-Hezmin maps
+	[Type] == "Synthesised Map" # [lgnoreMap] == "true" // Synthesised mapsreMap] == "true" // Synthesised maps

@@ -756,7 +756,7 @@ Show # 通貨 - 特殊 - 六分儀．高尚
     MinimapIcon 1 Blue Triangle
     PlayAlertSound 16 250
 
-Show # 通貨 - 特殊 - 測量員的羅盤
+Hide # 通貨 - 特殊 - 測量員的羅盤
     Class "Currency"
     BaseType "Surveyor's Compass"
     SetTextColor 100 50 0
@@ -766,7 +766,7 @@ Show # 通貨 - 特殊 - 測量員的羅盤
     MinimapIcon 2 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 特殊 - 充能的羅盤
+Hide # 通貨 - 特殊 - 充能的羅盤
     Class "Currency"
     BaseType "Charged Compass"
     SetTextColor 100 50 0
@@ -776,15 +776,26 @@ Show # 通貨 - 特殊 - 充能的羅盤
     MinimapIcon 2 Red Diamond
     PlayEffect Red
 
-Show # 通貨 - 特殊 - 偵查報告
+Show # 通貨 - 特殊 - 超凡偵查報告
     Class "Currency"
-    BaseType "Scouting Report"
+    BaseType "Otherworldly Scouting Report"
     SetTextColor 100 50 0
     SetBackgroundColor 255 178 102
     SetBorderColor 204 102 0
     SetFontSize 40
     MinimapIcon 2 Red Diamond
     PlayEffect Red
+
+Hide # 通貨 - 特殊 - 偵查報告
+    Class "Currency"
+    BaseType "Scouting Report"
+    SetTextColor 100 50 0
+    SetBackgroundColor 255 178 102
+    SetBorderColor 204 102 0
+    SetFontSize 40
+#    MinimapIcon 2 Red Diamond
+#    PlayEffect Red
+
 
 Show # 通貨 - 特殊 - 挖油機
     Class "Currency"
@@ -852,6 +863,17 @@ Show # 通貨 - 異能 - 異能無效石
 Show # 通貨 - 異能 - 異能混沌石
     Class "Currency"
     BaseType "Eldritch Chaos Orb"
+    SetTextColor 219 48 14
+    SetBackgroundColor 255 192 203
+    SetBorderColor 0 255 255
+    SetFontSize 45
+    MinimapIcon 0 Red Diamond
+    PlayEffect Red
+
+
+Hide # 通貨 -銀幣
+    Class "Currency"
+    BaseType "Silver Coin"
     SetTextColor 219 48 14
     SetBackgroundColor 255 192 203
     SetBorderColor 0 255 255
@@ -1784,7 +1806,7 @@ Show # 聯盟 - 3.10譫妄 - 譫妄玉
     MinimapIcon 1 Grey Diamond
     PlayEffect Grey
 
-Show # 聯盟 - 3.10譫妄 - 幻像斷片
+Hide # 聯盟 - 3.10譫妄 - 幻像斷片
     Class "Currency"
     BaseType "Simulacrum Splinter"
     SetTextColor 0 0 0
@@ -1871,7 +1893,7 @@ Show # 聯盟 - 3.9鍊魔 - 器官
 
 # 【聯盟-3.8凋落】3016
 
-Show # 聯盟 - 3.8凋落 - 清透/深褐/琥珀/翠綠/清綠/碧藍/奼紫/緋紅/靛青油瓶
+Hide # 聯盟 - 3.8凋落 - 清透/深褐/琥珀/翠綠/清綠/碧藍/奼紫/緋紅/靛青油瓶
     Class "Currency"
     BaseType "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil" "Teal Oil" "Azure Oil" "Violet Oil" "Crimson Oil" "Indigo Oil"
     SetTextColor 0 0 0
@@ -1902,7 +1924,7 @@ Hide # 聯盟 - 3.7戰亂 - 培育器 - 低階培育器(先祖/附魔/尊師/探
 
 Hide # 聯盟 - 3.7戰亂 - 培育器 - 中階培育器(飛掠/卓越/超凡/朦朧/神秘/注能/寶石匠/化石/諭示/製圖/命運/眾星/凋落/鍊魔/譫妄)
     Class "Incubator"
-    BaseType "Skittering Incubator" "Singular Incubator" "Otherworldly Incubator" "Obscured Incubator" "Mysterious Incubator" "Infused Incubator" "Gemcutter's Incubator" "Fragmented Incubator" "Fossilised Incubator" "Foreboding Incubator" "Cartographer's Incubator" "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Diviner's Incubator" "Celestial Jeweller's Incubator" "Blighted Incubator" "Morphing Incubator" "Maddening Incubator"
+    BaseType "Skittering Incubator" "Singular Incubator" "Otherworldly Incubator" "Obscured Incubator" "Mysterious Incubator" "Infused Incubator" "Gemcutter's Incubator" "Fragmented Incubator" "Fossilised Incubator" "Foreboding Incubator" "Cartographer's Incubator" "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Diviner's Incubator" "Celestial Jeweller's Incubator" "Blighted Incubator" "Maddening Incubator"
     SetTextColor 0 0 0
     SetBackgroundColor 255 200 0
     SetBorderColor 0 0 0
@@ -2063,7 +2085,7 @@ Show # 聯盟 - 3.4掘獄 - 1S/2S/3S混沌鑄新儀(黃色)
     MinimapIcon 2 White Triangle
     PlayEffect White
 
-Show # 聯盟 - 3.4掘獄 - 化石 -高階化石(血漬/破裂/雕琢/鑲金/鏤空/雕紋/暴擊/能力/無瑕化石)
+Hide # 聯盟 - 3.4掘獄 - 化石 -高階化石(血漬/破裂/雕琢/鑲金/鏤空/雕紋/暴擊/能力/無瑕化石)
     Class "Currency"
     BaseType "Bloodstained Fossil" "Fractured Fossil" "Faceted Fossil" "Gilded Fossil" "Hollow Fossil" "Glyphic Fossil" "Sanctified Fossil" "Deft Fossil" "Fundamental Fossil" "Perfect Fossil"
     SetTextColor 0 0 0
@@ -2074,7 +2096,7 @@ Show # 聯盟 - 3.4掘獄 - 化石 -高階化石(血漬/破裂/雕琢/鑲金/鏤
     MinimapIcon 0 Yellow Star
     PlayEffect Yellow
 
-Show # 聯盟 - 3.4掘獄 - 化石 -一般化石
+Hide # 聯盟 - 3.4掘獄 - 化石 -一般化石
     Class "Currency"
     BaseType "Fossil"
     SetTextColor 0 0 0
@@ -2375,7 +2397,7 @@ Show # 聯盟 - 2.5裂痕 - 裂痕祝福
 
 # 【聯盟-2.4精髓】3005
 
-Show # 聯盟 - 2.4精髓 - 精髓 -污染精華&污染器皿
+Hide # 聯盟 - 2.4精髓 - 精髓 -污染精華&污染器皿
     Class "Currency"
     BaseType "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium" "Remnant of Corruption"
     SetTextColor 0 0 0
@@ -2385,28 +2407,28 @@ Show # 聯盟 - 2.4精髓 - 精髓 -污染精華&污染器皿
     PlayAlertSound 9 300
     PlayEffect Red
 
-Show # 聯盟 - 2.4精髓 - 精髓 -T1
+Hide # 聯盟 - 2.4精髓 - 精髓 -T1
     Class "Currency"
     BaseType "Deafening Essence of"
     SetTextColor 150 255 255
     SetFontSize 40
     PlayAlertSound 9 300
 
-Show # 聯盟 - 2.4精髓 - 精髓 -T2
+Hide # 聯盟 - 2.4精髓 - 精髓 -T2
     Class "Currency"
     BaseType "Shrieking Essence of"
     SetTextColor 65 255 255
     SetFontSize 40
     PlayAlertSound 9 200
 
-Show # 聯盟 - 2.4精髓 - 精髓 -T3
+Hide # 聯盟 - 2.4精髓 - 精髓 -T3
     Class "Currency"
     BaseType "Screaming Essence of"
     SetTextColor 0 255 255
     SetFontSize 39
     PlayAlertSound 9 150
 
-Show # 聯盟 - 2.4精髓 - 精髓 -T4
+Hide # 聯盟 - 2.4精髓 - 精髓 -T4
     Class "Currency"
     BaseType "Wailing Essence of" "Weeping Essence of" "Muttering Essence of" "Whispering Essence of"
     SetTextColor 0 210 255
