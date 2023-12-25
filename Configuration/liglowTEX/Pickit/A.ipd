@@ -54,15 +54,15 @@
 //[Type] == "Chaos Orb" # [StashItem] == "true" //	//混沌石		存倉																									
 //此通貨不撿	//工匠石		賣出																									
 //此通貨不撿	//點金石		賣出																									
-//[Type] == "Orb of Alteration" # [StashItem] == "true" //	//改造石		存倉																									
+[Type] == "Orb of Alteration" # [StashItem] == "true" //	//改造石		存倉																									
 //此通貨不撿	//蛻變石		賣出																									
 //此通貨不撿	//增幅石		賣出																									
 //此通貨不撿	//機會石		賣出																									
 //此通貨不撿	//鏈結石		賣出																									
-//[Type] == "Orb of Regret" # [StashItem] == "true" //	//後悔石		存倉																									
-//[Type] == "Orb of Scouring" # [StashItem] == "true" //	//重鑄石		存倉																									
+[Type] == "Orb of Regret" # [StashItem] == "true" //	//後悔石		存倉																									
+[Type] == "Orb of Scouring" # [StashItem] == "true" //	//重鑄石		存倉																									
 //此通貨不撿	//富豪石		賣出																									
-//[Type] == "Vaal Orb" # [StashItem] == "true" //	//瓦爾寶珠		存倉																									
+[Type] == "Vaal Orb" # [StashItem] == "true" //	//瓦爾寶珠		存倉																									
 //此通貨不撿	//製圖釘		賣出																									
 //此通貨不撿	//地平石		賣出																									
 //此通貨不撿	//神諭石		賣出																									
@@ -81,8 +81,8 @@
 //此通貨不撿	//改造石碎片		賣出																									
 //此通貨不撿	//卷軸碎片		賣出																									
 //此通貨不撿	//蛻變石碎片		賣出																									
-//[Type] == "Instilling Orb" # [StashItem] == "true" //	//滴注石		存倉																									
-//[Type] == "Enkindling Orb" # [StashItem] == "true" //	//點燃石		存倉																									
+[Type] == "Instilling Orb" # [StashItem] == "true" //	//滴注石		存倉																									
+[Type] == "Enkindling Orb" # [StashItem] == "true" //	//點燃石		存倉																									
 //此通貨不撿	//無效石碎片		賣出																									
 //此通貨不撿	//束縛石碎片		賣出																									
 //此通貨不撿	//地平石碎片		賣出																									
@@ -93,7 +93,7 @@
 [Type] == "Mirror Shard" # [StashItem] == "true" //	//魔鏡碎片		存倉																									
 //此通貨不撿	//崇高石碎片		賣出																									
 //此通貨不撿	//富豪石碎片		賣出																									
-//[Type] == "Veiled Chaos Orb" # [StashItem] == "true" //	//隱匿混沌石		存倉																									
+[Type] == "Veiled Chaos Orb" # [StashItem] == "true" //	//隱匿混沌石		存倉																									
 //此通貨不撿	//製圖封印．學者		賣出																									
 //此通貨不撿	//製圖封印．大師		賣出																									
 //此通貨不撿	//製圖六分儀．簡易		賣出																									
