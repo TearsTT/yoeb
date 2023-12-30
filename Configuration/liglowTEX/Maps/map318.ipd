@@ -45,7 +45,6 @@
 	[Type]=="Arsenal Map" #	[SkipBossArena]	=="true"	//古兵工廠	不打這張圖的王																				
 	[Type]=="Core Map" #	[SkipBossArena]	=="true"	//核心	不打這張圖的王																				
 	[Type]=="Colosseum Map" #	[SkipBossArena]	=="true"	//大決鬥場	不打這張圖的王	
-	[Type]=="Jungle Valley Map" #	[SkipBossArena]	=="true"	//夜語幽林	不打這張圖的王	
 	[Type]=="Dark Forest Map" #	[SkipBossArena]	=="true"	//夜語幽林	不打這張圖的王																				
 	[Type]=="Plaza Map" #	[SkipBossArena]	=="true"	//廣場	不打這張圖的王																				
 	[Type]=="Lava Lake Map" #	[SkipBossArena]	=="true"	//岩漿熔湖	不打這張圖的王																				
