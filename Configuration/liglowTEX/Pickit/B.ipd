@@ -860,12 +860,8 @@
 //[Type] == "Jungle Valley Map" && [MapTier] >= "14"  && [Rarity] == "Magic"  #[StashItem] == "true" // //藍地圖藍地圖撿取，藍地圖存倉
 //[Type] == "Jungle Valley Map" && [MapTier] >= "14"  && [Rarity] == "Rare"  #[StashItem] == "true" // //黃地圖黃地圖不撿，黃地圖售出																								
 //	//稀有地圖		不撿																									
-//	//傳奇地圖		不撿																									
-//	//以下可以設定多少Tier（含）以下的地圖自動賣掉	輸入Tier	//若不賣，可以設定存倉																									
-//																												
-[Category] == "Map" && [MapTier] <= "14" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖	14	存倉																									
-[Category] == "Map" && [MapTier] <= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖	14	賣出																									
-//																												
+//	//傳奇地圖		不撿																																																	
+//																																																								
 //	// 14F 碎片																											
 [Type] == "Sacrifice at Dawn" # [ForceSellItem] == "true" //	//黎明的奉獻		賣出																									
 [Type] == "Sacrifice at Noon" # [ForceSellItem] == "true" //	//正午的奉獻		賣出																									
