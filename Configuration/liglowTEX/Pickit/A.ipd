@@ -51,7 +51,7 @@
 [Type] == "Hinekora's Lock" # [StashItem] == "true" //	//悉妮蔻拉的髮絲		存倉	
 [Type] == "Valdo's Puzzle Box" # [StashItem] == "true" //	//瓦爾多的謎盒		存倉																								
 //	//常用通貨		賣出																									
-//[Type] == "Chaos Orb" # [StashItem] == "true" //	//混沌石		存倉																									
+[Type] == "Chaos Orb" # [StashItem] == "true" //	//混沌石		存倉																									
 //此通貨不撿	//工匠石		賣出																									
 //此通貨不撿	//點金石		賣出																									
 [Type] == "Orb of Alteration" # [StashItem] == "true" //	//改造石		存倉																									
@@ -136,14 +136,14 @@
 //此通貨不撿	//測量員的羅盤		賣出																									
 //此通貨不撿	//充能的羅盤		賣出																									
 [Type] == "Exceptional Eldritch Ember" # [StashItem] == "true" //	//宏偉異能灰燼		存倉																									
-//[Type] == "Grand Eldritch Ember" # [StashItem] == "true" //	//卓越異能灰燼		存倉																									
-//[Type] == "Greater Eldritch Ember" # [StashItem] == "true" //	//高階異能灰燼		存倉																									
-//[Type] == "Lesser Eldritch Ember" # [StashItem] == "true" //	//低階異能灰燼		存倉																									
-//[Type] == "Exceptional Eldritch Ichor" # [StashItem] == "true" //	//宏偉異能靈液		存倉																									
-//[Type] == "Grand Eldritch Ichor" # [StashItem] == "true" //	//卓越異能靈液		存倉																									
-//[Type] == "Greater Eldritch Ichor" # [StashItem] == "true" //	//高階異能靈液		存倉																									
-//[Type] == "Lesser Eldritch Ichor" # [StashItem] == "true" //	//低階異能靈液		存倉																									
-//[Type] == "Eldritch Exalted Orb" # [StashItem] == "true" //	//異能崇高石		存倉																									
+[Type] == "Grand Eldritch Ember" # [StashItem] == "true" //	//卓越異能灰燼		存倉																									
+[Type] == "Greater Eldritch Ember" # [StashItem] == "true" //	//高階異能灰燼		存倉																									
+[Type] == "Lesser Eldritch Ember" # [StashItem] == "true" //	//低階異能灰燼		存倉																									
+[Type] == "Exceptional Eldritch Ichor" # [StashItem] == "true" //	//宏偉異能靈液		存倉																									
+[Type] == "Grand Eldritch Ichor" # [StashItem] == "true" //	//卓越異能靈液		存倉																									
+[Type] == "Greater Eldritch Ichor" # [StashItem] == "true" //	//高階異能靈液		存倉																									
+[Type] == "Lesser Eldritch Ichor" # [StashItem] == "true" //	//低階異能靈液		存倉																									
+[Type] == "Eldritch Exalted Orb" # [StashItem] == "true" //	//異能崇高石		存倉																									
 //[Type] == "Eldritch Orb of Annulment" # [StashItem] == "true" //	//異能無效石		存倉																									
 //[Type] == "Eldritch Chaos Orb" # [StashItem] == "true" //	//異能混沌石		存倉																									
 [Type] == "Niko's Memory" # [ForceSellItem] == "true" //	//尼克的記憶		存倉																									
