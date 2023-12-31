@@ -10,10 +10,12 @@
 	
 			//[Type]=="Crimson Temple Map" # [ExitAfterBossKill] == "true"		 //打死王就開門離開				
 									
-	//避開王房地圖//(預設)				//中文判斷																				
+	//避開王房地圖//(預設)				//中文判斷			
+																	
 	[Type]=="Graveyard Map" #	[SkipBossArena]	=="true"	//墮影墓場	不打這張圖的王																				
 	[Type]=="Dungeon Map" #	[SkipBossArena]	=="true"	//禁魂炎獄	不打這張圖的王																				
 	[Type]=="Foundry Map" #	[SkipBossArena]	=="true"	//鍊金房	不打這張圖的王																				
+	[Type]=="Jungle Valley Map " #	[SkipBossArena]	=="true"	//劇毒 	不打這張圖的王	
 	[Type]=="Cells Map" #	[SkipBossArena]	=="true"	//幽魂監牢	不打這張圖的王																				
 	[Type]=="Relic Chambers Map" #	[SkipBossArena]	=="true"	//古典密室	不打這張圖的王																				
 	[Type]=="Frozen Cabins Map" #	[SkipBossArena]	=="true"	//凍原小屋	不打這張圖的王																				
