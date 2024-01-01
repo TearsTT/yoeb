@@ -948,7 +948,7 @@
 
 [Type] == "Quicksilver Flask" # 	[StashItem]	 == "true" 	//	//水銀藥劑	拾取且存倉	
  
-//[Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//不朽生命藥劑																						
+[Type] == "Divine Life Flask" # 	[StashItem]	 == "true" 	//	//不朽生命藥劑																						
 //	// 19F 聖甲蟲																											
 [Type] == "Rusted Ambush Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：鏽蝕伏擊		賣出																									
 [Type] == "Polished Ambush Scarab" # [ForceSellItem] == "true" //	//聖甲蟲：圓滑伏擊		賣出																									
